@@ -12,10 +12,10 @@ This app is pretty stable, but I am trying my best to make it better everytime. 
 ### 1.2 Get it for You
 
 #### 1.2.1 For Developers
-      1. Clone this project.
-      2. Run `flutter run`
+1. Clone this project.
+2. Run `flutter run`
 #### 1.2.2 For Everyone
-      1. Download Your apk for here.
+1. Download Your apk from [this link](https://github.com/Hardeepsingh980/Sundar-Gutka/releases/download/v1.0/SG-v1.0.apk).
 
 ### 1.3 Screenshots
 
