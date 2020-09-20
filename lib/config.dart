@@ -1,0 +1,1 @@
+var bgColor = '#3b3c3d';

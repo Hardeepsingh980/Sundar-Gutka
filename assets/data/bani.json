@@ -1,0 +1,158 @@
+[
+    {
+        "id": 1,
+        "akhar": "jpu jI swihb",
+        "unicode": "ਜਪੁ ਜੀ ਸਾਹਿਬ",
+        "english": "Jap Ji Sahib"
+    },
+    {
+        "id": 2,
+        "akhar": "jwpu swihb",
+        "unicode": "ਜਾਪੁ ਸਾਹਿਬ",
+        "english": "Jaap Sahib"
+    },
+    {
+        "id": 3,
+        "akhar": "qÍ pRswid svXy (sRwvg suD)",
+        "unicode": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ਸਵਯੇ (ਸ੍ਰਾਵਗ ਸੁਧ)",
+        "english": "Tav Prasad Savaiye (Sravag Sudh)"
+    },
+    {
+        "id": 4,
+        "akhar": "bynqI cOpeI swihb",
+        "unicode": "ਬੇਨਤੀ ਚੌਪਈ ਸਾਹਿਬ",
+        "english": "Benti Chaupai Sahib"
+    },
+    {
+        "id": 5,
+        "akhar": "Anµdu swihb",
+        "unicode": "ਅਨੰਦੁ ਸਾਹਿਬ",
+        "english": "Anand Sahib"
+    },
+    {
+        "id": 6,
+        "akhar": "Anµdu swihb (6 pauVIAW Aqy sloku)",
+        "unicode": "ਅਨੰਦੁ ਸਾਹਿਬ (੬ ਪਉੜੀਆਂ ਅਤੇ ਸਲੋਕੁ)",
+        "english": "Anand Sahib (6 Pauris and Salok)"
+    },
+    {
+        "id": 7,
+        "akhar": "rhrwis swihb",
+        "unicode": "ਰਹਰਾਸਿ ਸਾਹਿਬ",
+        "english": "Rehras Sahib"
+    },
+    {
+        "id": 8,
+        "akhar": "AwrqI",
+        "unicode": "ਆਰਤੀ",
+        "english": "Aarti"
+    },
+    {
+        "id": 9,
+        "akhar": "soihlw swihb",
+        "unicode": "ਸੋਹਿਲਾ ਸਾਹਿਬ",
+        "english": "Sohila Sahib"
+    },
+    {
+        "id": 10,
+        "akhar": "suKmnI swihb",
+        "unicode": "ਸੁਖਮਨੀ ਸਾਹਿਬ",
+        "english": "Sukhmani Sahib"
+    },
+    {
+        "id": 11,
+        "akhar": "Awsw kI vwr",
+        "unicode": "ਆਸਾ ਕੀ ਵਾਰ",
+        "english": "Asa Ki Var"
+    },
+    {
+        "id": 12,
+        "akhar": "Ardws",
+        "unicode": "ਅਰਦਾਸ",
+        "english": "Ardaas"
+    },
+    {
+        "id": 13,
+        "akhar": "slok mhlw 9",
+        "unicode": "ਸਲੋਕ ਮਹਲਾ ੯",
+        "english": "Salok Mehla 9"
+    },
+    {
+        "id": 14,
+        "akhar": "Sbd hzwry",
+        "unicode": "ਸ਼ਬਦ ਹਜ਼ਾਰੇ",
+        "english": "Shabad Hazare"
+    },
+    {
+        "id": 15,
+        "akhar": "Sbd hzwry pwiqSwhI 10",
+        "unicode": "ਸ਼ਬਦ ਹਜ਼ਾਰੇ ਪਾਤਿਸ਼ਾਹੀ ੧੦",
+        "english": "Shabad Hazare Patshahi 10"
+    },
+    {
+        "id": 16,
+        "akhar": "qÍ pRswid sÍXy (dInn kI)",
+        "unicode": "ਤ੍ਵ ਪ੍ਰਸਾਦਿ ਸ੍ਵਯੇ (ਦੀਨਨ ਕੀ)",
+        "english": "Tav Prasad Savaiye (Deenan Ki)"
+    },
+    {
+        "id": 17,
+        "akhar": "Akwl ausqq",
+        "unicode": "ਅਕਾਲ ਉਸਤਤ",
+        "english": "Akal Ustat"
+    },
+    {
+        "id": 18,
+        "akhar": "bwvn AKrI",
+        "unicode": "ਬਾਵਨ ਅਖਰੀ",
+        "english": "Bavan Akhri"
+    },
+    {
+        "id": 19,
+        "akhar": "isD gosit",
+        "unicode": "ਸਿਧ ਗੋਸਟਿ",
+        "english": "Sidh Gosht"
+    },
+    {
+        "id": 20,
+        "akhar": "EAMkwru",
+        "unicode": "ਓਅੰਕਾਰੁ",
+        "english": "Oankaar"
+    },
+    {
+        "id": 21,
+        "akhar": "bwrh mwhw",
+        "unicode": "ਬਾਰਹ ਮਾਹਾ",
+        "english": "Barah Maha"
+    },
+    {
+        "id": 22,
+        "akhar": "cMfI dI vwr",
+        "unicode": "ਚੰਡੀ ਦੀ ਵਾਰ",
+        "english": "Chandi Di Var"
+    },
+    {
+        "id": 23,
+        "akhar": "lwvW (Anµd kwrj)",
+        "unicode": "ਲਾਵਾਂ (ਅਨੰਦ ਕਾਰਜ)",
+        "english": "Lavan (Anand Karaj)"
+    },
+    {
+        "id": 24,
+        "akhar": "sRI gurU gRMQ swihb dy pwT dw Bog (muMdwvxI)",
+        "unicode": "ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਦੇ ਪਾਠ ਦਾ ਭੋਗ (ਮੁੰਦਾਵਣੀ)",
+        "english": "Sri Guru Granth Sahib Paath Bhog (Mundavnni)"
+    },
+    {
+        "id": 25,
+        "akhar": "sRI gurU gRMQ swihb dy pwT dw Bog (rwgmwlw)",
+        "unicode": "ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਦੇ ਪਾਠ ਦਾ ਭੋਗ (ਰਾਗਮਾਲਾ)",
+        "english": "Sri Guru Granth Sahib Paath Bhog (Ragmala)"
+    },
+    {
+        "id": 26,
+        "akhar": "rwmklI sdu",
+        "unicode": "ਰਾਮਕਲੀ ਸਦੁ",
+        "english": "Raamkali Sadu"
+    }
+]
