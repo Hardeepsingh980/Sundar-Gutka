@@ -5,21 +5,21 @@ Sundar Gutka with all the banis with punjabi and english translation. It also in
 ## 1. Introduction
 Sundar Gutka is an open source Mobile app which features all the banis of sundar gutka with punjabi and english translation in a convenient way. This also features larivaar bani for someone who want it. This project is completely open source, feel free to make contribution.
 
-### 1.1 Features in Development
+## 2. Features in Development
 
 This app is pretty stable, but I am trying my best to make it better everytime. Some new expected features are Auto Scroll Bani, option for changing font size, and option for custom theme. Feel free to reach out and suggest some more features.
 
-### 1.2 Get it for You
+## 3. Get it for You
 
-#### 1.2.1 For Developers
+#### 3.2.1 For Developers
 1. Clone this project.
 2. Run `flutter run`
-#### 1.2.2 For Everyone
+#### 3.2.2 For Everyone
 1. Download Your apk from [this link](https://github.com/Hardeepsingh980/Sundar-Gutka/releases/download/v1.0/SG-v1.0.apk).
 
-### 1.3 Screenshots
+## 4. Screenshots
 
-#### 1.3.1 Dark Mode
+#### 4.3.1 Dark Mode
 <p float="left">  
   <img src="screenshots/dark_list.jpeg" width="200" />
   <img src="screenshots/dark_settings.jpeg" width="200" /> 
@@ -27,7 +27,7 @@ This app is pretty stable, but I am trying my best to make it better everytime. 
   <img src="screenshots/dark_side.jpeg" width="200" />
 </p>
 
-#### 1.3.2 Light Mode
+#### 4.3.2 Light Mode
 <p float="left">  
   <img src="screenshots/light_list.jpeg" width="200" />
   <img src="screenshots/light_settings.jpeg" width="200" /> 
