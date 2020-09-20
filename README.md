@@ -9,7 +9,15 @@ Sundar Gutka is an open source Mobile app which features all the banis of sundar
 
 This app is pretty stable, but I am trying my best to make it better everytime. Some new expected features are Auto Scroll Bani, option for changing font size, and option for custom theme. Feel free to reach out and suggest some more features.
 
-### 1.2 Screenshots
+### 1.2 Get it for You
+
+#### Developer
+      1. Clone this project.
+      2. Run `flutter run`
+#### For Everyone
+      1. Download Your apk for here.
+
+### 1.3 Screenshots
 
 #### Dark Mode
 <p float="left">  
