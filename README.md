@@ -11,15 +11,15 @@ This app is pretty stable, but I am trying my best to make it better everytime. 
 
 ### 1.2 Get it for You
 
-#### Developer
+#### 1.2.1 For Developers
       1. Clone this project.
       2. Run `flutter run`
-#### For Everyone
+#### 1.2.2 For Everyone
       1. Download Your apk for here.
 
 ### 1.3 Screenshots
 
-#### Dark Mode
+#### 1.3.1 Dark Mode
 <p float="left">  
   <img src="screenshots/dark_list.jpeg" width="200" />
   <img src="screenshots/dark_settings.jpeg" width="200" /> 
@@ -27,7 +27,7 @@ This app is pretty stable, but I am trying my best to make it better everytime. 
   <img src="screenshots/dark_side.jpeg" width="200" />
 </p>
 
-#### Light Mode
+#### 1.3.2 Light Mode
 <p float="left">  
   <img src="screenshots/light_list.jpeg" width="200" />
   <img src="screenshots/light_settings.jpeg" width="200" /> 
