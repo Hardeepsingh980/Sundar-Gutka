@@ -8,6 +8,19 @@ import 'bloc/theme_bloc.dart';
 import 'model.dart';
 
 class BaniContentPage extends StatelessWidget {
+
+  getFontScale(scale) {
+    if (scale == 'Small') {
+      return 0.8;
+    } else if (scale == 'Normal') {
+      return 1;
+    } else if (scale == 'Medium') {
+      return 1.3;
+    } else if (scale == 'Large') {
+      return 1.7;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     ThemeBloc themeBloc = BlocProvider.of<ThemeBloc>(context);
@@ -47,7 +60,26 @@ class BaniContentPage extends StatelessWidget {
                     a.enablePunjabi = value;
                     themeBloc.add(ThemeChanged(appSettings: a));
                   },
-                )
+                ),
+                SettingsTile(
+                  leading: Icon(Icons.font_download),
+                  title: 'Font Size',
+                  trailing: DropdownButton<String>(
+                    value: state.appSettings.fontScale,
+                    items: <String>['Small', 'Normal', 'Medium', 'Large']
+                        .map((String value) {
+                      return new DropdownMenuItem<String>(
+                        value: value,
+                        child: new Text(value),
+                      );
+                    }).toList(),
+                    onChanged: (_) {
+                      AppSettings a = state.appSettings;
+                      a.fontScale = _;
+                      themeBloc.add(ThemeChanged(appSettings: a));
+                    },
+                  ),
+                ),
               ]),
               SettingsSection(
                 title: 'App Settings',
@@ -85,18 +117,18 @@ class BaniContentPage extends StatelessWidget {
                               padding: const EdgeInsets.symmetric(
                                   vertical: 2, horizontal: 0),
                               child: Text(
-                                state.data.baniLarivar[i],
+                                state.data.baniLarivar[i] ?? '',
                                 textAlign: TextAlign.center,
-                                textScaleFactor: 1.8,
+                                textScaleFactor: 1.8 * getFontScale(themeBloc.state.appSettings.fontScale),
                               ),
                             )
                           : Container(
                               padding: const EdgeInsets.symmetric(
                                   vertical: 2, horizontal: 0),
                               child: Text(
-                                state.data.baniGurmukhi[i],
+                                state.data.baniGurmukhi[i] ?? '',
                                 textAlign: TextAlign.center,
-                                textScaleFactor: 1.8,
+                                textScaleFactor: 1.8 * getFontScale(themeBloc.state.appSettings.fontScale),
                               ),
                             ),
                       themeBloc.state.appSettings.enablePunjabi
@@ -104,9 +136,9 @@ class BaniContentPage extends StatelessWidget {
                               padding: const EdgeInsets.symmetric(
                                   vertical: 2, horizontal: 0),
                               child: Text(
-                                state.data.baniPunjabi[i],
+                                state.data.baniPunjabi[i] ?? '',
                                 textAlign: TextAlign.center,
-                                // textScaleFactor: 1,
+                                textScaleFactor: (1 * getFontScale(themeBloc.state.appSettings.fontScale)).toDouble(),
                                 style: TextStyle(color: Colors.orange),
                               ),
                             )
@@ -116,9 +148,9 @@ class BaniContentPage extends StatelessWidget {
                               padding: const EdgeInsets.symmetric(
                                   vertical: 2, horizontal: 0),
                               child: Text(
-                                state.data.baniEnglish[i],
+                                state.data.baniEnglish[i] ?? '',
                                 textAlign: TextAlign.center,
-                                textScaleFactor: 0.9,
+                                textScaleFactor: 0.9 * getFontScale(themeBloc.state.appSettings.fontScale),
                                 style: TextStyle(color: Colors.grey),
                               ),
                             )

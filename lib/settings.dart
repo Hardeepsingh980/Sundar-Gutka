@@ -13,7 +13,10 @@ class SettingsScreen extends StatelessWidget {
     return Scaffold(
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(8.0),
-        child: Text('With ❤️ from Hardeep Singh', textAlign: TextAlign.center,),
+        child: Text(
+          'Made With ❤️ by Hardeep Singh',
+          textAlign: TextAlign.center,
+        ),
       ),
       appBar: AppBar(
         centerTitle: true,
@@ -59,7 +62,26 @@ class SettingsScreen extends StatelessWidget {
                   a.enablePunjabi = value;
                   themeBloc.add(ThemeChanged(appSettings: a));
                 },
-              )
+              ),
+              SettingsTile(
+                leading: Icon(Icons.font_download),
+                title: 'Font Size',
+                trailing: DropdownButton<String>(
+                  value: state.appSettings.fontScale,
+                  items: <String>['Small', 'Normal', 'Medium', 'Large']
+                      .map((String value) {
+                    return new DropdownMenuItem<String>(
+                      value: value,
+                      child: new Text(value),
+                    );
+                  }).toList(),
+                  onChanged: (_) {
+                    AppSettings a = state.appSettings;
+                    a.fontScale = _;
+                    themeBloc.add(ThemeChanged(appSettings: a));
+                  },
+                ),
+              ),
             ]),
             SettingsSection(
               title: 'App Settings',

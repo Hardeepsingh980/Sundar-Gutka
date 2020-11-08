@@ -60,19 +60,22 @@ class AppSettings {
   bool enableLarivaar;
   bool enableEnglish;
   bool enablePunjabi;
+  String fontScale;
 
   AppSettings(
       {this.darkTheme,
       this.enableLarivaar,
       this.enableEnglish,
-      this.enablePunjabi});
+      this.enablePunjabi,
+      this.fontScale});
 
   factory AppSettings.fromJson(json) {
     return AppSettings(
       darkTheme: json['dt'],
       enableLarivaar: json['la'],
       enableEnglish: json['en'],
-      enablePunjabi: json['pu']
+      enablePunjabi: json['pu'],
+      fontScale: json['fc']
     );
   }
 
@@ -81,7 +84,8 @@ class AppSettings {
       'dt': this.darkTheme,
       'la': this.enableLarivaar,
       'en': this.enableEnglish,
-      'pu': this.enablePunjabi
+      'pu': this.enablePunjabi,
+      'fc': this.fontScale
     };
   }
 

@@ -26,10 +26,16 @@ class ApiClass {
           darkTheme: true,
           enableLarivaar: false,
           enableEnglish: true,
-          enablePunjabi: true));
+          enablePunjabi: true,
+          fontScale: 'Normal'
+          ));
     }
     var jsonData = jsonDecode(appsettings.toString());
-    return AppSettings.fromJson(jsonData);
+    AppSettings a = AppSettings.fromJson(jsonData);
+    if (a.fontScale == null) {
+      a.fontScale = 'Normal';
+    }
+    return a;
   }
 
   Future<List<Bani>> getBaniList() async {
