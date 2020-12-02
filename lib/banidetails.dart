@@ -68,7 +68,8 @@ class _BaniContentPageState extends State<BaniContentPage> {
               value: initialSpeed.toDouble(),
               onChanged: (v) {
                 setState(() {
-                  // print(initialSpeed.toDouble());
+                  print(500 * initialSpeed.toInt());
+
                   initialSpeed = v.toInt();
                 });
               },

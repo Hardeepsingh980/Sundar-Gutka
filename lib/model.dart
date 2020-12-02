@@ -13,6 +13,14 @@ class Bani {
       name: json['unicode'],
     );
   }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': this.id,
+      'unicode': this.name,
+    };
+  }
+  
 }
 
 class BaniContent {

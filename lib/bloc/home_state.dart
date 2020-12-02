@@ -23,8 +23,9 @@ class HomeStateError extends HomeState {
 
 class HomeStateLoaded extends HomeState {
   final List<Bani> data;
+  final List<Bani> favourites;
 
-  HomeStateLoaded({this.data});
+  HomeStateLoaded({this.data, this.favourites});
 
   @override
   String toString() => 'HomeStateLoaded';

@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:meta/meta.dart';
 
 import '../data.dart';
 import '../model.dart';
@@ -23,6 +24,11 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
   Stream<HomeState> mapEventToState(HomeEvent event) async* {
     if (event is HomeEventLoading) {
       yield* _mapLoadBaniState(event);
+    } else if (event is FavouriteAdded) {
+      yield HomeStateLoading();
+      List<Bani> result = await api.getBaniList();
+      List<Bani> a = await api.addFavourites(event.favourites);
+      yield HomeStateLoaded(data: result, favourites: a);
     }
   }
 
@@ -30,7 +36,8 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     try {
       yield HomeStateLoading();
       List<Bani> result = await api.getBaniList();
-      yield HomeStateLoaded(data: result);
+      List<Bani> favourites = await api.getInitialFavourites();
+      yield HomeStateLoaded(data: result, favourites: favourites);
     } catch (e) {
       yield HomeStateError();
     }
