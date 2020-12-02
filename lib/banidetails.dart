@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:settings_ui/settings_ui.dart';
 import 'package:sundargutka/bloc/details_bloc.dart';
@@ -7,8 +8,12 @@ import 'package:sundargutka/bloc/details_bloc.dart';
 import 'bloc/theme_bloc.dart';
 import 'model.dart';
 
-class BaniContentPage extends StatelessWidget {
+class BaniContentPage extends StatefulWidget {
+  @override
+  _BaniContentPageState createState() => _BaniContentPageState();
+}
 
+class _BaniContentPageState extends State<BaniContentPage> {
   getFontScale(scale) {
     if (scale == 'Small') {
       return 0.8;
@@ -21,11 +26,78 @@ class BaniContentPage extends StatelessWidget {
     }
   }
 
+  bool fabIsVisible = true;
+  ScrollController _scrollController = new ScrollController();
+
+  @override
+  void initState() {
+    super.initState();
+    _scrollController = ScrollController();
+    _scrollController.addListener(() {
+      setState(() {
+        fabIsVisible = _scrollController.position.userScrollDirection ==
+            ScrollDirection.forward;
+      });
+    });
+  }
+
+  int initialSpeed = 2500;
+
   @override
   Widget build(BuildContext context) {
-    ThemeBloc themeBloc = BlocProvider.of<ThemeBloc>(context);
+    // ignore: close_sinks
+    ThemeBloc themeBloc;
+    themeBloc = BlocProvider.of<ThemeBloc>(context);
 
     return Scaffold(
+      floatingActionButton: AnimatedOpacity(
+        duration: Duration(milliseconds: 100),
+        opacity: fabIsVisible ? 1 : 0,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            FloatingActionButton(
+              heroTag: "btn1",
+              onPressed: () {
+                setState(() {
+                  initialSpeed -= 700;
+                });
+                 _scrollController.animateTo(
+                  _scrollController.position.maxScrollExtent,
+                  duration: Duration(seconds: initialSpeed),
+                  curve: Curves.elasticOut,
+                );
+              },
+              child: Icon(Icons.add),
+            ),
+            FloatingActionButton(
+              heroTag: "btn2",
+              onPressed: () {
+                setState(() {
+                  initialSpeed += 500;
+                });
+                 _scrollController.animateTo(
+                  _scrollController.position.maxScrollExtent,
+                  duration: Duration(seconds: initialSpeed),
+                  curve: Curves.elasticOut,
+                );
+              },
+              child: Icon(Icons.remove),
+            ),
+            FloatingActionButton(
+              heroTag: "btn3",
+              onPressed: () {
+                _scrollController.animateTo(
+                  _scrollController.position.maxScrollExtent,
+                  duration: Duration(seconds: initialSpeed),
+                  curve: Curves.elasticOut,
+                );
+              },
+              child: Icon(Icons.play_arrow),
+            ),
+          ],
+        ),
+      ),
       drawer: Drawer(
         child: BlocBuilder<ThemeBloc, ThemeState>(builder: (context, state) {
           return SettingsList(
@@ -109,26 +181,31 @@ class BaniContentPage extends StatelessWidget {
             } else if (state is DetailStateLoaded) {
               return CupertinoScrollbar(
                 child: ListView.builder(
+                  controller: _scrollController,
                   itemCount: state.data.baniPunjabi.length,
                   itemBuilder: (_, i) => Column(
                     children: <Widget>[
                       themeBloc.state.appSettings.enableLarivaar
                           ? Container(
                               padding: const EdgeInsets.symmetric(
-                                  vertical: 2, horizontal: 0),
+                                  vertical: 5, horizontal: 0),
                               child: Text(
                                 state.data.baniLarivar[i] ?? '',
                                 textAlign: TextAlign.center,
-                                textScaleFactor: 1.8 * getFontScale(themeBloc.state.appSettings.fontScale),
+                                textScaleFactor: 1.8 *
+                                    getFontScale(
+                                        themeBloc.state.appSettings.fontScale),
                               ),
                             )
                           : Container(
                               padding: const EdgeInsets.symmetric(
-                                  vertical: 2, horizontal: 0),
+                                  vertical: 5, horizontal: 0),
                               child: Text(
                                 state.data.baniGurmukhi[i] ?? '',
                                 textAlign: TextAlign.center,
-                                textScaleFactor: 1.8 * getFontScale(themeBloc.state.appSettings.fontScale),
+                                textScaleFactor: 1.8 *
+                                    getFontScale(
+                                        themeBloc.state.appSettings.fontScale),
                               ),
                             ),
                       themeBloc.state.appSettings.enablePunjabi
@@ -138,7 +215,10 @@ class BaniContentPage extends StatelessWidget {
                               child: Text(
                                 state.data.baniPunjabi[i] ?? '',
                                 textAlign: TextAlign.center,
-                                textScaleFactor: (1 * getFontScale(themeBloc.state.appSettings.fontScale)).toDouble(),
+                                textScaleFactor: (1 *
+                                        getFontScale(themeBloc
+                                            .state.appSettings.fontScale))
+                                    .toDouble(),
                                 style: TextStyle(color: Colors.orange),
                               ),
                             )
@@ -146,11 +226,13 @@ class BaniContentPage extends StatelessWidget {
                       themeBloc.state.appSettings.enableEnglish
                           ? Container(
                               padding: const EdgeInsets.symmetric(
-                                  vertical: 2, horizontal: 0),
+                                  vertical: 5, horizontal: 0),
                               child: Text(
                                 state.data.baniEnglish[i] ?? '',
                                 textAlign: TextAlign.center,
-                                textScaleFactor: 0.9 * getFontScale(themeBloc.state.appSettings.fontScale),
+                                textScaleFactor: 0.9 *
+                                    getFontScale(
+                                        themeBloc.state.appSettings.fontScale),
                                 style: TextStyle(color: Colors.grey),
                               ),
                             )
