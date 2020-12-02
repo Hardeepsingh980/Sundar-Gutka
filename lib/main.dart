@@ -4,8 +4,10 @@ import 'package:sundargutka/home.dart';
 
 import 'bloc/home_bloc.dart';
 import 'bloc/theme_bloc.dart';
+import 'package:wakelock/wakelock.dart';
 
 void main() {
+  Wakelock.enable();
   return runApp(HomePage());
 }
 

@@ -11,13 +11,6 @@ class SettingsScreen extends StatelessWidget {
     ThemeBloc themeBloc = BlocProvider.of<ThemeBloc>(context);
 
     return Scaffold(
-      bottomNavigationBar: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: Text(
-          'Made With ❤️ by Hardeep Singh',
-          textAlign: TextAlign.center,
-        ),
-      ),
       appBar: AppBar(
         centerTitle: true,
         title: Text(

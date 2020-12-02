@@ -41,7 +41,7 @@ class _BaniContentPageState extends State<BaniContentPage> {
     });
   }
 
-  int initialSpeed = 2500;
+  int initialSpeed = 5;
 
   @override
   Widget build(BuildContext context) {
@@ -51,53 +51,32 @@ class _BaniContentPageState extends State<BaniContentPage> {
 
     return Scaffold(
       floatingActionButton: AnimatedOpacity(
-        duration: Duration(milliseconds: 100),
-        opacity: fabIsVisible ? 1 : 0,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: <Widget>[
-            FloatingActionButton(
-              heroTag: "btn1",
-              onPressed: () {
+          duration: Duration(milliseconds: 100),
+          opacity: fabIsVisible ? 1 : 0,
+          child: FloatingActionButton.extended(
+            onPressed: null,
+            icon: IconButton(
+                icon: Icon(Icons.play_arrow),
+                onPressed: () {
+                  _scrollController.animateTo(
+                    _scrollController.position.maxScrollExtent,
+                    duration: Duration(seconds: 500 * initialSpeed),
+                    curve: Curves.elasticOut,
+                  );
+                }),
+            label: Slider(
+              value: initialSpeed.toDouble(),
+              onChanged: (v) {
                 setState(() {
-                  initialSpeed -= 700;
+                  // print(initialSpeed.toDouble());
+                  initialSpeed = v.toInt();
                 });
-                 _scrollController.animateTo(
-                  _scrollController.position.maxScrollExtent,
-                  duration: Duration(seconds: initialSpeed),
-                  curve: Curves.elasticOut,
-                );
               },
-              child: Icon(Icons.add),
+              min: 1,
+              max: 10,
+              activeColor: Colors.black,
             ),
-            FloatingActionButton(
-              heroTag: "btn2",
-              onPressed: () {
-                setState(() {
-                  initialSpeed += 500;
-                });
-                 _scrollController.animateTo(
-                  _scrollController.position.maxScrollExtent,
-                  duration: Duration(seconds: initialSpeed),
-                  curve: Curves.elasticOut,
-                );
-              },
-              child: Icon(Icons.remove),
-            ),
-            FloatingActionButton(
-              heroTag: "btn3",
-              onPressed: () {
-                _scrollController.animateTo(
-                  _scrollController.position.maxScrollExtent,
-                  duration: Duration(seconds: initialSpeed),
-                  curve: Curves.elasticOut,
-                );
-              },
-              child: Icon(Icons.play_arrow),
-            ),
-          ],
-        ),
-      ),
+          )),
       drawer: Drawer(
         child: BlocBuilder<ThemeBloc, ThemeState>(builder: (context, state) {
           return SettingsList(
