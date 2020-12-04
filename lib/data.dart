@@ -12,6 +12,29 @@ loadJson(String filepath) async {
 }
 
 class ApiClass {
+
+
+  Future<List<Bani>> getInitialFavourites() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    String favourites = prefs.getString('favourites') ?? null;
+    if (favourites == null) {
+      return [];
+    }
+    var jsonData = jsonDecode(favourites.toString());
+    List<Bani> a = jsonData.map<Bani>((json) {
+      return Bani.fromJson(json);
+    }).toList();
+    return a;
+  }
+
+  Future<List<Bani>> addFavourites(List<Bani> baniList) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    List list = [];
+    baniList.forEach((element) { list.add(element.toJson()); });
+    prefs.setString('favourites', jsonEncode(list));
+    return baniList;
+  }
+
   Future<AppSettings> addSettingToPref(AppSettings appSettings) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString('appSettings', jsonEncode(appSettings.toJson()));

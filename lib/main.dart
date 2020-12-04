@@ -7,13 +7,13 @@ import 'bloc/theme_bloc.dart';
 import 'package:wakelock/wakelock.dart';
 
 void main() {
-  Wakelock.enable();
   return runApp(HomePage());
 }
 
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    Wakelock.enable();
     return BlocProvider(
       create: (context) => ThemeBloc()..add(ThemeInitialEvent()),
       child: BlocBuilder<ThemeBloc, ThemeState>(
