@@ -15,7 +15,7 @@ This app is pretty stable, but I am trying my best to make it better everytime. 
 1. Clone this project.
 2. Run `flutter run`
 #### 3.2.2 For Everyone
-1. Download Your apk from [this link](https://github.com/Hardeepsingh980/Sundar-Gutka/releases/download/v1.0/SG-v1.0.apk).
+1. Download from [playstore](https://play.google.com/store/apps/details?id=com.hardeep.sundargutka).
 
 ## 4. Screenshots
 
