@@ -15,7 +15,9 @@ This app is pretty stable, but I am trying my best to make it better everytime. 
 1. Clone this project.
 2. Run `flutter run`
 #### 3.2.2 For Everyone
+
 1. Download from [playstore](https://play.google.com/store/apps/details?id=com.hardeep.sundargutka).
+
 
 ## 4. Screenshots
 
@@ -35,6 +37,7 @@ This app is pretty stable, but I am trying my best to make it better everytime. 
   <img src="screenshots/light_side.jpeg" width="200" />
 </p>
 
+#### Now Available for Both Mobile phones and Tablets as well!
 
 ## Contributions
 
@@ -47,10 +50,10 @@ You can fork this repo and add features. Then you can raise a pull request. I wi
 
 You can also add some more banis, if you have proper larivaar, punjabi translation and english translation of the bani. You can use [this file](https://github.com/Hardeepsingh980/Sundar-Gutka/blob/master/convertToMyConventionJson.py) to properly format your bani data.
 
-#### 3. Uploding this app to playstore.
+#### 3.App for Android.
 
-I don't own a playstore developer account. If you have one, please reach me out at hardeep0khalsa122@gmail.com, if you can help this app reach playstore.
+Google Play Store - https://play.google.com/store/apps/details?id=com.hardeep.sundargutka
 
-#### 4. Compliling for IOS.
+#### 4. App for IOS.
 
-I don't have a mac. If you have one, Please help to complile this app for ios as well. Future uploading to app store would be really helpful.
+IOS app is coming soon!

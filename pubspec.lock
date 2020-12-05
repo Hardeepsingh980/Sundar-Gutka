@@ -322,7 +322,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.0-nullsafety.5"
-    version: "2.0.8"
   wakelock:
     dependency: "direct main"
     description:
