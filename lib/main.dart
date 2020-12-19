@@ -26,14 +26,15 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
+    _firebaseMessaging.subscribeToTopic('hukam');
     _firebaseMessaging.configure(
       onResume: (message) async {
         navigatorKey.currentState.push(MaterialPageRoute(
-            builder: (_) => HukamScreen(hukam: message['data']['hukam'])));
+            builder: (_) => HukamScreen()));
       },
       onLaunch: (message) async {
-        MaterialPageRoute(
-            builder: (_) => HukamScreen(hukam: message['data']['hukam']));
+        navigatorKey.currentState.push(MaterialPageRoute(
+            builder: (_) => HukamScreen()));
       },
     );
   }

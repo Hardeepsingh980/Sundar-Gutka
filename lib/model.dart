@@ -63,6 +63,37 @@ class BaniContent {
   }
 }
 
+class Hukam {
+  final String date;
+  final List<String> baniGurmukhi;
+  final List<String> baniEnglish;
+  final List<String> baniPunjabi;
+
+  Hukam({this.date, this.baniGurmukhi, this.baniEnglish, this.baniPunjabi});
+
+  factory Hukam.fromJson(json) {
+    List<String> gu = [];
+    List<String> en = [];
+    List<String> la = [];
+    List<String> pu = [];
+
+    for (var line in json['bani']) {
+      gu.add(line['line']['gurmukhi']['unicode']);
+      la.add(line['line']['larivaar']['unicode']);
+      en.add(line['line']['translation']['english']['default']);
+      pu.add(line['line']['translation']['punjabi']['default']['unicode']);
+    }
+
+    return Hukam(
+      date: json['baniinfo']['id'],
+      baniGurmukhi: gu,
+      baniEnglish: en,
+      baniPunjabi: pu,
+    );
+  }
+
+}
+
 class AppSettings {
   bool darkTheme;
   bool enableLarivaar;
