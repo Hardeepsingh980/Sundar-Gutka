@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:http/http.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'model.dart';
@@ -12,6 +13,8 @@ loadJson(String filepath) async {
 }
 
 class ApiClass {
+
+  FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
 
 
   Future<List<Bani>> getInitialFavourites() async {
@@ -38,6 +41,11 @@ class ApiClass {
   Future<AppSettings> addSettingToPref(AppSettings appSettings) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString('appSettings', jsonEncode(appSettings.toJson()));
+    if (appSettings.getHukam) {
+      _firebaseMessaging.subscribeToTopic('hukam');
+    } else {
+      _firebaseMessaging.unsubscribeFromTopic('hukam');
+    }
     return appSettings;
   }
 
@@ -45,16 +53,22 @@ class ApiClass {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String appsettings =  prefs.getString('appSettings') ?? null;
     if (appsettings == null) {
+      _firebaseMessaging.subscribeToTopic('hukam');
       return addSettingToPref(AppSettings(
           darkTheme: true,
           enableLarivaar: false,
           enableEnglish: true,
           enablePunjabi: true,
-          fontScale: 'Normal'
+          fontScale: 'Normal',
+          getHukam: true
           ));
     }
     var jsonData = jsonDecode(appsettings.toString());
     AppSettings a = AppSettings.fromJson(jsonData);
+    if (a.getHukam == null) {
+      _firebaseMessaging.subscribeToTopic('hukam');
+      a.getHukam = true;
+    }
     if (a.fontScale == null) {
       a.fontScale = 'Normal';
     }
@@ -73,4 +87,12 @@ class ApiClass {
     BaniContent baniContent = BaniContent.fromJson(jsonData);
     return baniContent;
   }
+
+  Future<Hukam> getHukam() async {
+    var url = 'https://dev-api.gurbaninow.com/v2/hukamnama/today';
+    Response response = await get(url);
+    Map<String, dynamic> json_data = jsonDecode(response.body);
+    return Hukam.fromJson(json_data);
+  }
+
 }
