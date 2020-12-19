@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sundargutka/banidetails.dart';
 import 'package:sundargutka/bloc/details_bloc.dart';
+import 'package:sundargutka/hukam.dart';
 import 'package:sundargutka/settings.dart';
 
 import 'bloc/home_bloc.dart';
@@ -36,7 +37,12 @@ class BaniListPage extends StatelessWidget {
           ),
           actions: <Widget>[
             IconButton(
-                icon: Icon(Icons.more_vert),
+              icon: Icon(Icons.receipt),
+              onPressed: () => Navigator.push(context,
+                    MaterialPageRoute(builder: (_) => HukamScreen())),
+            ),
+            IconButton(
+                icon: Icon(Icons.settings),
                 onPressed: () => Navigator.push(context,
                     MaterialPageRoute(builder: (_) => SettingsScreen())))
           ],

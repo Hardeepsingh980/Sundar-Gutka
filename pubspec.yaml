@@ -36,6 +36,8 @@ dependencies:
   shared_preferences:
   settings_ui: ^0.4.0
   wakelock:
+  firebase_messaging: ^7.0.3
+  get:
 
 dev_dependencies:
   flutter_test:
