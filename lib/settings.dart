@@ -86,7 +86,17 @@ class SettingsScreen extends StatelessWidget {
                       a.darkTheme = value;
                       themeBloc.add(ThemeChanged(appSettings: a));
                     },
-                    switchValue: state.appSettings.darkTheme)
+                    switchValue: state.appSettings.darkTheme),
+                SettingsTile.switchTile(
+                title: 'Get Daily Hukamnama Notification',
+                leading: Icon(Icons.receipt),
+                switchValue: state.appSettings.getHukam,
+                onToggle: (bool value) {
+                  AppSettings a = state.appSettings;
+                  a.getHukam = value;
+                  themeBloc.add(ThemeChanged(appSettings: a));
+                },
+              ),
               ],
             )
           ],

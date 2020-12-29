@@ -63,11 +63,44 @@ class BaniContent {
   }
 }
 
+class Hukam {
+  final String date;
+  final String ang;
+  final List<String> baniGurmukhi;
+  final List<String> baniEnglish;
+  final List<String> baniPunjabi;
+
+  Hukam({this.date, this.ang, this.baniGurmukhi, this.baniEnglish, this.baniPunjabi});
+
+  factory Hukam.fromJson(json) {
+    List<String> gu = [];
+    List<String> en = [];
+    List<String> pu = [];
+
+    for (var line in json['hukamnama']) {
+      gu.add(line['line']['gurmukhi']['unicode']);
+      en.add(line['line']['translation']['english']['default']);
+      pu.add(line['line']['translation']['punjabi']['default']['unicode']);
+    }
+
+
+    return Hukam(
+      ang: (json['hukamnamainfo']['pageno']).toString(),
+      date: "${json['date']['nanakshahi']['punjabi']['day']}, ${json['date']['nanakshahi']['punjabi']['date']} ${json['date']['nanakshahi']['punjabi']['month']} ${json['date']['nanakshahi']['punjabi']['year']}",
+      baniGurmukhi: gu,
+      baniEnglish: en,
+      baniPunjabi: pu,
+    );
+  }
+
+}
+
 class AppSettings {
   bool darkTheme;
   bool enableLarivaar;
   bool enableEnglish;
   bool enablePunjabi;
+  bool getHukam;
   String fontScale;
 
   AppSettings(
@@ -75,6 +108,7 @@ class AppSettings {
       this.enableLarivaar,
       this.enableEnglish,
       this.enablePunjabi,
+      this.getHukam,
       this.fontScale});
 
   factory AppSettings.fromJson(json) {
@@ -83,7 +117,8 @@ class AppSettings {
       enableLarivaar: json['la'],
       enableEnglish: json['en'],
       enablePunjabi: json['pu'],
-      fontScale: json['fc']
+      fontScale: json['fc'],
+      getHukam: json['gh']
     );
   }
 
@@ -93,7 +128,8 @@ class AppSettings {
       'la': this.enableLarivaar,
       'en': this.enableEnglish,
       'pu': this.enablePunjabi,
-      'fc': this.fontScale
+      'fc': this.fontScale,
+      'gh': this.getHukam
     };
   }
 
