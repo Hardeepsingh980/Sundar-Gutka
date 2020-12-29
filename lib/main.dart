@@ -1,6 +1,8 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:sundargutka/custompageroute.dart';
 import 'package:sundargutka/home.dart';
 import 'package:sundargutka/hukam.dart';
 import 'package:get/get.dart';
@@ -26,14 +28,14 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    _firebaseMessaging.subscribeToTopic('hukam');
+    // _firebaseMessaging.subscribeToTopic('hukam');
     _firebaseMessaging.configure(
       onResume: (message) async {
-        navigatorKey.currentState.push(MaterialPageRoute(
+        navigatorKey.currentState.push(MyCustomRoute(
             builder: (_) => HukamScreen()));
       },
       onLaunch: (message) async {
-        navigatorKey.currentState.push(MaterialPageRoute(
+        navigatorKey.currentState.push(MyCustomRoute(
             builder: (_) => HukamScreen()));
       },
     );
@@ -48,7 +50,7 @@ class _HomePageState extends State<HomePage> {
         builder: (context, state) {
           if (state is ThemeStateLoading) {
             return Center(
-              child: CircularProgressIndicator(),
+              child: CupertinoActivityIndicator(),
             );
           } else if (state is ThemeStateLoaded) {
             return MaterialApp(
@@ -69,7 +71,7 @@ class _HomePageState extends State<HomePage> {
             );
           }
           return Center(
-            child: CircularProgressIndicator(),
+            child: CupertinoActivityIndicator(),
           );
         },
       ),

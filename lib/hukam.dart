@@ -16,7 +16,7 @@ class HukamScreen extends StatelessWidget {
           if (state is HukamStateLoading) {
             return Scaffold(
               body: Center(
-                child: CircularProgressIndicator(),
+                child: CupertinoActivityIndicator(),
               ),
             );
           } else if (state is HukamStateError) {
@@ -32,8 +32,14 @@ class HukamScreen extends StatelessWidget {
                     icon: Icon(Icons.arrow_back_ios),
                     onPressed: () => Navigator.pop(context),
                   ),
-                  title:
-                      Text('${state.data.date}        ਅੰਗ:- ${state.data.ang}'),
+                  title: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Text(state.data.date),
+                      Text('ਅੰਗ:- ${state.data.ang}')
+                    ],
+                  ),
+                      // Text('${state.data.date}        ਅੰਗ:- ${state.data.ang}'),
                 ),
                 body: CupertinoScrollbar(
                     child: ListView.builder(

@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:settings_ui/settings_ui.dart';
@@ -28,7 +29,7 @@ class SettingsScreen extends StatelessWidget {
             SettingsSection(title: 'Gurbani Settings', tiles: [
               SettingsTile.switchTile(
                 title: 'Enable Larivaar',
-                leading: Icon(Icons.ac_unit),
+                leading: Icon(CupertinoIcons.loop),
                 switchValue: state.appSettings.enableLarivaar,
                 onToggle: (bool value) {
                   AppSettings a = state.appSettings;

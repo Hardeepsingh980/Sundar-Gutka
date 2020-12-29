@@ -64,7 +64,7 @@ class _BaniContentPageState extends State<BaniContentPage> {
                     curve: Curves.elasticOut,
                   );
                 }),
-            label: Slider(
+            label: CupertinoSlider(
               value: initialSpeed.toDouble(),
               onChanged: (v) {
                 setState(() {
@@ -156,7 +156,7 @@ class _BaniContentPageState extends State<BaniContentPage> {
           builder: (context, state) {
             if (state is DetailStateLoading) {
               return Center(
-                child: CircularProgressIndicator(),
+                child: CupertinoActivityIndicator(),
               );
             } else if (state is DetailStateLoaded) {
               return CupertinoScrollbar(
