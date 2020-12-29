@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sundargutka/banidetails.dart';
 import 'package:sundargutka/bloc/details_bloc.dart';
+import 'package:sundargutka/custompageroute.dart';
 import 'package:sundargutka/hukam.dart';
 import 'package:sundargutka/settings.dart';
 
@@ -19,11 +20,11 @@ class BaniListPage extends StatelessWidget {
         bottomNavigationBar: TabBar(
           tabs: <Widget>[
             Tab(
-              icon: Icon(Icons.list),
+              icon: Icon(CupertinoIcons.book),
               text: 'Bani List',
             ),
             Tab(
-              icon: Icon(Icons.favorite),
+              icon: Icon(CupertinoIcons.heart_solid),
               text: 'Favourite Banis',
             ),
           ],
@@ -37,14 +38,14 @@ class BaniListPage extends StatelessWidget {
           ),
           actions: <Widget>[
             IconButton(
-              icon: Icon(Icons.receipt),
+              icon: Icon(CupertinoIcons.news),
               onPressed: () => Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => HukamScreen())),
+                    MyCustomRoute(builder: (_) => HukamScreen())),
             ),
             IconButton(
-                icon: Icon(Icons.settings),
+                icon: Icon(CupertinoIcons.settings),
                 onPressed: () => Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => SettingsScreen())))
+                    MyCustomRoute(builder: (_) => SettingsScreen())))
           ],
         ),
         body: BlocBuilder(
@@ -52,7 +53,7 @@ class BaniListPage extends StatelessWidget {
           builder: (context, state) {
             if (state is HomeStateLoading) {
               return Center(
-                child: CircularProgressIndicator(),
+                child: CupertinoActivityIndicator(),
               );
             } else if (state is HomeStateError) {
               return Center(
@@ -70,7 +71,7 @@ class BaniListPage extends StatelessWidget {
                         ListTile(
                           onTap: () => Navigator.push(
                               context,
-                              MaterialPageRoute(
+                              MyCustomRoute(
                                 builder: (_) => BlocProvider(
                                   create: (context) => DetailsBloc()
                                     ..add(DetailsEventInitial(
@@ -101,7 +102,7 @@ class BaniListPage extends StatelessWidget {
                         ListTile(
                           onTap: () => Navigator.push(
                               context,
-                              MaterialPageRoute(
+                              MyCustomRoute(
                                 builder: (_) => BlocProvider(
                                   create: (context) => DetailsBloc()
                                     ..add(DetailsEventInitial(
