@@ -15,12 +15,28 @@ class HukamScreen extends StatelessWidget {
         builder: (context, state) {
           if (state is HukamStateLoading) {
             return Scaffold(
+              appBar: AppBar(
+                elevation: 0,
+                title: Text('Loading Hukamnama...'),
+                leading: IconButton(
+                  icon: Icon(Icons.arrow_back_ios),
+                  onPressed: () => Navigator.pop(context),
+                ),
+              ),
               body: Center(
                 child: CupertinoActivityIndicator(),
               ),
             );
           } else if (state is HukamStateError) {
             return Scaffold(
+              appBar: AppBar(
+                elevation: 0,
+                title: Text('No Internet'),
+                leading: IconButton(
+                  icon: Icon(Icons.arrow_back_ios),
+                  onPressed: () => Navigator.pop(context),
+                ),
+              ),
               body: Center(
                 child: Text('Please check your internet connection ...'),
               ),
@@ -28,6 +44,7 @@ class HukamScreen extends StatelessWidget {
           } else if (state is HukamStateLoaded) {
             return Scaffold(
                 appBar: AppBar(
+                  elevation: 0,
                   leading: IconButton(
                     icon: Icon(Icons.arrow_back_ios),
                     onPressed: () => Navigator.pop(context),
@@ -39,7 +56,7 @@ class HukamScreen extends StatelessWidget {
                       Text('ਅੰਗ:- ${state.data.ang}')
                     ],
                   ),
-                      // Text('${state.data.date}        ਅੰਗ:- ${state.data.ang}'),
+                  // Text('${state.data.date}        ਅੰਗ:- ${state.data.ang}'),
                 ),
                 body: CupertinoScrollbar(
                     child: ListView.builder(

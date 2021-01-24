@@ -27,6 +27,8 @@ class _BaniContentPageState extends State<BaniContentPage> {
   }
 
   bool fabIsVisible = true;
+  bool appBarIsVisible = true;
+  String baniName = '';
   ScrollController _scrollController = new ScrollController();
 
   @override
@@ -37,6 +39,7 @@ class _BaniContentPageState extends State<BaniContentPage> {
       setState(() {
         fabIsVisible = _scrollController.position.userScrollDirection ==
             ScrollDirection.forward;
+        appBarIsVisible = fabIsVisible;
       });
     });
   }
@@ -58,9 +61,13 @@ class _BaniContentPageState extends State<BaniContentPage> {
             icon: IconButton(
                 icon: Icon(Icons.play_arrow),
                 onPressed: () {
+                  double maxExtent = _scrollController.position.maxScrollExtent;
+                  double distanceDifference =
+                      maxExtent - _scrollController.offset;
+                  double durationDouble = distanceDifference / initialSpeed;
                   _scrollController.animateTo(
                     _scrollController.position.maxScrollExtent,
-                    duration: Duration(seconds: 500 * initialSpeed),
+                    duration: Duration(seconds: durationDouble.toInt()),
                     curve: Curves.elasticOut,
                   );
                 }),
@@ -68,7 +75,6 @@ class _BaniContentPageState extends State<BaniContentPage> {
               value: initialSpeed.toDouble(),
               onChanged: (v) {
                 setState(() {
-                  print(500 * initialSpeed.toInt());
 
                   initialSpeed = v.toInt();
                 });
@@ -150,84 +156,99 @@ class _BaniContentPageState extends State<BaniContentPage> {
           );
         }),
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(8.0),
-        child: BlocBuilder<DetailsBloc, DetailsState>(
-          builder: (context, state) {
-            if (state is DetailStateLoading) {
-              return Center(
-                child: CupertinoActivityIndicator(),
-              );
-            } else if (state is DetailStateLoaded) {
-              return CupertinoScrollbar(
-                child: ListView.builder(
-                  controller: _scrollController,
-                  itemCount: state.data.baniPunjabi.length,
-                  itemBuilder: (_, i) => Column(
-                    children: <Widget>[
-                      themeBloc.state.appSettings.enableLarivaar
-                          ? Container(
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 5, horizontal: 0),
-                              child: Text(
-                                state.data.baniLarivar[i] ?? '',
-                                textAlign: TextAlign.center,
-                                textScaleFactor: 1.8 *
-                                    getFontScale(
-                                        themeBloc.state.appSettings.fontScale),
-                              ),
-                            )
-                          : Container(
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 5, horizontal: 0),
-                              child: Text(
-                                state.data.baniGurmukhi[i] ?? '',
-                                textAlign: TextAlign.center,
-                                textScaleFactor: 1.8 *
-                                    getFontScale(
-                                        themeBloc.state.appSettings.fontScale),
-                              ),
-                            ),
-                      themeBloc.state.appSettings.enablePunjabi
-                          ? Container(
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 2, horizontal: 0),
-                              child: Text(
-                                state.data.baniPunjabi[i] ?? '',
-                                textAlign: TextAlign.center,
-                                textScaleFactor: (1 *
-                                        getFontScale(themeBloc
-                                            .state.appSettings.fontScale))
-                                    .toDouble(),
-                                style: TextStyle(color: Colors.orange),
-                              ),
-                            )
-                          : Container(),
-                      themeBloc.state.appSettings.enableEnglish
-                          ? Container(
-                              padding: const EdgeInsets.symmetric(
-                                  vertical: 5, horizontal: 0),
-                              child: Text(
-                                state.data.baniEnglish[i] ?? '',
-                                textAlign: TextAlign.center,
-                                textScaleFactor: 0.9 *
-                                    getFontScale(
-                                        themeBloc.state.appSettings.fontScale),
-                                style: TextStyle(color: Colors.grey),
-                              ),
-                            )
-                          : Container(),
-                    ],
+      body: BlocBuilder<DetailsBloc, DetailsState>(
+        builder: (context, state) {
+          if (state is DetailStateLoading) {
+            return Center(
+              child: CupertinoActivityIndicator(),
+            );
+          } else if (state is DetailStateLoaded) {
+            return Column(
+              children: <Widget>[
+                AnimatedContainer(
+                  height: appBarIsVisible ? 80.0 : 0.0,
+                  duration: Duration(milliseconds: 200),
+                  child: AppBar(
+                    leading: IconButton(
+                      icon: Icon(Icons.arrow_back_ios),
+                      onPressed: () => Navigator.pop(context),
+                    ),
+                    elevation: 0,
+                    title: Text(state.data.name),
                   ),
                 ),
-              );
-            } else if (state is DetailStateError) {
-              return Center(
-                child: Text('Something Went Wrong While Loading Data'),
-              );
-            }
-          },
-        ),
+                Expanded(
+                  child: CupertinoScrollbar(
+                    child: ListView.builder(
+                      controller: _scrollController,
+                      itemCount: state.data.baniPunjabi.length,
+                      itemBuilder: (_, i) => Column(
+                        children: <Widget>[
+                          themeBloc.state.appSettings.enableLarivaar
+                              ? Container(
+                                  padding: const EdgeInsets.symmetric(
+                                      vertical: 5, horizontal: 0),
+                                  child: Text(
+                                    state.data.baniLarivar[i] ?? '',
+                                    textAlign: TextAlign.center,
+                                    textScaleFactor: 1.8 *
+                                        getFontScale(themeBloc
+                                            .state.appSettings.fontScale),
+                                  ),
+                                )
+                              : Container(
+                                  padding: const EdgeInsets.symmetric(
+                                      vertical: 5, horizontal: 0),
+                                  child: Text(
+                                    state.data.baniGurmukhi[i] ?? '',
+                                    textAlign: TextAlign.center,
+                                    textScaleFactor: 1.8 *
+                                        getFontScale(themeBloc
+                                            .state.appSettings.fontScale),
+                                  ),
+                                ),
+                          themeBloc.state.appSettings.enablePunjabi
+                              ? Container(
+                                  padding: const EdgeInsets.symmetric(
+                                      vertical: 2, horizontal: 0),
+                                  child: Text(
+                                    state.data.baniPunjabi[i] ?? '',
+                                    textAlign: TextAlign.center,
+                                    textScaleFactor: (1 *
+                                            getFontScale(themeBloc
+                                                .state.appSettings.fontScale))
+                                        .toDouble(),
+                                    style: TextStyle(color: Colors.orange),
+                                  ),
+                                )
+                              : Container(),
+                          themeBloc.state.appSettings.enableEnglish
+                              ? Container(
+                                  padding: const EdgeInsets.symmetric(
+                                      vertical: 5, horizontal: 0),
+                                  child: Text(
+                                    state.data.baniEnglish[i] ?? '',
+                                    textAlign: TextAlign.center,
+                                    textScaleFactor: 0.9 *
+                                        getFontScale(themeBloc
+                                            .state.appSettings.fontScale),
+                                    style: TextStyle(color: Colors.grey),
+                                  ),
+                                )
+                              : Container(),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            );
+          } else if (state is DetailStateError) {
+            return Center(
+              child: Text('Something Went Wrong While Loading Data'),
+            );
+          }
+        },
       ),
     );
   }

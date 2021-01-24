@@ -13,6 +13,7 @@ class SettingsScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
         centerTitle: true,
         title: Text(
           'Settings',

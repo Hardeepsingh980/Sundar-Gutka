@@ -30,6 +30,7 @@ class BaniListPage extends StatelessWidget {
           ],
         ),
         appBar: AppBar(
+          elevation: 0,
           centerTitle: true,
           title: Text(
             'ਸੁੰਦਰ ਗੁਟਕਾ',
