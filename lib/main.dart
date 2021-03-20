@@ -31,11 +31,11 @@ class _HomePageState extends State<HomePage> {
     // _firebaseMessaging.subscribeToTopic('hukam');
     _firebaseMessaging.configure(
       onResume: (message) async {
-        navigatorKey.currentState.push(MyCustomRoute(
+        navigatorKey.currentState.push(MaterialPageRoute(
             builder: (_) => HukamScreen()));
       },
       onLaunch: (message) async {
-        navigatorKey.currentState.push(MyCustomRoute(
+        navigatorKey.currentState.push(MaterialPageRoute(
             builder: (_) => HukamScreen()));
       },
     );
