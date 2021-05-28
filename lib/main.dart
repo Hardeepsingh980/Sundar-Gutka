@@ -1,11 +1,10 @@
+
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sundargutka/custompageroute.dart';
 import 'package:sundargutka/home.dart';
 import 'package:sundargutka/hukam.dart';
-import 'package:get/get.dart';
 import 'bloc/home_bloc.dart';
 import 'bloc/theme_bloc.dart';
 import 'package:wakelock/wakelock.dart';
@@ -31,12 +30,12 @@ class _HomePageState extends State<HomePage> {
     // _firebaseMessaging.subscribeToTopic('hukam');
     _firebaseMessaging.configure(
       onResume: (message) async {
-        navigatorKey.currentState.push(MaterialPageRoute(
-            builder: (_) => HukamScreen()));
+        navigatorKey.currentState
+            .push(MaterialPageRoute(builder: (_) => HukamScreen()));
       },
       onLaunch: (message) async {
-        navigatorKey.currentState.push(MaterialPageRoute(
-            builder: (_) => HukamScreen()));
+        navigatorKey.currentState
+            .push(MaterialPageRoute(builder: (_) => HukamScreen()));
       },
     );
   }

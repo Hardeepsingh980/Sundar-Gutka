@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:in_app_review/in_app_review.dart';
 import 'package:settings_ui/settings_ui.dart';
 import 'package:sundargutka/model.dart';
 
@@ -27,6 +28,19 @@ class SettingsScreen extends StatelessWidget {
       body: BlocBuilder<ThemeBloc, ThemeState>(builder: (context, state) {
         return SettingsList(
           sections: [
+            SettingsSection(
+              tiles: [
+                SettingsTile(
+                  title: 'Rate Us on Play Store',
+                  leading: Icon(Icons.star),
+                  onTap: () {
+                    final InAppReview _inAppReview = InAppReview.instance;
+                    _inAppReview.openStoreListing();
+                  },
+                  enabled: true,
+                ),
+              ],
+            ),
             SettingsSection(title: 'Gurbani Settings', tiles: [
               SettingsTile.switchTile(
                 title: 'Enable Larivaar',
@@ -89,18 +103,43 @@ class SettingsScreen extends StatelessWidget {
                       themeBloc.add(ThemeChanged(appSettings: a));
                     },
                     switchValue: state.appSettings.darkTheme),
-                SettingsTile.switchTile(
-                title: 'Get Daily Hukamnama Notification',
-                leading: Icon(Icons.receipt),
-                switchValue: state.appSettings.getHukam,
-                onToggle: (bool value) {
-                  AppSettings a = state.appSettings;
-                  a.getHukam = value;
-                  themeBloc.add(ThemeChanged(appSettings: a));
-                },
-              ),
               ],
-            )
+            ),
+            SettingsSection(
+              title: 'Notification Settings',
+              tiles: [
+                SettingsTile.switchTile(
+                  title: 'Get Daily Hukamnama Notifications',
+                  leading: Icon(Icons.receipt),
+                  switchValue: state.appSettings.getHukam,
+                  onToggle: (bool value) {
+                    AppSettings a = state.appSettings;
+                    a.getHukam = value;
+                    themeBloc.add(ThemeChanged(appSettings: a));
+                  },
+                ),
+                SettingsTile.switchTile(
+                  title: 'Get Gurupurab Notifications',
+                  leading: Icon(Icons.receipt),
+                  switchValue: state.appSettings.getGurupurab,
+                  onToggle: (bool value) {
+                    AppSettings a = state.appSettings;
+                    a.getGurupurab = value;
+                    themeBloc.add(ThemeChanged(appSettings: a));
+                  },
+                ),
+                SettingsTile.switchTile(
+                  title: 'Get Test Notifications',
+                  leading: Icon(Icons.receipt),
+                  switchValue: state.appSettings.getTest,
+                  onToggle: (bool value) {
+                    AppSettings a = state.appSettings;
+                    a.getTest = value;
+                    themeBloc.add(ThemeChanged(appSettings: a));
+                  },
+                ),
+              ],
+            ),
           ],
         );
       }),

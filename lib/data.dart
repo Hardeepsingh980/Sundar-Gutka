@@ -46,6 +46,19 @@ class ApiClass {
     } else {
       _firebaseMessaging.unsubscribeFromTopic('hukam');
     }
+
+    if (appSettings.getGurupurab) {
+      _firebaseMessaging.subscribeToTopic('gurupurab');
+    } else {
+      _firebaseMessaging.unsubscribeFromTopic('gurupurab');
+    }
+
+    if (appSettings.getTest) {
+      _firebaseMessaging.subscribeToTopic('test');
+    } else {
+      _firebaseMessaging.unsubscribeFromTopic('test');
+    }
+
     return appSettings;
   }
 
@@ -54,13 +67,16 @@ class ApiClass {
     String appsettings =  prefs.getString('appSettings') ?? null;
     if (appsettings == null) {
       _firebaseMessaging.subscribeToTopic('hukam');
+      _firebaseMessaging.subscribeToTopic('gurupurab');
       return addSettingToPref(AppSettings(
           darkTheme: true,
           enableLarivaar: false,
           enableEnglish: true,
           enablePunjabi: true,
           fontScale: 'Normal',
-          getHukam: true
+          getHukam: true,
+          getGurupurab: true,
+          getTest: false
           ));
     }
     var jsonData = jsonDecode(appsettings.toString());
@@ -68,6 +84,13 @@ class ApiClass {
     if (a.getHukam == null) {
       _firebaseMessaging.subscribeToTopic('hukam');
       a.getHukam = true;
+    }
+    if (a.getGurupurab == null) {
+      _firebaseMessaging.subscribeToTopic('gurupurab');
+      a.getGurupurab = true;
+    }
+    if (a.getTest == null) {
+      a.getTest = false;
     }
     if (a.fontScale == null) {
       a.fontScale = 'Normal';

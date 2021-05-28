@@ -101,6 +101,8 @@ class AppSettings {
   bool enableEnglish;
   bool enablePunjabi;
   bool getHukam;
+  bool getGurupurab;
+  bool getTest;
   String fontScale;
 
   AppSettings(
@@ -109,6 +111,8 @@ class AppSettings {
       this.enableEnglish,
       this.enablePunjabi,
       this.getHukam,
+      this.getGurupurab,
+      this.getTest,
       this.fontScale});
 
   factory AppSettings.fromJson(json) {
@@ -118,7 +122,9 @@ class AppSettings {
       enableEnglish: json['en'],
       enablePunjabi: json['pu'],
       fontScale: json['fc'],
-      getHukam: json['gh']
+      getHukam: json['gh'],
+      getGurupurab: json['gg'],
+      getTest: json['gt'],
     );
   }
 
@@ -129,7 +135,9 @@ class AppSettings {
       'en': this.enableEnglish,
       'pu': this.enablePunjabi,
       'fc': this.fontScale,
-      'gh': this.getHukam
+      'gh': this.getHukam,
+      'gg': this.getGurupurab,
+      'gt': this.getTest,
     };
   }
 
