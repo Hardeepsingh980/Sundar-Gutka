@@ -56,4 +56,4 @@ Google Play Store - https://play.google.com/store/apps/details?id=com.hardeep.su
 
 #### 4. App for IOS.
 
-IOS app is coming soon!
+Apple App Store - https://apps.apple.com/cg/app/sundar-gutka/id1548030325
