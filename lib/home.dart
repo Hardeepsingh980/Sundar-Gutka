@@ -99,48 +99,89 @@ class BaniListPage extends StatelessWidget {
                     child: ListView.builder(
                       padding: EdgeInsets.symmetric(vertical: 8),
                       itemCount: state.data.length,
-                      itemBuilder: (context, i) => Card(
-                        margin: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-                        elevation: 2,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        child: ListTile(
-                          contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                          onTap: () => Navigator.push(
-                            context,
-                            MyCustomRoute(
-                              builder: (_) => BlocProvider(
-                                create: (context) => DetailsBloc()
-                                  ..add(DetailsEventInitial(id: state.data[i].id)),
-                                child: BaniContentPage(),
+                      itemBuilder: (context, i) => Column(
+                        children: [
+                          
+                          (i == 0) ? Container(
+                            height: 100,
+                            margin: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+                            decoration: BoxDecoration(
+                              color: Colors.orange.withOpacity(0.1),
+                              borderRadius: BorderRadius.circular(12),
+                              border: Border.all(color: Colors.orange.withOpacity(0.3))
+                            ),
+                            child: Material(
+                              color: Colors.transparent,
+                              child: InkWell(
+                                borderRadius: BorderRadius.circular(12),
+                                onTap: () => Navigator.push(context,
+                                    MyCustomRoute(builder: (_) => HukamScreen(), settings: RouteSettings(name: 'HukamScreen'))),
+                                child: Center(
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Icon(CupertinoIcons.news, color: Colors.orange, size: 32),
+                                      SizedBox(height: 8),
+                                      Text(
+                                        "Listen to Today's Hukamnama\nfrom Sri Darbar Sahib",
+                                        textAlign: TextAlign.center,
+                                        style: TextStyle(
+                                          color: Colors.orange,
+                                          fontSize: 16,
+                                          fontWeight: FontWeight.w500
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                               ),
-                              settings: RouteSettings(name: 'BaniContentPage'),
-                            )),
-                          title: Text(
-                            state.data[i].name,
-                            style: TextStyle(
-                              fontSize: 18,
-                              fontWeight: FontWeight.w500,
+                            ),
+                          ) : Container(),
+
+                          Card(
+                            margin: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                            elevation: 2,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: ListTile(
+                              contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                              onTap: () => Navigator.push(
+                                context,
+                                MyCustomRoute(
+                                  builder: (_) => BlocProvider(
+                                    create: (context) => DetailsBloc()
+                                      ..add(DetailsEventInitial(id: state.data[i].id)),
+                                    child: BaniContentPage(),
+                                  ),
+                                  settings: RouteSettings(name: 'BaniContentPage'),
+                                )),
+                              title: Text(
+                                state.data[i].name,
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                              trailing: IconButton(
+                                icon: Icon(
+                                  favList.contains(state.data[i].id) 
+                                    ? Icons.favorite 
+                                    : Icons.favorite_border,
+                                  color: Colors.orange,
+                                ),
+                                onPressed: () {
+                                  if (favList.contains(state.data[i].id)) {
+                                    state.favourites.removeWhere((element) => element.id == state.data[i].id);
+                                  } else {
+                                    state.favourites.add(state.data[i]);
+                                  }
+                                  _homeBloc.add(FavouriteAdded(favourites: state.favourites));
+                                },
+                              ),
                             ),
                           ),
-                          trailing: IconButton(
-                            icon: Icon(
-                              favList.contains(state.data[i].id) 
-                                ? Icons.favorite 
-                                : Icons.favorite_border,
-                              color: Colors.orange,
-                            ),
-                            onPressed: () {
-                              if (favList.contains(state.data[i].id)) {
-                                state.favourites.removeWhere((element) => element.id == state.data[i].id);
-                              } else {
-                                state.favourites.add(state.data[i]);
-                              }
-                              _homeBloc.add(FavouriteAdded(favourites: state.favourites));
-                            },
-                          ),
-                        ),
+                        ],
                       ),
                     ),
                   ),
