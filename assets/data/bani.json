@@ -37,28 +37,27 @@
     },
     {
         "id": 7,
-        "akhar": "rhrwis swihb",
-        "unicode": "ਰਹਰਾਸਿ ਸਾਹਿਬ",
-        "english": "Rehras Sahib"
+        "akhar": "rhrwis swihb (s:)",
+        "unicode": "ਰਹਰਾਸਿ ਸਾਹਿਬ (ਸ:)",
+        "english": "Rehras Sahib (S.)"
     },
     {
         "id": 8,
-        "akhar": "rhrwis swihb",
-        "unicode": "ਰਹਰਾਸਿ ਸਾਹਿਬ ਦਮਦਮੀ ਟਕਸਾਲ",
-        "english": "Rehras Sahib (Damdami Taksal)"
+        "akhar": "rhrwis swihb (t:)",
+        "unicode": "ਰਹਰਾਸਿ ਸਾਹਿਬ (ਟ:)",
+        "english": "Rehras Sahib (T.)"
     },
     {
         "id": 9,
-        "akhar": "rhrwis swihb",
-        "unicode": "ਦੁੱਖ ਭੰਜਨੀ ਸਾਹਿਬ",
-        "english": "Dukh Bhanjni Sahib"
-    },
-    
-    {
-        "id": 10,
         "akhar": "AwrqI",
         "unicode": "ਆਰਤੀ",
         "english": "Aarti"
+    },
+    {
+        "id": 10,
+        "akhar": "v`fI AwrqI",
+        "unicode": "ਵੱਡੀ ਆਰਤੀ",
+        "english": "Aarti (Longer)"
     },
     {
         "id": 11,
@@ -166,6 +165,12 @@
         "id": 28,
         "akhar": "rwmklI sdu",
         "unicode": "ਰਾਮਕਲੀ ਸਦੁ",
-        "english": "Raamkali Sadu"
+        "english": "Raamkali Sad"
+    },
+    {
+        "id": 29,
+        "akhar": "AlwhxIAw (sog dw gIq)",
+        "unicode": "ਅਲਾਹਣੀਆ (ਸੋਗ ਦਾ ਗੀਤ)",
+        "english": "Alahnia (Songs of Grief)"
     }
 ]

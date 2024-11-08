@@ -1,22 +1,29 @@
 part of 'hukam_bloc.dart';
 
-
 abstract class HukamState extends Equatable {
-
-  HukamState([List props = const []]) : super(props);
+  const HukamState();
 }
 
 class HukamStateDefault extends HukamState {
+  @override
+  List<Object?> get props => [];
+
   @override
   String toString() => 'HukamStateDefault';
 }
 
 class HukamStateLoading extends HukamState {
   @override
-  String toString() => 'HukameStateLoading';
+  List<Object?> get props => [];
+
+  @override
+  String toString() => 'HukamStateLoading';
 }
 
 class HukamStateError extends HukamState {
+  @override
+  List<Object?> get props => [];
+
   @override
   String toString() => 'HukamStateError';
 }
@@ -24,7 +31,10 @@ class HukamStateError extends HukamState {
 class HukamStateLoaded extends HukamState {
   final Hukam data;
 
-  HukamStateLoaded({this.data});
+  HukamStateLoaded({required this.data});
+
+  @override
+  List<Object?> get props => [data];
 
   @override
   String toString() => 'HukamStateLoaded';

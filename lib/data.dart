@@ -13,17 +13,12 @@ loadJson(String filepath) async {
 }
 
 class ApiClass {
-
-  FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
-
+  FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
 
   Future<List<Bani>> getInitialFavourites() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    String favourites = prefs.getString('favourites') ?? null;
-    if (favourites == null) {
-      return [];
-    }
-    var jsonData = jsonDecode(favourites.toString());
+    String favourites = prefs.getString('favourites') ?? '[]';
+    var jsonData = jsonDecode(favourites);
     List<Bani> a = jsonData.map<Bani>((json) {
       return Bani.fromJson(json);
     }).toList();
@@ -33,7 +28,9 @@ class ApiClass {
   Future<List<Bani>> addFavourites(List<Bani> baniList) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     List list = [];
-    baniList.forEach((element) { list.add(element.toJson()); });
+    baniList.forEach((element) {
+      list.add(element.toJson());
+    });
     prefs.setString('favourites', jsonEncode(list));
     return baniList;
   }
@@ -64,58 +61,47 @@ class ApiClass {
 
   Future<AppSettings> getInitialAppSettings() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    String appsettings =  prefs.getString('appSettings') ?? null;
-    if (appsettings == null) {
-      _firebaseMessaging.subscribeToTopic('hukam');
-      _firebaseMessaging.subscribeToTopic('gurupurab');
-      return addSettingToPref(AppSettings(
-          darkTheme: true,
-          enableLarivaar: false,
-          enableEnglish: true,
-          enablePunjabi: true,
-          fontScale: 'Normal',
-          getHukam: true,
-          getGurupurab: true,
-          getTest: false
-          ));
-    }
-    var jsonData = jsonDecode(appsettings.toString());
+    String appsettings = prefs.getString('appSettings') ??
+        '''
+{
+  "dt": true,
+  "la": false,
+  "en": false,
+  "pu": false,
+  "gh": true,
+  "gg": true,
+  "gt": false,
+  "fc": "Normal"
+}
+''';
+    var jsonData = jsonDecode(appsettings);
     AppSettings a = AppSettings.fromJson(jsonData);
-    if (a.getHukam == null) {
-      _firebaseMessaging.subscribeToTopic('hukam');
-      a.getHukam = true;
-    }
-    if (a.getGurupurab == null) {
-      _firebaseMessaging.subscribeToTopic('gurupurab');
-      a.getGurupurab = true;
-    }
-    if (a.getTest == null) {
-      a.getTest = false;
-    }
-    if (a.fontScale == null) {
-      a.fontScale = 'Normal';
-    }
     return a;
   }
 
   Future<List<Bani>> getBaniList() async {
+    print('Loading Bani List');
     var jsonData = await loadJson('assets/data/bani.json');
+    print('Bani List Loaded, ${jsonData.length} items');
     List<Bani> baniList =
         jsonData.map<Bani>((json) => Bani.fromJson(json)).toList();
     return baniList;
   }
 
   Future<BaniContent> getBaniContent(id) async {
+    print('Loading Bani Content for $id');
     var jsonData = await loadJson('assets/data/${id}.json');
+    print('Bani Content Loaded');
     BaniContent baniContent = BaniContent.fromJson(jsonData);
     return baniContent;
   }
 
   Future<Hukam> getHukam() async {
-    var url = 'https://dev-api.gurbaninow.com/v2/hukamnama/today';
-    Response response = await get(url);
+    print('Getting Hukamnama');
+    var url = 'https://api.gurbaninow.com/v2/hukamnama/today';
+    Response response = await get(Uri.parse(url));
+    print("Hukamnama Loaded");
     Map<String, dynamic> json_data = jsonDecode(response.body);
     return Hukam.fromJson(json_data);
   }
-
 }

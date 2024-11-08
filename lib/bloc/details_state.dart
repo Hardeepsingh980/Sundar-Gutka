@@ -1,38 +1,24 @@
 part of 'details_bloc.dart';
 
-abstract class DetailsState extends Equatable {  
-
-  DetailsState([List props = const []]) : super(props);
-
-}
-
-class StateDefault extends DetailsState {
+@immutable
+abstract class DetailsState extends Equatable {
+  const DetailsState();
+  
   @override
-  String toString() => 'HomeStateDefault';
+  List<Object?> get props => [];
 }
 
-class DetailStateLoading extends DetailsState {
-  @override
-  String toString() {
-    return 'DetailStateLoading';
-  }
-}
+class DetailStateInitial extends DetailsState {}
+
+class DetailStateLoading extends DetailsState {}
 
 class DetailStateLoaded extends DetailsState {
-
   final BaniContent data;
 
-  DetailStateLoaded({this.data});
+  const DetailStateLoaded({required this.data});
 
   @override
-  String toString() {
-    return 'DetailStateLoaded';
-  }
+  List<Object?> get props => [data];
 }
 
-class DetailStateError extends DetailsState {
-  @override
-  String toString() {
-    return 'DetailStateError';
-  }
-}
+class DetailStateError extends DetailsState {}

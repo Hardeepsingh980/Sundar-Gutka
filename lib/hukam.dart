@@ -1,16 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sundargutka/bloc/home_bloc.dart';
 import 'package:sundargutka/bloc/hukam_bloc.dart';
-import 'package:sundargutka/model.dart';
 
 class HukamScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
       create: (context) =>
-          HukamBloc(HukamStateLoading())..add(HukamEventLoading()),
+          HukamBloc()..add(HukamEventLoading()),
       child: BlocBuilder<HukamBloc, HukamState>(
         builder: (context, state) {
           if (state is HukamStateLoading) {

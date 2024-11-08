@@ -10,7 +10,7 @@ class DetailsEventInitial extends DetailsEvent {
 
   final int id;
 
-  DetailsEventInitial({this.id});
+  DetailsEventInitial({required this.id});
 
   @override
   String toString() {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MyCustomRoute<T> extends MaterialPageRoute<T> {
-  MyCustomRoute({ WidgetBuilder builder, RouteSettings settings })
+  MyCustomRoute({ required WidgetBuilder builder, required RouteSettings settings })
       : super(builder: builder, settings: settings);
 
   @override
@@ -14,8 +14,10 @@ class MyCustomRoute<T> extends MaterialPageRoute<T> {
                     end: Offset.zero,
                   ).animate(
                     CurvedAnimation(
-                      parent: animation,
-                      curve: Curves.linear,
-                    )), child: child);
+          parent: animation,
+          curve: Curves.linear,
+        )),
+        child: child,
+      );
   }
 }

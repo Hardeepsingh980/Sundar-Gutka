@@ -57,6 +57,7 @@ class _BaniContentPageState extends State<BaniContentPage> {
           duration: Duration(milliseconds: 100),
           opacity: fabIsVisible ? 1 : 0,
           child: FloatingActionButton.extended(
+            backgroundColor: Colors.orange,
             onPressed: null,
             icon: IconButton(
                 icon: Icon(Icons.play_arrow),
@@ -75,7 +76,6 @@ class _BaniContentPageState extends State<BaniContentPage> {
               value: initialSpeed.toDouble(),
               onChanged: (v) {
                 setState(() {
-
                   initialSpeed = v.toInt();
                 });
               },
@@ -88,11 +88,11 @@ class _BaniContentPageState extends State<BaniContentPage> {
         child: BlocBuilder<ThemeBloc, ThemeState>(builder: (context, state) {
           return SettingsList(
             sections: [
-              SettingsSection(title: 'Gurbani Settings', tiles: [
+              SettingsSection(title: const Text('Gurbani Settings'), tiles: [
                 SettingsTile.switchTile(
-                  title: 'Enable Larivaar',
-                  leading: Icon(Icons.ac_unit),
-                  switchValue: state.appSettings.enableLarivaar,
+                  title: const Text('Enable Larivaar'),
+                  leading: const Icon(Icons.ac_unit),
+                  initialValue: state.appSettings.enableLarivaar,
                   onToggle: (bool value) {
                     AppSettings a = state.appSettings;
                     a.enableLarivaar = value;
@@ -100,9 +100,9 @@ class _BaniContentPageState extends State<BaniContentPage> {
                   },
                 ),
                 SettingsTile.switchTile(
-                  title: 'Enable English Translation',
-                  leading: Icon(Icons.language),
-                  switchValue: state.appSettings.enableEnglish,
+                  title: const Text('Enable English Translation'),
+                  leading: const Icon(Icons.language),
+                  initialValue: state.appSettings.enableEnglish,
                   onToggle: (bool value) {
                     AppSettings a = state.appSettings;
                     a.enableEnglish = value;
@@ -110,9 +110,9 @@ class _BaniContentPageState extends State<BaniContentPage> {
                   },
                 ),
                 SettingsTile.switchTile(
-                  title: 'Enable Punjabi Translation',
-                  leading: Icon(Icons.local_activity),
-                  switchValue: state.appSettings.enablePunjabi,
+                  title: const Text('Enable Punjabi Translation'),
+                  leading: const Icon(Icons.local_activity),
+                  initialValue: state.appSettings.enablePunjabi,
                   onToggle: (bool value) {
                     AppSettings a = state.appSettings;
                     a.enablePunjabi = value;
@@ -120,8 +120,8 @@ class _BaniContentPageState extends State<BaniContentPage> {
                   },
                 ),
                 SettingsTile(
-                  leading: Icon(Icons.font_download),
-                  title: 'Font Size',
+                  leading: const Icon(Icons.font_download),
+                  title: const Text('Font Size'),
                   trailing: DropdownButton<String>(
                     value: state.appSettings.fontScale,
                     items: <String>['Small', 'Normal', 'Medium', 'Large']
@@ -133,23 +133,24 @@ class _BaniContentPageState extends State<BaniContentPage> {
                     }).toList(),
                     onChanged: (_) {
                       AppSettings a = state.appSettings;
-                      a.fontScale = _;
+                      a.fontScale = _ ?? '';
                       themeBloc.add(ThemeChanged(appSettings: a));
                     },
                   ),
                 ),
               ]),
               SettingsSection(
-                title: 'App Settings',
+                title: const Text('App Settings'),
                 tiles: [
                   SettingsTile.switchTile(
-                      title: 'Dark Mode',
-                      onToggle: (bool value) {
-                        AppSettings a = state.appSettings;
-                        a.darkTheme = value;
-                        themeBloc.add(ThemeChanged(appSettings: a));
-                      },
-                      switchValue: state.appSettings.darkTheme)
+                    title: const Text('Dark Mode'),
+                    initialValue: state.appSettings.darkTheme,
+                    onToggle: (bool value) {
+                      AppSettings a = state.appSettings;
+                      a.darkTheme = value;
+                      themeBloc.add(ThemeChanged(appSettings: a));
+                    },
+                  ),
                 ],
               )
             ],
@@ -175,6 +176,14 @@ class _BaniContentPageState extends State<BaniContentPage> {
                     ),
                     elevation: 0,
                     title: Text(state.data.name),
+                    actions: [
+                      IconButton(
+                        icon: Icon(Icons.settings),
+                        onPressed: () {
+                          Scaffold.of(context).openDrawer();
+                        },
+                      ),
+                    ],
                   ),
                 ),
                 Expanded(
@@ -186,25 +195,133 @@ class _BaniContentPageState extends State<BaniContentPage> {
                         children: <Widget>[
                           themeBloc.state.appSettings.enableLarivaar
                               ? Container(
-                                  padding: const EdgeInsets.symmetric(
-                                      vertical: 5, horizontal: 0),
-                                  child: Text(
-                                    state.data.baniLarivar[i] ?? '',
+                                  padding: EdgeInsets.only(
+                                      top: state.data.type[i] == 2 ? 30 : 5, bottom: 0),
+                                  child: RichText(
                                     textAlign: TextAlign.center,
                                     textScaleFactor: 1.8 *
                                         getFontScale(themeBloc
                                             .state.appSettings.fontScale),
+                                    text: TextSpan(
+                                      children: () {
+                                        String text = state.data.baniLarivar[i] ?? '';
+                                        List<TextSpan> spans = [];
+                                        List<String> parts = text.split(';');
+                                        
+                                        for (int j = 0; j < parts.length; j++) {
+                                          String part = parts[j];
+                                          if (part.isEmpty) continue;
+                                          
+                                          List<String> dotParts = part.split('.');
+                                          for (int k = 0; k < dotParts.length; k++) {
+                                            String dotPart = dotParts[k];
+                                            if (dotPart.isEmpty) continue;
+                                            
+                                            List<String> words = dotPart.split('\u200b');
+                                            if (k == dotParts.length - 1 && j == parts.length - 1) {
+                                              spans.add(TextSpan(
+                                                text: dotPart,
+                                                style: DefaultTextStyle.of(context).style.copyWith(
+                                                  color: state.data.type[i] == 2 ? Colors.orange : null
+                                                )
+                                              ));
+                                            } else if (k < dotParts.length - 1) {
+                                              if (words.length > 1) {
+                                                spans.add(TextSpan(
+                                                  text: words.sublist(0, words.length-1).join('\u200b'),
+                                                  style: DefaultTextStyle.of(context).style.copyWith(
+                                                    color: state.data.type[i] == 2 ? Colors.orange : null
+                                                  )
+                                                ));
+                                              }
+                                              spans.add(TextSpan(
+                                                text: words.last,
+                                                style: TextStyle(color: Colors.blue)
+                                              ));
+                                            } else {
+                                              if (words.length > 1) {
+                                                spans.add(TextSpan(
+                                                  text: words.sublist(0, words.length-1).join('\u200b'),
+                                                  style: DefaultTextStyle.of(context).style.copyWith(
+                                                    color: state.data.type[i] == 2 ? Colors.orange : null
+                                                  )
+                                                ));
+                                              }
+                                              spans.add(TextSpan(
+                                                text: words.last,
+                                                style: TextStyle(color: Colors.orange)
+                                              ));
+                                            }
+                                          }
+                                        }
+                                        return spans;
+                                      }(),
+                                    ),
                                   ),
                                 )
                               : Container(
-                                  padding: const EdgeInsets.symmetric(
-                                      vertical: 5, horizontal: 0),
-                                  child: Text(
-                                    state.data.baniGurmukhi[i] ?? '',
+                                  padding: EdgeInsets.only(
+                                      top: state.data.type[i] == 2 ? 30 : 5, bottom: 10, left: 10, right: 10),
+                                  child: RichText(
                                     textAlign: TextAlign.center,
                                     textScaleFactor: 1.8 *
                                         getFontScale(themeBloc
                                             .state.appSettings.fontScale),
+                                    text: TextSpan(
+                                      children: () {
+                                        String text = state.data.baniGurmukhi[i] ?? '';
+                                        List<TextSpan> spans = [];
+                                        List<String> parts = text.split(';');
+                                        
+                                        for (int j = 0; j < parts.length; j++) {
+                                          String part = parts[j];
+                                          if (part.isEmpty) continue;
+                                          
+                                          List<String> dotParts = part.split('.');
+                                          for (int k = 0; k < dotParts.length; k++) {
+                                            String dotPart = dotParts[k];
+                                            if (dotPart.isEmpty) continue;
+                                            
+                                            List<String> words = dotPart.split(' ');
+                                            if (k == dotParts.length - 1 && j == parts.length - 1) {
+                                              spans.add(TextSpan(
+                                                text: dotPart,
+                                                style: DefaultTextStyle.of(context).style.copyWith(
+                                                  color: state.data.type[i] == 2 ? Colors.orange : null
+                                                )
+                                              ));
+                                            } else if (k < dotParts.length - 1) {
+                                              if (words.length > 1) {
+                                                spans.add(TextSpan(
+                                                  text: words.sublist(0, words.length-1).join(' ') + ' ',
+                                                  style: DefaultTextStyle.of(context).style.copyWith(
+                                                    color: state.data.type[i] == 2 ? Colors.orange : null
+                                                  )
+                                                ));
+                                              }
+                                              spans.add(TextSpan(
+                                                text: words.last,
+                                                style: TextStyle(color: Colors.blue)
+                                              ));
+                                            } else {
+                                              if (words.length > 1) {
+                                                spans.add(TextSpan(
+                                                  text: words.sublist(0, words.length-1).join(' ') + ' ',
+                                                  style: DefaultTextStyle.of(context).style.copyWith(
+                                                    color: state.data.type[i] == 2 ? Colors.orange : null
+                                                  )
+                                                ));
+                                              }
+                                              spans.add(TextSpan(
+                                                text: words.last,
+                                                style: TextStyle(color: Colors.orange)
+                                              ));
+                                            }
+                                          }
+                                        }
+                                        return spans;
+                                      }(),
+                                    ),
                                   ),
                                 ),
                           themeBloc.state.appSettings.enablePunjabi
@@ -247,6 +364,8 @@ class _BaniContentPageState extends State<BaniContentPage> {
             return Center(
               child: Text('Something Went Wrong While Loading Data'),
             );
+          } else {
+            return Container();
           }
         },
       ),

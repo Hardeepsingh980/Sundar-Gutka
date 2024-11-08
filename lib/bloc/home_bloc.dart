@@ -11,35 +11,26 @@ part 'home_event.dart';
 part 'home_state.dart';
 
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
-  
   ApiClass api = ApiClass();
 
-  HomeBloc(HomeState initialState) : super(initialState);
+  HomeBloc() : super(HomeStateDefault()) {
+    on<HomeEventLoading>((event, emit) async {
+      try {
+        emit(HomeStateLoading());
+        List<Bani> result = await api.getBaniList();
+        List<Bani> favourites = await api.getInitialFavourites();
+        emit(HomeStateLoaded(data: result, favourites: favourites));
+      } catch (e) {
+        print(e);
+        emit(HomeStateError());
+      }
+    });
 
-
-  HomeState get initialState => HomeStateDefault();
- 
-
-  @override
-  Stream<HomeState> mapEventToState(HomeEvent event) async* {
-    if (event is HomeEventLoading) {
-      yield* _mapLoadBaniState(event);
-    } else if (event is FavouriteAdded) {
-      yield HomeStateLoading();
+    on<FavouriteAdded>((event, emit) async {
+      emit(HomeStateLoading());
       List<Bani> result = await api.getBaniList();
       List<Bani> a = await api.addFavourites(event.favourites);
-      yield HomeStateLoaded(data: result, favourites: a);
-    }
-  }
-
-  Stream<HomeState> _mapLoadBaniState(HomeEventLoading event) async* {
-    try {
-      yield HomeStateLoading();
-      List<Bani> result = await api.getBaniList();
-      List<Bani> favourites = await api.getInitialFavourites();
-      yield HomeStateLoaded(data: result, favourites: favourites);
-    } catch (e) {
-      yield HomeStateError();
-    }
+      emit(HomeStateLoaded(data: result, favourites: a));
+    });
   }
 }

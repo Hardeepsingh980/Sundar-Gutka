@@ -1,16 +1,16 @@
-import 'package:flutter/material.dart';
 
 class Bani {
   final int id;
   final String name;
   final String baniData;
 
-  Bani({this.name, this.baniData, this.id});
+  Bani({required this.name, required this.baniData, required this.id});
 
   factory Bani.fromJson(json) {
     return Bani(
       id: json['id'],
       name: json['unicode'],
+      baniData: '',
     );
   }
 
@@ -30,26 +30,32 @@ class BaniContent {
   final List<String> baniEnglish;
   final List<String> baniLarivar;
   final List<String> baniPunjabi;
+  final List<int> type;
 
   BaniContent(
-      {this.id,
-      this.name,
-      this.baniGurmukhi,
-      this.baniEnglish,
-      this.baniLarivar,
-      this.baniPunjabi});
+      {required this.id,
+      required this.name,
+      required this.baniGurmukhi,
+      required this.baniEnglish,
+      required this.baniLarivar,
+      required this.baniPunjabi,
+      required this.type});
 
   factory BaniContent.fromJson(json) {
     List<String> gu = [];
     List<String> en = [];
     List<String> la = [];
     List<String> pu = [];
+    List<int> type = [];
 
-    for (var line in json['bani']) {
+    print(json);
+
+    for (var line in json['lines']) {
       gu.add(line['line']['gurmukhi']['unicode']);
       la.add(line['line']['larivaar']['unicode']);
       en.add(line['line']['translation']['english']['default']);
       pu.add(line['line']['translation']['punjabi']['default']['unicode']);
+      type.add(line['line']['type']);
     }
 
     return BaniContent(
@@ -59,6 +65,7 @@ class BaniContent {
       baniEnglish: en,
       baniLarivar: la,
       baniPunjabi: pu,
+      type: type,
     );
   }
 }
@@ -70,7 +77,7 @@ class Hukam {
   final List<String> baniEnglish;
   final List<String> baniPunjabi;
 
-  Hukam({this.date, this.ang, this.baniGurmukhi, this.baniEnglish, this.baniPunjabi});
+  Hukam({required this.date, required this.ang, required this.baniGurmukhi, required this.baniEnglish, required this.baniPunjabi});
 
   factory Hukam.fromJson(json) {
     List<String> gu = [];
@@ -106,14 +113,14 @@ class AppSettings {
   String fontScale;
 
   AppSettings(
-      {this.darkTheme,
-      this.enableLarivaar,
-      this.enableEnglish,
-      this.enablePunjabi,
-      this.getHukam,
-      this.getGurupurab,
-      this.getTest,
-      this.fontScale});
+      {required this.darkTheme,
+      required this.enableLarivaar,
+      required this.enableEnglish,
+      required this.enablePunjabi,
+      required this.getHukam,
+      required this.getGurupurab,
+      required this.getTest,
+      required this.fontScale});
 
   factory AppSettings.fromJson(json) {
     return AppSettings(

@@ -17,36 +17,54 @@ class BaniListPage extends StatelessWidget {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-        bottomNavigationBar: TabBar(
-          tabs: <Widget>[
-            Tab(
-              icon: Icon(CupertinoIcons.book),
-              text: 'Bani List',
-            ),
-            Tab(
-              icon: Icon(CupertinoIcons.heart_solid),
-              text: 'Favourite Banis',
-            ),
-          ],
+        bottomNavigationBar: Container(
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Colors.black12,
+                blurRadius: 8,
+              ),
+            ],
+          ),
+          child: TabBar(
+            labelColor: Colors.orange,
+            unselectedLabelColor: Colors.grey,
+            indicatorColor: Colors.orange,
+            tabs: <Widget>[
+              Tab(
+                icon: Icon(CupertinoIcons.book_fill),
+                text: 'Bani List',
+              ),
+              Tab(
+                icon: Icon(CupertinoIcons.heart_fill),
+                text: 'Favourites',
+              ),
+            ],
+          ),
         ),
         appBar: AppBar(
           elevation: 0,
           centerTitle: true,
           title: Text(
             'ਸੁੰਦਰ ਗੁਟਕਾ',
-            style: TextStyle(color: Colors.orange),
+            style: TextStyle(
+              color: Colors.orange,
+              fontWeight: FontWeight.bold,
+              letterSpacing: 1.2,
+            ),
             textScaleFactor: 1.5,
           ),
           actions: <Widget>[
             IconButton(
-              icon: Icon(CupertinoIcons.news),
+              icon: Icon(CupertinoIcons.news, color: Colors.orange),
               onPressed: () => Navigator.push(context,
-                    MyCustomRoute(builder: (_) => HukamScreen())),
+                  MyCustomRoute(builder: (_) => HukamScreen(), settings: RouteSettings(name: 'HukamScreen'))),
             ),
             IconButton(
-                icon: Icon(CupertinoIcons.settings),
-                onPressed: () => Navigator.push(context,
-                    MyCustomRoute(builder: (_) => SettingsScreen())))
+              icon: Icon(CupertinoIcons.settings, color: Colors.orange),
+              onPressed: () => Navigator.push(context,
+                  MyCustomRoute(builder: (_) => SettingsScreen(), settings: RouteSettings(name: 'SettingsScreen')))
+            )
           ],
         ),
         body: BlocBuilder(
@@ -54,11 +72,23 @@ class BaniListPage extends StatelessWidget {
           builder: (context, state) {
             if (state is HomeStateLoading) {
               return Center(
-                child: CupertinoActivityIndicator(),
+                child: CircularProgressIndicator(
+                  valueColor: AlwaysStoppedAnimation<Color>(Colors.orange),
+                ),
               );
             } else if (state is HomeStateError) {
               return Center(
-                child: Text('Something Went Wrong While Loading Data...'),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.error_outline, size: 48, color: Colors.red),
+                    SizedBox(height: 16),
+                    Text(
+                      'Something Went Wrong While Loading Data...',
+                      style: TextStyle(color: Colors.red),
+                    ),
+                  ],
+                ),
               );
             } else if (state is HomeStateLoaded) {
               List favList = [];
@@ -67,62 +97,109 @@ class BaniListPage extends StatelessWidget {
                 children: <Widget>[
                   CupertinoScrollbar(
                     child: ListView.builder(
+                      padding: EdgeInsets.symmetric(vertical: 8),
                       itemCount: state.data.length,
-                      itemBuilder: (context, i) => Column(children: <Widget>[
-                        ListTile(
+                      itemBuilder: (context, i) => Card(
+                        margin: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                        elevation: 2,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: ListTile(
+                          contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                           onTap: () => Navigator.push(
-                              context,
-                              MyCustomRoute(
-                                builder: (_) => BlocProvider(
-                                  create: (context) => DetailsBloc()
-                                    ..add(DetailsEventInitial(
-                                        id: state.data[i].id)),
-                                  child: BaniContentPage(),
-                                ),
-                              )),
+                            context,
+                            MyCustomRoute(
+                              builder: (_) => BlocProvider(
+                                create: (context) => DetailsBloc()
+                                  ..add(DetailsEventInitial(id: state.data[i].id)),
+                                child: BaniContentPage(),
+                              ),
+                              settings: RouteSettings(name: 'BaniContentPage'),
+                            )),
                           title: Text(
                             state.data[i].name,
-                            textScaleFactor: 1.3,
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w500,
+                            ),
                           ),
-                          trailing: favList.contains(state.data[i].id) ? IconButton(icon: Icon(Icons.remove),onPressed: () {
-                            state.favourites.removeWhere((element) => element.id == state.data[i].id);
-                            _homeBloc.add(FavouriteAdded(favourites: state.favourites));
-                          },) : IconButton(icon: Icon(Icons.add) ,onPressed: () {
-                            state.favourites.add(state.data[i]);
-                            _homeBloc.add(FavouriteAdded(favourites: state.favourites));
-                          },),
+                          trailing: IconButton(
+                            icon: Icon(
+                              favList.contains(state.data[i].id) 
+                                ? Icons.favorite 
+                                : Icons.favorite_border,
+                              color: Colors.orange,
+                            ),
+                            onPressed: () {
+                              if (favList.contains(state.data[i].id)) {
+                                state.favourites.removeWhere((element) => element.id == state.data[i].id);
+                              } else {
+                                state.favourites.add(state.data[i]);
+                              }
+                              _homeBloc.add(FavouriteAdded(favourites: state.favourites));
+                            },
+                          ),
                         ),
-                        Divider(),
-                      ]),
+                      ),
                     ),
                   ),
                   CupertinoScrollbar(
-                    child: state.favourites.length == 0 ? Center(child: Text('No Bani in Favourites!'),) : ListView.builder(
-                      itemCount: state.favourites.length,                    
-                      itemBuilder: (context, i) => Column(children: <Widget>[
-                        ListTile(
-                          onTap: () => Navigator.push(
-                              context,
-                              MyCustomRoute(
-                                builder: (_) => BlocProvider(
-                                  create: (context) => DetailsBloc()
-                                    ..add(DetailsEventInitial(
-                                        id: state.favourites[i].id)),
-                                  child: BaniContentPage(),
+                    child: state.favourites.isEmpty 
+                      ? Center(
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Icon(CupertinoIcons.heart, size: 48, color: Colors.grey),
+                              SizedBox(height: 16),
+                              Text(
+                                'No Bani in Favourites!',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.grey,
                                 ),
-                              )),
-                          title: Text(
-                            state.favourites[i].name.toString(),
-                            textScaleFactor: 1.3,
+                              ),
+                            ],
                           ),
-                          trailing: IconButton(icon: Icon(Icons.remove),onPressed: () {
-                            state.favourites.remove(state.favourites[i]);
-                            _homeBloc.add(FavouriteAdded(favourites: state.favourites));
-                          },),
+                        )
+                      : ListView.builder(
+                          padding: EdgeInsets.symmetric(vertical: 8),
+                          itemCount: state.favourites.length,
+                          itemBuilder: (context, i) => Card(
+                            margin: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+                            elevation: 2,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: ListTile(
+                              contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                              onTap: () => Navigator.push(
+                                context,
+                                MyCustomRoute(
+                                  builder: (_) => BlocProvider(
+                                    create: (context) => DetailsBloc()
+                                      ..add(DetailsEventInitial(id: state.favourites[i].id)),
+                                    child: BaniContentPage(),
+                                  ),
+                                  settings: RouteSettings(name: 'BaniContentPage'),
+                                )),
+                              title: Text(
+                                state.favourites[i].name.toString(),
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                              trailing: IconButton(
+                                icon: Icon(Icons.favorite, color: Colors.orange),
+                                onPressed: () {
+                                  state.favourites.remove(state.favourites[i]);
+                                  _homeBloc.add(FavouriteAdded(favourites: state.favourites));
+                                },
+                              ),
+                            ),
+                          ),
                         ),
-                        Divider(),
-                      ]),
-                    ),
                   )
                 ],
               );

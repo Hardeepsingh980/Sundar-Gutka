@@ -4,6 +4,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:in_app_review/in_app_review.dart';
 import 'package:settings_ui/settings_ui.dart';
 import 'package:sundargutka/model.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import 'bloc/theme_bloc.dart';
 
@@ -29,23 +30,45 @@ class SettingsScreen extends StatelessWidget {
         return SettingsList(
           sections: [
             SettingsSection(
+              title: const Text('Support'),
               tiles: [
                 SettingsTile(
-                  title: 'Rate Us on Play Store',
+                  title: const Text('Rate Us on Play Store'),
                   leading: Icon(Icons.star),
-                  onTap: () {
+                  onPressed: (BuildContext context) async {
                     final InAppReview _inAppReview = InAppReview.instance;
-                    _inAppReview.openStoreListing();
+                    if (await _inAppReview.isAvailable()) {
+                      _inAppReview.openStoreListing();
+                    }
+                  },
+                  enabled: true,
+                ),
+                SettingsTile(
+                  title: const Text('Support Us'),
+                  leading: Icon(Icons.support),
+                  onPressed: (BuildContext context) async {
+                    String url = 'https://buymeacoffee.com/hardeep';
+                    try {
+                      // if (await canLaunchUrl(Uri.parse(url))) {
+                        await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
+                      // } else {
+                      //   throw 'Could not launch $url';
+                      // }
+                    } catch (e) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(content: Text('Could not open link')),
+                      );
+                    }
                   },
                   enabled: true,
                 ),
               ],
             ),
-            SettingsSection(title: 'Gurbani Settings', tiles: [
+            SettingsSection(title: const Text('Gurbani Settings'), tiles: [
               SettingsTile.switchTile(
-                title: 'Enable Larivaar',
+                title: const Text('Enable Larivaar')  ,
                 leading: Icon(CupertinoIcons.loop),
-                switchValue: state.appSettings.enableLarivaar,
+                initialValue: state.appSettings.enableLarivaar,
                 onToggle: (bool value) {
                   AppSettings a = state.appSettings;
                   a.enableLarivaar = value;
@@ -53,9 +76,9 @@ class SettingsScreen extends StatelessWidget {
                 },
               ),
               SettingsTile.switchTile(
-                title: 'Enable English Translation',
+                title: const Text('Enable English Translation'),
                 leading: Icon(Icons.language),
-                switchValue: state.appSettings.enableEnglish,
+                initialValue: state.appSettings.enableEnglish,
                 onToggle: (bool value) {
                   AppSettings a = state.appSettings;
                   a.enableEnglish = value;
@@ -63,9 +86,9 @@ class SettingsScreen extends StatelessWidget {
                 },
               ),
               SettingsTile.switchTile(
-                title: 'Enable Punjabi Translation',
+                title: const Text('Enable Punjabi Translation'),
                 leading: Icon(Icons.local_activity),
-                switchValue: state.appSettings.enablePunjabi,
+                initialValue: state.appSettings.enablePunjabi,
                 onToggle: (bool value) {
                   AppSettings a = state.appSettings;
                   a.enablePunjabi = value;
@@ -74,7 +97,7 @@ class SettingsScreen extends StatelessWidget {
               ),
               SettingsTile(
                 leading: Icon(Icons.font_download),
-                title: 'Font Size',
+                title: const Text('Font Size'),
                 trailing: DropdownButton<String>(
                   value: state.appSettings.fontScale,
                   items: <String>['Small', 'Normal', 'Medium', 'Large']
@@ -86,32 +109,32 @@ class SettingsScreen extends StatelessWidget {
                   }).toList(),
                   onChanged: (_) {
                     AppSettings a = state.appSettings;
-                    a.fontScale = _;
+                    a.fontScale = _ ?? '';
                     themeBloc.add(ThemeChanged(appSettings: a));
                   },
                 ),
               ),
             ]),
             SettingsSection(
-              title: 'App Settings',
+              title: const Text('App Settings'),
               tiles: [
                 SettingsTile.switchTile(
-                    title: 'Dark Mode',
+                    title: const Text('Dark Mode'),
+                    initialValue: state.appSettings.darkTheme,
                     onToggle: (bool value) {
                       AppSettings a = state.appSettings;
                       a.darkTheme = value;
                       themeBloc.add(ThemeChanged(appSettings: a));
-                    },
-                    switchValue: state.appSettings.darkTheme),
+                    }),
               ],
             ),
             SettingsSection(
-              title: 'Notification Settings',
+              title: const Text('Notification Settings'),
               tiles: [
                 SettingsTile.switchTile(
-                  title: 'Get Daily Hukamnama Notifications',
+                  title: const Text('Get Daily Hukamnama Notifications'),
                   leading: Icon(Icons.receipt),
-                  switchValue: state.appSettings.getHukam,
+                  initialValue: state.appSettings.getHukam,
                   onToggle: (bool value) {
                     AppSettings a = state.appSettings;
                     a.getHukam = value;
@@ -119,9 +142,9 @@ class SettingsScreen extends StatelessWidget {
                   },
                 ),
                 SettingsTile.switchTile(
-                  title: 'Get Gurupurab Notifications',
+                  title: const Text('Get Gurupurab Notifications'),
                   leading: Icon(Icons.receipt),
-                  switchValue: state.appSettings.getGurupurab,
+                  initialValue: state.appSettings.getGurupurab,
                   onToggle: (bool value) {
                     AppSettings a = state.appSettings;
                     a.getGurupurab = value;
@@ -129,9 +152,9 @@ class SettingsScreen extends StatelessWidget {
                   },
                 ),
                 SettingsTile.switchTile(
-                  title: 'Get Test Notifications',
+                  title: const Text('Get Test Notifications'),
                   leading: Icon(Icons.receipt),
-                  switchValue: state.appSettings.getTest,
+                  initialValue: state.appSettings.getTest,
                   onToggle: (bool value) {
                     AppSettings a = state.appSettings;
                     a.getTest = value;

@@ -1,1 +1,1454 @@
-{"baniinfo": {"id": 28, "akhar": "rwmklI sdu", "unicode": "\u0a30\u0a3e\u0a2e\u0a15\u0a32\u0a40 \u0a38\u0a26\u0a41", "english": "Raamkali Sadu", "pageno": 923, "source": {"id": 1, "akhar": "SRI gurU gRMQ swihb jI", "unicode": "\u0a36\u0a4d\u0a30\u0a40 \u0a17\u0a41\u0a30\u0a42 \u0a17\u0a4d\u0a30\u0a70\u0a25 \u0a38\u0a3e\u0a39\u0a3f\u0a2c \u0a1c\u0a40", "english": "Sri Guru Granth Sahib Ji", "length": 1430, "pageName": {"akhar": "AMg", "unicode": "\u0a05\u0a70\u0a17", "english": "Ang"}}, "writer": {"id": 23, "akhar": "bwbw suMdr", "unicode": "\u0a2c\u0a3e\u0a2c\u0a3e \u0a38\u0a41\u0a70\u0a26\u0a30", "english": "Baba Sundar"}, "raag": {"id": 22, "akhar": "rwgu rwmklI", "unicode": "\u0a30\u0a3e\u0a17\u0a41 \u0a30\u0a3e\u0a2e\u0a15\u0a32\u0a40", "english": "Raag Raamkalee", "startang": 876, "endang": 974, "raagwithpage": "Raag Raamkalee (876-974)"}, "count": 38}, "bani": [{"line": {"id": "Q8FU", "shabadid": "D30", "gurmukhi": {"akhar": "rwmklI sdu ]", "unicode": "\u0a30\u0a3e\u0a2e\u0a15\u0a32\u0a40 \u0a38\u0a26\u0a41 \u0965"}, "larivaar": {"akhar": "rwmklI\u200bsdu\u200b]", "unicode": "\u0a30\u0a3e\u0a2e\u0a15\u0a32\u0a40\u200b\u0a38\u0a26\u0a41\u200b\u0965"}, "translation": {"english": {"default": "Raamkalee, Sadd ~ The Call Of Death:"}, "punjabi": {"default": {"akhar": "rwg rwmklI iv`c bwxI 'sdu'[", "unicode": "\u0a30\u0a3e\u0a17 \u0a30\u0a3e\u0a2e\u0a15\u0a32\u0a40 \u0a35\u0a3f\u0a71\u0a1a \u0a2c\u0a3e\u0a23\u0a40 '\u0a38\u0a26\u0a41'\u0964"}}, "spanish": "Ramkali, Sadd. El Llamado de la Muerte"}, "transliteration": {"english": {"text": "raamakalee sad |", "larivaar": "raamakalee\u200bsad\u200b|"}, "devanagari": {"text": "\u0930\u093e\u092e\u0915\u0932\u0940 \u0938\u0926\u0941 \u0965", "larivaar": "\u0930\u093e\u092e\u0915\u0932\u0940\u200b\u0938\u0926\u0941\u200b\u0965"}}, "pageno": 923, "lineno": 1, "firstletters": {"akhar": "rs", "unicode": "\u0a30\u0a38"}}}, {"line": {"id": "LH8E", "shabadid": "D30", "gurmukhi": {"akhar": "<> siqgur pRswid ]", "unicode": "\u0a74 \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30 \u0a2a\u0a4d\u0a30\u0a38\u0a3e\u0a26\u0a3f \u0965"}, "larivaar": {"akhar": "<>\u200bsiqgur\u200bpRswid\u200b]", "unicode": "\u0a74\u200b\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u200b\u0a2a\u0a4d\u0a30\u0a38\u0a3e\u0a26\u0a3f\u200b\u0965"}, "translation": {"english": {"default": "One Universal Creator God. By The Grace Of The True Guru:"}, "punjabi": {"default": {"akhar": "Akwl purK ie`k hY Aqy siqgurU dI ikrpw nwl imldw hY[", "unicode": "\u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a07\u0a71\u0a15 \u0a39\u0a48 \u0a05\u0a24\u0a47 \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a26\u0a40 \u0a15\u0a3f\u0a30\u0a2a\u0a3e \u0a28\u0a3e\u0a32 \u0a2e\u0a3f\u0a32\u0a26\u0a3e \u0a39\u0a48\u0964"}}, "spanish": "Un Dios Creador del Universo, por la Gracia del Verdadero Guru"}, "transliteration": {"english": {"text": "ik oankaar satigur prasaad |", "larivaar": "ik\u200boankaar\u200bsatigur\u200bprasaad\u200b|"}, "devanagari": {"text": "\u0a74 \u0938\u0924\u093f\u0917\u0941\u0930 \u092a\u094d\u0930\u0938\u093e\u0926\u093f \u0965", "larivaar": "\u0a74\u200b\u0938\u0924\u093f\u0917\u0941\u0930\u200b\u092a\u094d\u0930\u0938\u093e\u0926\u093f\u200b\u0965"}}, "pageno": 923, "lineno": 1, "firstletters": {"akhar": "<sp", "unicode": "<\u0a38\u0a2a"}}}, {"line": {"id": "PJF8", "shabadid": "D30", "gurmukhi": {"akhar": "jig dwqw soie Bgiq vClu iqhu loie jIau ]", "unicode": "\u0a1c\u0a17\u0a3f \u0a26\u0a3e\u0a24\u0a3e \u0a38\u0a4b\u0a07 \u0a2d\u0a17\u0a24\u0a3f \u0a35\u0a1b\u0a32\u0a41 \u0a24\u0a3f\u0a39\u0a41 \u0a32\u0a4b\u0a07 \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "jig\u200bdwqw\u200bsoie\u200bBgiq\u200bvClu\u200biqhu\u200bloie\u200bjIau\u200b]", "unicode": "\u0a1c\u0a17\u0a3f\u200b\u0a26\u0a3e\u0a24\u0a3e\u200b\u0a38\u0a4b\u0a07\u200b\u0a2d\u0a17\u0a24\u0a3f\u200b\u0a35\u0a1b\u0a32\u0a41\u200b\u0a24\u0a3f\u0a39\u0a41\u200b\u0a32\u0a4b\u0a07\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "He is the Great Giver of the Universe, the Lover of His devotees, throughout the three worlds."}, "punjabi": {"default": {"akhar": "jo Akwl purK jgq ivc (jIvW \u0192) dwqW b^Sx vwlw hY, jo iqMnW lokW ivc BgqI krn vwilAW \u0192 ipAwr krdw hY,", "unicode": "\u0a1c\u0a4b \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a1c\u0a17\u0a24 \u0a35\u0a3f\u0a1a (\u0a1c\u0a40\u0a35\u0a3e\u0a02 \u0a28\u0a42\u0a70) \u0a26\u0a3e\u0a24\u0a3e\u0a02 \u0a2c\u0a59\u0a36\u0a23 \u0a35\u0a3e\u0a32\u0a3e \u0a39\u0a48, \u0a1c\u0a4b \u0a24\u0a3f\u0a70\u0a28\u0a3e\u0a02 \u0a32\u0a4b\u0a15\u0a3e\u0a02 \u0a35\u0a3f\u0a1a \u0a2d\u0a17\u0a24\u0a40 \u0a15\u0a30\u0a28 \u0a35\u0a3e\u0a32\u0a3f\u0a06\u0a02 \u0a28\u0a42\u0a70 \u0a2a\u0a3f\u0a06\u0a30 \u0a15\u0a30\u0a26\u0a3e \u0a39\u0a48,"}}, "spanish": "\u00c9l, el Uno, es nuestro Dios Ben\u00e9volo, el Amante de Sus Devotos en los tres mundos."}, "transliteration": {"english": {"text": "jag daataa soe bhagat vachhal tihu loe jeeo |", "larivaar": "jag\u200bdaataa\u200bsoe\u200bbhagat\u200bvachhal\u200btihu\u200bloe\u200bjeeo\u200b|"}, "devanagari": {"text": "\u091c\u0917\u093f \u0926\u093e\u0924\u093e \u0938\u094b\u0907 \u092d\u0917\u0924\u093f \u0935\u091b\u0932\u0941 \u0924\u093f\u0939\u0941 \u0932\u094b\u0907 \u091c\u0940\u0909 \u0965", "larivaar": "\u091c\u0917\u093f\u200b\u0926\u093e\u0924\u093e\u200b\u0938\u094b\u0907\u200b\u092d\u0917\u0924\u093f\u200b\u0935\u091b\u0932\u0941\u200b\u0924\u093f\u0939\u0941\u200b\u0932\u094b\u0907\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 2, "firstletters": {"akhar": "jdsBvqlj", "unicode": "\u0a1c\u0a26\u0a38\u0a2d\u0a35\u0a24\u0a32\u0a1c"}}}, {"line": {"id": "6628", "shabadid": "D30", "gurmukhi": {"akhar": "gur sbid smwvey Avru n jwxY koie jIau ]", "unicode": "\u0a17\u0a41\u0a30 \u0a38\u0a2c\u0a26\u0a3f \u0a38\u0a2e\u0a3e\u0a35\u0a0f \u0a05\u0a35\u0a30\u0a41 \u0a28 \u0a1c\u0a3e\u0a23\u0a48 \u0a15\u0a4b\u0a07 \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "gur\u200bsbid\u200bsmwvey\u200bAvru\u200bn\u200bjwxY\u200bkoie\u200bjIau\u200b]", "unicode": "\u0a17\u0a41\u0a30\u200b\u0a38\u0a2c\u0a26\u0a3f\u200b\u0a38\u0a2e\u0a3e\u0a35\u0a0f\u200b\u0a05\u0a35\u0a30\u0a41\u200b\u0a28\u200b\u0a1c\u0a3e\u0a23\u0a48\u200b\u0a15\u0a4b\u0a07\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "One who is merged in the Word of the Guru's Shabad does not know any other."}, "punjabi": {"default": {"akhar": "(aus Akwl purK ivc gurU Amrdws) siqgurU dy Sbd dI rwhIN lIn (irhw) hY, (Aqy aus qoN ibnw) iksy hor \u0192 (aus vrgw) nhIN jwxdw[", "unicode": "(\u0a09\u0a38 \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a35\u0a3f\u0a1a \u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38) \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a26\u0a47 \u0a36\u0a2c\u0a26 \u0a26\u0a40 \u0a30\u0a3e\u0a39\u0a40\u0a02 \u0a32\u0a40\u0a28 (\u0a30\u0a3f\u0a39\u0a3e) \u0a39\u0a48, (\u0a05\u0a24\u0a47 \u0a09\u0a38 \u0a24\u0a4b\u0a02 \u0a2c\u0a3f\u0a28\u0a3e) \u0a15\u0a3f\u0a38\u0a47 \u0a39\u0a4b\u0a30 \u0a28\u0a42\u0a70 (\u0a09\u0a38 \u0a35\u0a30\u0a17\u0a3e) \u0a28\u0a39\u0a40\u0a02 \u0a1c\u0a3e\u0a23\u0a26\u0a3e\u0964"}}, "spanish": "El Se\u00f1or est\u00e1 inmerso en la Palabra del Shabd del Guru y no es revelado de ninguna otra forma."}, "transliteration": {"english": {"text": "gur sabad samaave avar na jaanai koe jeeo |", "larivaar": "gur\u200bsabad\u200bsamaave\u200bavar\u200bna\u200bjaanai\u200bkoe\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0917\u0941\u0930 \u0938\u092c\u0926\u093f \u0938\u092e\u093e\u0935\u090f \u0905\u0935\u0930\u0941 \u0928 \u091c\u093e\u0923\u0948 \u0915\u094b\u0907 \u091c\u0940\u0909 \u0965", "larivaar": "\u0917\u0941\u0930\u200b\u0938\u092c\u0926\u093f\u200b\u0938\u092e\u093e\u0935\u090f\u200b\u0905\u0935\u0930\u0941\u200b\u0928\u200b\u091c\u093e\u0923\u0948\u200b\u0915\u094b\u0907\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 2, "firstletters": {"akhar": "gssAnjkj", "unicode": "\u0a17\u0a38\u0a38\u0a05\u0a28\u0a1c\u0a15\u0a1c"}}}, {"line": {"id": "55F7", "shabadid": "D30", "gurmukhi": {"akhar": "Avro n jwxih sbid gur kY eyku nwmu iDAwvhy ]", "unicode": "\u0a05\u0a35\u0a30\u0a4b \u0a28 \u0a1c\u0a3e\u0a23\u0a39\u0a3f \u0a38\u0a2c\u0a26\u0a3f \u0a17\u0a41\u0a30 \u0a15\u0a48 \u0a0f\u0a15\u0a41 \u0a28\u0a3e\u0a2e\u0a41 \u0a27\u0a3f\u0a06\u0a35\u0a39\u0a47 \u0965"}, "larivaar": {"akhar": "Avro\u200bn\u200bjwxih\u200bsbid\u200bgur\u200bkY\u200beyku\u200bnwmu\u200biDAwvhy\u200b]", "unicode": "\u0a05\u0a35\u0a30\u0a4b\u200b\u0a28\u200b\u0a1c\u0a3e\u0a23\u0a39\u0a3f\u200b\u0a38\u0a2c\u0a26\u0a3f\u200b\u0a17\u0a41\u0a30\u200b\u0a15\u0a48\u200b\u0a0f\u0a15\u0a41\u200b\u0a28\u0a3e\u0a2e\u0a41\u200b\u0a27\u0a3f\u0a06\u0a35\u0a39\u0a47\u200b\u0965"}, "translation": {"english": {"default": "Dwelling upon the Word of the Guru's Shabad, he does not know any other; he meditates on the One Name of the Lord."}, "punjabi": {"default": {"akhar": "(gurU Amrdws jI) siqgurU dy Sbid dI brkiq nwl (Akwl purK qoN ibnw) iksy hor \u0192 (aus vrgw) nhIN jwxdy (rhy) hn, kyvl ie`k 'nwm' \u0192 iDAwauNdy (rhy) hn;", "unicode": "(\u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40) \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a26\u0a47 \u0a36\u0a2c\u0a26\u0a3f \u0a26\u0a40 \u0a2c\u0a30\u0a15\u0a24\u0a3f \u0a28\u0a3e\u0a32 (\u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a24\u0a4b\u0a02 \u0a2c\u0a3f\u0a28\u0a3e) \u0a15\u0a3f\u0a38\u0a47 \u0a39\u0a4b\u0a30 \u0a28\u0a42\u0a70 (\u0a09\u0a38 \u0a35\u0a30\u0a17\u0a3e) \u0a28\u0a39\u0a40\u0a02 \u0a1c\u0a3e\u0a23\u0a26\u0a47 (\u0a30\u0a39\u0a47) \u0a39\u0a28, \u0a15\u0a47\u0a35\u0a32 \u0a07\u0a71\u0a15 '\u0a28\u0a3e\u0a2e' \u0a28\u0a42\u0a70 \u0a27\u0a3f\u0a06\u0a09\u0a02\u0a26\u0a47 (\u0a30\u0a39\u0a47) \u0a39\u0a28;"}}, "spanish": "Los que contemplan Su Nombre, a trav\u00e9s de la Palabra del Shabd del Guru, no quieren saber nada m\u00e1s."}, "transliteration": {"english": {"text": "avaro na jaaneh sabad gur kai ek naam dhiaavahe |", "larivaar": "avaro\u200bna\u200bjaaneh\u200bsabad\u200bgur\u200bkai\u200bek\u200bnaam\u200bdhiaavahe\u200b|"}, "devanagari": {"text": "\u0905\u0935\u0930\u094b \u0928 \u091c\u093e\u0923\u0939\u093f \u0938\u092c\u0926\u093f \u0917\u0941\u0930 \u0915\u0948 \u090f\u0915\u0941 \u0928\u093e\u092e\u0941 \u0927\u093f\u0906\u0935\u0939\u0947 \u0965", "larivaar": "\u0905\u0935\u0930\u094b\u200b\u0928\u200b\u091c\u093e\u0923\u0939\u093f\u200b\u0938\u092c\u0926\u093f\u200b\u0917\u0941\u0930\u200b\u0915\u0948\u200b\u090f\u0915\u0941\u200b\u0928\u093e\u092e\u0941\u200b\u0927\u093f\u0906\u0935\u0939\u0947\u200b\u0965"}}, "pageno": 923, "lineno": 2, "firstletters": {"akhar": "AnjsgkenD", "unicode": "\u0a05\u0a28\u0a1c\u0a38\u0a17\u0a15\u0a72\u0a28\u0a27"}}}, {"line": {"id": "4JU1", "shabadid": "D30", "gurmukhi": {"akhar": "prswid nwnk gurU AMgd prm pdvI pwvhy ]", "unicode": "\u0a2a\u0a30\u0a38\u0a3e\u0a26\u0a3f \u0a28\u0a3e\u0a28\u0a15 \u0a17\u0a41\u0a30\u0a42 \u0a05\u0a70\u0a17\u0a26 \u0a2a\u0a30\u0a2e \u0a2a\u0a26\u0a35\u0a40 \u0a2a\u0a3e\u0a35\u0a39\u0a47 \u0965"}, "larivaar": {"akhar": "prswid\u200bnwnk\u200bgurU\u200bAMgd\u200bprm\u200bpdvI\u200bpwvhy\u200b]", "unicode": "\u0a2a\u0a30\u0a38\u0a3e\u0a26\u0a3f\u200b\u0a28\u0a3e\u0a28\u0a15\u200b\u0a17\u0a41\u0a30\u0a42\u200b\u0a05\u0a70\u0a17\u0a26\u200b\u0a2a\u0a30\u0a2e\u200b\u0a2a\u0a26\u0a35\u0a40\u200b\u0a2a\u0a3e\u0a35\u0a39\u0a47\u200b\u0965"}, "translation": {"english": {"default": "By the Grace of Guru Nanak and Guru Angad, Guru Amar Das obtained the supreme status."}, "punjabi": {"default": {"akhar": "gurU nwnk Aqy gurU AMgd dyv jI dI ikrpw nwl auh au`cy drjy \u0192 pRwpq kr cuky hn[", "unicode": "\u0a17\u0a41\u0a30\u0a42 \u0a28\u0a3e\u0a28\u0a15 \u0a05\u0a24\u0a47 \u0a17\u0a41\u0a30\u0a42 \u0a05\u0a70\u0a17\u0a26 \u0a26\u0a47\u0a35 \u0a1c\u0a40 \u0a26\u0a40 \u0a15\u0a3f\u0a30\u0a2a\u0a3e \u0a28\u0a3e\u0a32 \u0a09\u0a39 \u0a09\u0a71\u0a1a\u0a47 \u0a26\u0a30\u0a1c\u0a47 \u0a28\u0a42\u0a70 \u0a2a\u0a4d\u0a30\u0a3e\u0a2a\u0a24 \u0a15\u0a30 \u0a1a\u0a41\u0a15\u0a47 \u0a39\u0a28\u0964"}}, "spanish": "S\u00ed, a trav\u00e9s de la Gracia de Guru Nanak y Guru Angad, Amar Das fue puesto en ese Trono Maravilloso."}, "transliteration": {"english": {"text": "parasaad naanak guroo angad param padavee paavahe |", "larivaar": "parasaad\u200bnaanak\u200bguroo\u200bangad\u200bparam\u200bpadavee\u200bpaavahe\u200b|"}, "devanagari": {"text": "\u092a\u0930\u0938\u093e\u0926\u093f \u0928\u093e\u0928\u0915 \u0917\u0941\u0930\u0942 \u0905\u0902\u0917\u0926 \u092a\u0930\u092e \u092a\u0926\u0935\u0940 \u092a\u093e\u0935\u0939\u0947 \u0965", "larivaar": "\u092a\u0930\u0938\u093e\u0926\u093f\u200b\u0928\u093e\u0928\u0915\u200b\u0917\u0941\u0930\u0942\u200b\u0905\u0902\u0917\u0926\u200b\u092a\u0930\u092e\u200b\u092a\u0926\u0935\u0940\u200b\u092a\u093e\u0935\u0939\u0947\u200b\u0965"}}, "pageno": 923, "lineno": 3, "firstletters": {"akhar": "pngAppp", "unicode": "\u0a2a\u0a28\u0a17\u0a05\u0a2a\u0a2a\u0a2a"}}}, {"line": {"id": "JHE6", "shabadid": "D30", "gurmukhi": {"akhar": "AwieAw hkwrw clxvwrw hir rwm nwim smwieAw ]", "unicode": "\u0a06\u0a07\u0a06 \u0a39\u0a15\u0a3e\u0a30\u0a3e \u0a1a\u0a32\u0a23\u0a35\u0a3e\u0a30\u0a3e \u0a39\u0a30\u0a3f \u0a30\u0a3e\u0a2e \u0a28\u0a3e\u0a2e\u0a3f \u0a38\u0a2e\u0a3e\u0a07\u0a06 \u0965"}, "larivaar": {"akhar": "AwieAw\u200bhkwrw\u200bclxvwrw\u200bhir\u200brwm\u200bnwim\u200bsmwieAw\u200b]", "unicode": "\u0a06\u0a07\u0a06\u200b\u0a39\u0a15\u0a3e\u0a30\u0a3e\u200b\u0a1a\u0a32\u0a23\u0a35\u0a3e\u0a30\u0a3e\u200b\u0a39\u0a30\u0a3f\u200b\u0a30\u0a3e\u0a2e\u200b\u0a28\u0a3e\u0a2e\u0a3f\u200b\u0a38\u0a2e\u0a3e\u0a07\u0a06\u200b\u0965"}, "translation": {"english": {"default": "And when the call came for Him to depart, He merged in the Name of the Lord."}, "punjabi": {"default": {"akhar": "(ijhVw gurU Amrdws) Akwl purK dy nwm ivc lIn sI, (DuroN) aus dy c`lx dw s`dw Aw igAw;", "unicode": "(\u0a1c\u0a3f\u0a39\u0a5c\u0a3e \u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38) \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a47 \u0a28\u0a3e\u0a2e \u0a35\u0a3f\u0a1a \u0a32\u0a40\u0a28 \u0a38\u0a40, (\u0a27\u0a41\u0a30\u0a4b\u0a02) \u0a09\u0a38 \u0a26\u0a47 \u0a1a\u0a71\u0a32\u0a23 \u0a26\u0a3e \u0a38\u0a71\u0a26\u0a3e \u0a06 \u0a17\u0a3f\u0a06;"}}, "spanish": "Cuando la llamada para partir, vino del m\u00e1s all\u00e1, \u00e9l se inmergi\u00f3 en el Nombre del Se\u00f1or."}, "transliteration": {"english": {"text": "aaeaa hakaaraa chalanavaaraa har raam naam samaaeaa |", "larivaar": "aaeaa\u200bhakaaraa\u200bchalanavaaraa\u200bhar\u200braam\u200bnaam\u200bsamaaeaa\u200b|"}, "devanagari": {"text": "\u0906\u0907\u0906 \u0939\u0915\u093e\u0930\u093e \u091a\u0932\u0923\u0935\u093e\u0930\u093e \u0939\u0930\u093f \u0930\u093e\u092e \u0928\u093e\u092e\u093f \u0938\u092e\u093e\u0907\u0906 \u0965", "larivaar": "\u0906\u0907\u0906\u200b\u0939\u0915\u093e\u0930\u093e\u200b\u091a\u0932\u0923\u0935\u093e\u0930\u093e\u200b\u0939\u0930\u093f\u200b\u0930\u093e\u092e\u200b\u0928\u093e\u092e\u093f\u200b\u0938\u092e\u093e\u0907\u0906\u200b\u0965"}}, "pageno": 923, "lineno": 4, "firstletters": {"akhar": "Ahchrns", "unicode": "\u0a05\u0a39\u0a1a\u0a39\u0a30\u0a28\u0a38"}}}, {"line": {"id": "P1GJ", "shabadid": "D30", "gurmukhi": {"akhar": "jig Amru Atlu Aqolu Twkuru Bgiq qy hir pwieAw ]1]", "unicode": "\u0a1c\u0a17\u0a3f \u0a05\u0a2e\u0a30\u0a41 \u0a05\u0a1f\u0a32\u0a41 \u0a05\u0a24\u0a4b\u0a32\u0a41 \u0a20\u0a3e\u0a15\u0a41\u0a30\u0a41 \u0a2d\u0a17\u0a24\u0a3f \u0a24\u0a47 \u0a39\u0a30\u0a3f \u0a2a\u0a3e\u0a07\u0a06 \u0965\u0a67\u0965"}, "larivaar": {"akhar": "jig\u200bAmru\u200bAtlu\u200bAqolu\u200bTwkuru\u200bBgiq\u200bqy\u200bhir\u200bpwieAw\u200b]1]", "unicode": "\u0a1c\u0a17\u0a3f\u200b\u0a05\u0a2e\u0a30\u0a41\u200b\u0a05\u0a1f\u0a32\u0a41\u200b\u0a05\u0a24\u0a4b\u0a32\u0a41\u200b\u0a20\u0a3e\u0a15\u0a41\u0a30\u0a41\u200b\u0a2d\u0a17\u0a24\u0a3f\u200b\u0a24\u0a47\u200b\u0a39\u0a30\u0a3f\u200b\u0a2a\u0a3e\u0a07\u0a06\u200b\u0965\u0a67\u0965"}, "translation": {"english": {"default": "Through devotional worship in this world, the imperishable, immovable, immeasurable Lord is found. ||1||"}, "punjabi": {"default": {"akhar": "(gurU Amrdws jI ny) jgq ivc (rihMidAW) Amr, At`l, Aqol Twkur \u0192 BgqI dI rwhIN pRwpq kr ilAw hoieAw sI ]1]", "unicode": "(\u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a47) \u0a1c\u0a17\u0a24 \u0a35\u0a3f\u0a1a (\u0a30\u0a39\u0a3f\u0a70\u0a26\u0a3f\u0a06\u0a02) \u0a05\u0a2e\u0a30, \u0a05\u0a1f\u0a71\u0a32, \u0a05\u0a24\u0a4b\u0a32 \u0a20\u0a3e\u0a15\u0a41\u0a30 \u0a28\u0a42\u0a70 \u0a2d\u0a17\u0a24\u0a40 \u0a26\u0a40 \u0a30\u0a3e\u0a39\u0a40\u0a02 \u0a2a\u0a4d\u0a30\u0a3e\u0a2a\u0a24 \u0a15\u0a30 \u0a32\u0a3f\u0a06 \u0a39\u0a4b\u0a07\u0a06 \u0a38\u0a40 \u0965\u0a67\u0965"}}, "spanish": "En el mundo, alabando a Dios, se llega a ese Estado Eterno, Inamovible y sin paralelo. (1)"}, "transliteration": {"english": {"text": "jag amar attal atol tthaakur bhagat te har paaeaa |1|", "larivaar": "jag\u200bamar\u200battal\u200batol\u200btthaakur\u200bbhagat\u200bte\u200bhar\u200bpaaeaa\u200b|1|"}, "devanagari": {"text": "\u091c\u0917\u093f \u0905\u092e\u0930\u0941 \u0905\u091f\u0932\u0941 \u0905\u0924\u094b\u0932\u0941 \u0920\u093e\u0915\u0941\u0930\u0941 \u092d\u0917\u0924\u093f \u0924\u0947 \u0939\u0930\u093f \u092a\u093e\u0907\u0906 \u0965\u0967\u0965", "larivaar": "\u091c\u0917\u093f\u200b\u0905\u092e\u0930\u0941\u200b\u0905\u091f\u0932\u0941\u200b\u0905\u0924\u094b\u0932\u0941\u200b\u0920\u093e\u0915\u0941\u0930\u0941\u200b\u092d\u0917\u0924\u093f\u200b\u0924\u0947\u200b\u0939\u0930\u093f\u200b\u092a\u093e\u0907\u0906\u200b\u0965\u0967\u0965"}}, "pageno": 923, "lineno": 4, "firstletters": {"akhar": "jAAATBqhp", "unicode": "\u0a1c\u0a05\u0a05\u0a05\u0a20\u0a2d\u0a24\u0a39\u0a2a"}}}, {"line": {"id": "0JP4", "shabadid": "D30", "gurmukhi": {"akhar": "hir Bwxw gur BwieAw guru jwvY hir pRB pwis jIau ]", "unicode": "\u0a39\u0a30\u0a3f \u0a2d\u0a3e\u0a23\u0a3e \u0a17\u0a41\u0a30 \u0a2d\u0a3e\u0a07\u0a06 \u0a17\u0a41\u0a30\u0a41 \u0a1c\u0a3e\u0a35\u0a48 \u0a39\u0a30\u0a3f \u0a2a\u0a4d\u0a30\u0a2d \u0a2a\u0a3e\u0a38\u0a3f \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "hir\u200bBwxw\u200bgur\u200bBwieAw\u200bguru\u200bjwvY\u200bhir\u200bpRB\u200bpwis\u200bjIau\u200b]", "unicode": "\u0a39\u0a30\u0a3f\u200b\u0a2d\u0a3e\u0a23\u0a3e\u200b\u0a17\u0a41\u0a30\u200b\u0a2d\u0a3e\u0a07\u0a06\u200b\u0a17\u0a41\u0a30\u0a41\u200b\u0a1c\u0a3e\u0a35\u0a48\u200b\u0a39\u0a30\u0a3f\u200b\u0a2a\u0a4d\u0a30\u0a2d\u200b\u0a2a\u0a3e\u0a38\u0a3f\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "The Guru gladly accepted the Lord's Will, and so the Guru easily reached the Lord God's Presence."}, "punjabi": {"default": {"akhar": "Akwl purK dI rzw gurU (Amrdws jI) \u0192 ipAwrI l`gI, Aqy siqgurU (jI) Akwl purK dy kol jwx \u0192 iqAwr ho pey[", "unicode": "\u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a40 \u0a30\u0a5b\u0a3e \u0a17\u0a41\u0a30\u0a42 (\u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40) \u0a28\u0a42\u0a70 \u0a2a\u0a3f\u0a06\u0a30\u0a40 \u0a32\u0a71\u0a17\u0a40, \u0a05\u0a24\u0a47 \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 (\u0a1c\u0a40) \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a47 \u0a15\u0a4b\u0a32 \u0a1c\u0a3e\u0a23 \u0a28\u0a42\u0a70 \u0a24\u0a3f\u0a06\u0a30 \u0a39\u0a4b \u0a2a\u0a0f\u0964"}}, "spanish": "\u00c9l acept\u00f3 la Voluntad de Dios y parti\u00f3 hacia el Recinto de Dios;"}, "transliteration": {"english": {"text": "har bhaanaa gur bhaaeaa gur jaavai har prabh paas jeeo |", "larivaar": "har\u200bbhaanaa\u200bgur\u200bbhaaeaa\u200bgur\u200bjaavai\u200bhar\u200bprabh\u200bpaas\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0939\u0930\u093f \u092d\u093e\u0923\u093e \u0917\u0941\u0930 \u092d\u093e\u0907\u0906 \u0917\u0941\u0930\u0941 \u091c\u093e\u0935\u0948 \u0939\u0930\u093f \u092a\u094d\u0930\u092d \u092a\u093e\u0938\u093f \u091c\u0940\u0909 \u0965", "larivaar": "\u0939\u0930\u093f\u200b\u092d\u093e\u0923\u093e\u200b\u0917\u0941\u0930\u200b\u092d\u093e\u0907\u0906\u200b\u0917\u0941\u0930\u0941\u200b\u091c\u093e\u0935\u0948\u200b\u0939\u0930\u093f\u200b\u092a\u094d\u0930\u092d\u200b\u092a\u093e\u0938\u093f\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 5, "firstletters": {"akhar": "hBgBgjhppj", "unicode": "\u0a39\u0a2d\u0a17\u0a2d\u0a17\u0a1c\u0a39\u0a2a\u0a2a\u0a1c"}}}, {"line": {"id": "XTNC", "shabadid": "D30", "gurmukhi": {"akhar": "siqguru kry hir pih bynqI myrI pYj rKhu Ardwis jIau ]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41 \u0a15\u0a30\u0a47 \u0a39\u0a30\u0a3f \u0a2a\u0a39\u0a3f \u0a2c\u0a47\u0a28\u0a24\u0a40 \u0a2e\u0a47\u0a30\u0a40 \u0a2a\u0a48\u0a1c \u0a30\u0a16\u0a39\u0a41 \u0a05\u0a30\u0a26\u0a3e\u0a38\u0a3f \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "siqguru\u200bkry\u200bhir\u200bpih\u200bbynqI\u200bmyrI\u200bpYj\u200brKhu\u200bArdwis\u200bjIau\u200b]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41\u200b\u0a15\u0a30\u0a47\u200b\u0a39\u0a30\u0a3f\u200b\u0a2a\u0a39\u0a3f\u200b\u0a2c\u0a47\u0a28\u0a24\u0a40\u200b\u0a2e\u0a47\u0a30\u0a40\u200b\u0a2a\u0a48\u0a1c\u200b\u0a30\u0a16\u0a39\u0a41\u200b\u0a05\u0a30\u0a26\u0a3e\u0a38\u0a3f\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "The True Guru prays to the Lord, \"Please, save my honor. This is my prayer\"."}, "punjabi": {"default": {"akhar": "gurU Amrdws jI ny Akwl purK A`gy ieh bynqI kIqI, (hy hrI!) myrI Ardwis hY ik myrI lwj r`K[", "unicode": "\u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a47 \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a05\u0a71\u0a17\u0a47 \u0a07\u0a39 \u0a2c\u0a47\u0a28\u0a24\u0a40 \u0a15\u0a40\u0a24\u0a40, (\u0a39\u0a47 \u0a39\u0a30\u0a40!) \u0a2e\u0a47\u0a30\u0a40 \u0a05\u0a30\u0a26\u0a3e\u0a38\u0a3f \u0a39\u0a48 \u0a15\u0a3f \u0a2e\u0a47\u0a30\u0a40 \u0a32\u0a3e\u0a1c \u0a30\u0a71\u0a16\u0964"}}, "spanish": "tambi\u00e9n oraba a su Se\u00f1or, oh Dios, Te lo ruego, salva mi honor;"}, "transliteration": {"english": {"text": "satigur kare har peh benatee meree paij rakhahu aradaas jeeo |", "larivaar": "satigur\u200bkare\u200bhar\u200bpeh\u200bbenatee\u200bmeree\u200bpaij\u200brakhahu\u200baradaas\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0938\u0924\u093f\u0917\u0941\u0930\u0941 \u0915\u0930\u0947 \u0939\u0930\u093f \u092a\u0939\u093f \u092c\u0947\u0928\u0924\u0940 \u092e\u0947\u0930\u0940 \u092a\u0948\u091c \u0930\u0916\u0939\u0941 \u0905\u0930\u0926\u093e\u0938\u093f \u091c\u0940\u0909 \u0965", "larivaar": "\u0938\u0924\u093f\u0917\u0941\u0930\u0941\u200b\u0915\u0930\u0947\u200b\u0939\u0930\u093f\u200b\u092a\u0939\u093f\u200b\u092c\u0947\u0928\u0924\u0940\u200b\u092e\u0947\u0930\u0940\u200b\u092a\u0948\u091c\u200b\u0930\u0916\u0939\u0941\u200b\u0905\u0930\u0926\u093e\u0938\u093f\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 5, "firstletters": {"akhar": "skhpbmprAj", "unicode": "\u0a38\u0a15\u0a39\u0a2a\u0a2c\u0a2e\u0a2a\u0a30\u0a05\u0a1c"}}}, {"line": {"id": "969W", "shabadid": "D30", "gurmukhi": {"akhar": "pYj rwKhu hir jnh kyrI hir dyhu nwmu inrMjno ]", "unicode": "\u0a2a\u0a48\u0a1c \u0a30\u0a3e\u0a16\u0a39\u0a41 \u0a39\u0a30\u0a3f \u0a1c\u0a28\u0a39 \u0a15\u0a47\u0a30\u0a40 \u0a39\u0a30\u0a3f \u0a26\u0a47\u0a39\u0a41 \u0a28\u0a3e\u0a2e\u0a41 \u0a28\u0a3f\u0a30\u0a70\u0a1c\u0a28\u0a4b \u0965"}, "larivaar": {"akhar": "pYj\u200brwKhu\u200bhir\u200bjnh\u200bkyrI\u200bhir\u200bdyhu\u200bnwmu\u200binrMjno\u200b]", "unicode": "\u0a2a\u0a48\u0a1c\u200b\u0a30\u0a3e\u0a16\u0a39\u0a41\u200b\u0a39\u0a30\u0a3f\u200b\u0a1c\u0a28\u0a39\u200b\u0a15\u0a47\u0a30\u0a40\u200b\u0a39\u0a30\u0a3f\u200b\u0a26\u0a47\u0a39\u0a41\u200b\u0a28\u0a3e\u0a2e\u0a41\u200b\u0a28\u0a3f\u0a30\u0a70\u0a1c\u0a28\u0a4b\u200b\u0965"}, "translation": {"english": {"default": "Please save the honor of Your humble servant, O Lord; please bless him with Your Immaculate Name."}, "punjabi": {"default": {"akhar": "hy hrI! Awpxy syvkW dI lwj r`K, Aqy mwieAw qoN inrmoh krn vwlw Awpxw nwm b^S,", "unicode": "\u0a39\u0a47 \u0a39\u0a30\u0a40! \u0a06\u0a2a\u0a23\u0a47 \u0a38\u0a47\u0a35\u0a15\u0a3e\u0a02 \u0a26\u0a40 \u0a32\u0a3e\u0a1c \u0a30\u0a71\u0a16, \u0a05\u0a24\u0a47 \u0a2e\u0a3e\u0a07\u0a06 \u0a24\u0a4b\u0a02 \u0a28\u0a3f\u0a30\u0a2e\u0a4b\u0a39 \u0a15\u0a30\u0a28 \u0a35\u0a3e\u0a32\u0a3e \u0a06\u0a2a\u0a23\u0a3e \u0a28\u0a3e\u0a2e \u0a2c\u0a59\u0a36,"}}, "spanish": "s\u00ed, salva el honor de Tu Devoto, de tal forma, que pueda ser bendecido con Tu Nombre,"}, "transliteration": {"english": {"text": "paij raakhahu har janah keree har dehu naam niranjano |", "larivaar": "paij\u200braakhahu\u200bhar\u200bjanah\u200bkeree\u200bhar\u200bdehu\u200bnaam\u200bniranjano\u200b|"}, "devanagari": {"text": "\u092a\u0948\u091c \u0930\u093e\u0916\u0939\u0941 \u0939\u0930\u093f \u091c\u0928\u0939 \u0915\u0947\u0930\u0940 \u0939\u0930\u093f \u0926\u0947\u0939\u0941 \u0928\u093e\u092e\u0941 \u0928\u093f\u0930\u0902\u091c\u0928\u094b \u0965", "larivaar": "\u092a\u0948\u091c\u200b\u0930\u093e\u0916\u0939\u0941\u200b\u0939\u0930\u093f\u200b\u091c\u0928\u0939\u200b\u0915\u0947\u0930\u0940\u200b\u0939\u0930\u093f\u200b\u0926\u0947\u0939\u0941\u200b\u0928\u093e\u092e\u0941\u200b\u0928\u093f\u0930\u0902\u091c\u0928\u094b\u200b\u0965"}}, "pageno": 923, "lineno": 6, "firstletters": {"akhar": "prhjkhdnn", "unicode": "\u0a2a\u0a30\u0a39\u0a1c\u0a15\u0a39\u0a26\u0a28\u0a28"}}}, {"line": {"id": "R1ZC", "shabadid": "D30", "gurmukhi": {"akhar": "AMiq clidAw hoie bylI jmdUq kwlu inKMjno ]", "unicode": "\u0a05\u0a70\u0a24\u0a3f \u0a1a\u0a32\u0a26\u0a3f\u0a06 \u0a39\u0a4b\u0a07 \u0a2c\u0a47\u0a32\u0a40 \u0a1c\u0a2e\u0a26\u0a42\u0a24 \u0a15\u0a3e\u0a32\u0a41 \u0a28\u0a3f\u0a16\u0a70\u0a1c\u0a28\u0a4b \u0965"}, "larivaar": {"akhar": "AMiq\u200bclidAw\u200bhoie\u200bbylI\u200bjmdUq\u200bkwlu\u200binKMjno\u200b]", "unicode": "\u0a05\u0a70\u0a24\u0a3f\u200b\u0a1a\u0a32\u0a26\u0a3f\u0a06\u200b\u0a39\u0a4b\u0a07\u200b\u0a2c\u0a47\u0a32\u0a40\u200b\u0a1c\u0a2e\u0a26\u0a42\u0a24\u200b\u0a15\u0a3e\u0a32\u0a41\u200b\u0a28\u0a3f\u0a16\u0a70\u0a1c\u0a28\u0a4b\u200b\u0965"}, "translation": {"english": {"default": "At this time of final departure, it is our only help and support; it destroys death, and the Messenger of Death."}, "punjabi": {"default": {"akhar": "jmdUqW Aqy kwl \u0192 nws krn vwlw nwm dyih, jo A^Ir c`lx vyly swQI bxy[", "unicode": "\u0a1c\u0a2e\u0a26\u0a42\u0a24\u0a3e\u0a02 \u0a05\u0a24\u0a47 \u0a15\u0a3e\u0a32 \u0a28\u0a42\u0a70 \u0a28\u0a3e\u0a38 \u0a15\u0a30\u0a28 \u0a35\u0a3e\u0a32\u0a3e \u0a28\u0a3e\u0a2e \u0a26\u0a47\u0a39\u0a3f, \u0a1c\u0a4b \u0a05\u0a59\u0a40\u0a30 \u0a1a\u0a71\u0a32\u0a23 \u0a35\u0a47\u0a32\u0a47 \u0a38\u0a3e\u0a25\u0a40 \u0a2c\u0a23\u0a47\u0964"}}, "spanish": "pues s\u00f3lo \u00c9l nos acompa\u00f1a al final destruyendo el terror a la muerte."}, "transliteration": {"english": {"text": "ant chaladiaa hoe belee jamadoot kaal nikhanjano |", "larivaar": "ant\u200bchaladiaa\u200bhoe\u200bbelee\u200bjamadoot\u200bkaal\u200bnikhanjano\u200b|"}, "devanagari": {"text": "\u0905\u0902\u0924\u093f \u091a\u0932\u0926\u093f\u0906 \u0939\u094b\u0907 \u092c\u0947\u0932\u0940 \u091c\u092e\u0926\u0942\u0924 \u0915\u093e\u0932\u0941 \u0928\u093f\u0916\u0902\u091c\u0928\u094b \u0965", "larivaar": "\u0905\u0902\u0924\u093f\u200b\u091a\u0932\u0926\u093f\u0906\u200b\u0939\u094b\u0907\u200b\u092c\u0947\u0932\u0940\u200b\u091c\u092e\u0926\u0942\u0924\u200b\u0915\u093e\u0932\u0941\u200b\u0928\u093f\u0916\u0902\u091c\u0928\u094b\u200b\u0965"}}, "pageno": 923, "lineno": 6, "firstletters": {"akhar": "Achbjkn", "unicode": "\u0a05\u0a1a\u0a39\u0a2c\u0a1c\u0a15\u0a28"}}}, {"line": {"id": "9ZQ2", "shabadid": "D30", "gurmukhi": {"akhar": "siqgurU kI bynqI pweI hir pRiB suxI Ardwis jIau ]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a15\u0a40 \u0a2c\u0a47\u0a28\u0a24\u0a40 \u0a2a\u0a3e\u0a08 \u0a39\u0a30\u0a3f \u0a2a\u0a4d\u0a30\u0a2d\u0a3f \u0a38\u0a41\u0a23\u0a40 \u0a05\u0a30\u0a26\u0a3e\u0a38\u0a3f \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "siqgurU\u200bkI\u200bbynqI\u200bpweI\u200bhir\u200bpRiB\u200bsuxI\u200bArdwis\u200bjIau\u200b]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42\u200b\u0a15\u0a40\u200b\u0a2c\u0a47\u0a28\u0a24\u0a40\u200b\u0a2a\u0a3e\u0a08\u200b\u0a39\u0a30\u0a3f\u200b\u0a2a\u0a4d\u0a30\u0a2d\u0a3f\u200b\u0a38\u0a41\u0a23\u0a40\u200b\u0a05\u0a30\u0a26\u0a3e\u0a38\u0a3f\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "The Lord God heard the prayer of the True Guru, and granted His request."}, "punjabi": {"default": {"akhar": "siqgurU dI kIqI hoeI ieh bynqI, ieh Ardwis, Akwl purK pRBU ny sux leI,", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a26\u0a40 \u0a15\u0a40\u0a24\u0a40 \u0a39\u0a4b\u0a08 \u0a07\u0a39 \u0a2c\u0a47\u0a28\u0a24\u0a40, \u0a07\u0a39 \u0a05\u0a30\u0a26\u0a3e\u0a38\u0a3f, \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a2a\u0a4d\u0a30\u0a2d\u0a42 \u0a28\u0a47 \u0a38\u0a41\u0a23 \u0a32\u0a08,"}}, "spanish": "El Se\u00f1or escuch\u00f3 la oraci\u00f3n del Guru y en Su Misericordia (2)"}, "transliteration": {"english": {"text": "satiguroo kee benatee paaee har prabh sunee aradaas jeeo |", "larivaar": "satiguroo\u200bkee\u200bbenatee\u200bpaaee\u200bhar\u200bprabh\u200bsunee\u200baradaas\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0938\u0924\u093f\u0917\u0941\u0930\u0942 \u0915\u0940 \u092c\u0947\u0928\u0924\u0940 \u092a\u093e\u0908 \u0939\u0930\u093f \u092a\u094d\u0930\u092d\u093f \u0938\u0941\u0923\u0940 \u0905\u0930\u0926\u093e\u0938\u093f \u091c\u0940\u0909 \u0965", "larivaar": "\u0938\u0924\u093f\u0917\u0941\u0930\u0942\u200b\u0915\u0940\u200b\u092c\u0947\u0928\u0924\u0940\u200b\u092a\u093e\u0908\u200b\u0939\u0930\u093f\u200b\u092a\u094d\u0930\u092d\u093f\u200b\u0938\u0941\u0923\u0940\u200b\u0905\u0930\u0926\u093e\u0938\u093f\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 7, "firstletters": {"akhar": "skbphpsAj", "unicode": "\u0a38\u0a15\u0a2c\u0a2a\u0a39\u0a2a\u0a38\u0a05\u0a1c"}}}, {"line": {"id": "NHJC", "shabadid": "D30", "gurmukhi": {"akhar": "hir Dwir ikrpw siqguru imlwieAw Dnu Dnu khY swbwis jIau ]2]", "unicode": "\u0a39\u0a30\u0a3f \u0a27\u0a3e\u0a30\u0a3f \u0a15\u0a3f\u0a30\u0a2a\u0a3e \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41 \u0a2e\u0a3f\u0a32\u0a3e\u0a07\u0a06 \u0a27\u0a28\u0a41 \u0a27\u0a28\u0a41 \u0a15\u0a39\u0a48 \u0a38\u0a3e\u0a2c\u0a3e\u0a38\u0a3f \u0a1c\u0a40\u0a09 \u0965\u0a68\u0965"}, "larivaar": {"akhar": "hir\u200bDwir\u200bikrpw\u200bsiqguru\u200bimlwieAw\u200bDnu\u200bDnu\u200bkhY\u200bswbwis\u200bjIau\u200b]2]", "unicode": "\u0a39\u0a30\u0a3f\u200b\u0a27\u0a3e\u0a30\u0a3f\u200b\u0a15\u0a3f\u0a30\u0a2a\u0a3e\u200b\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41\u200b\u0a2e\u0a3f\u0a32\u0a3e\u0a07\u0a06\u200b\u0a27\u0a28\u0a41\u200b\u0a27\u0a28\u0a41\u200b\u0a15\u0a39\u0a48\u200b\u0a38\u0a3e\u0a2c\u0a3e\u0a38\u0a3f\u200b\u0a1c\u0a40\u0a09\u200b\u0965\u0a68\u0965"}, "translation": {"english": {"default": "The Lord showered His Mercy, and blended the True Guru with Himself; He said, \"Blessed! Blessed! Wonderful!\" ||2||"}, "punjabi": {"default": {"akhar": "Aqy imhr kr ky aus ny gurU Amrdws jI \u0192 (Awpxy crnW ivc) joV ilAw Aqy kihx l`gw-SwbwSy! qUM DMn hYN, qUM DMn hYN ]2]", "unicode": "\u0a05\u0a24\u0a47 \u0a2e\u0a3f\u0a39\u0a30 \u0a15\u0a30 \u0a15\u0a47 \u0a09\u0a38 \u0a28\u0a47 \u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a42\u0a70 (\u0a06\u0a2a\u0a23\u0a47 \u0a1a\u0a30\u0a28\u0a3e\u0a02 \u0a35\u0a3f\u0a1a) \u0a1c\u0a4b\u0a5c \u0a32\u0a3f\u0a06 \u0a05\u0a24\u0a47 \u0a15\u0a39\u0a3f\u0a23 \u0a32\u0a71\u0a17\u0a3e-\u0a36\u0a3e\u0a2c\u0a3e\u0a36\u0a47! \u0a24\u0a42\u0a70 \u0a27\u0a70\u0a28 \u0a39\u0a48\u0a02, \u0a24\u0a42\u0a70 \u0a27\u0a70\u0a28 \u0a39\u0a48\u0a02 \u0965\u0a68\u0965"}}, "spanish": "lo uni\u00f3 en Su Ser y todos proclamaron, oh, Bendito sea nuestro Dios."}, "transliteration": {"english": {"text": "har dhaar kirapaa satigur milaaeaa dhan dhan kahai saabaas jeeo |2|", "larivaar": "har\u200bdhaar\u200bkirapaa\u200bsatigur\u200bmilaaeaa\u200bdhan\u200bdhan\u200bkahai\u200bsaabaas\u200bjeeo\u200b|2|"}, "devanagari": {"text": "\u0939\u0930\u093f \u0927\u093e\u0930\u093f \u0915\u093f\u0930\u092a\u093e \u0938\u0924\u093f\u0917\u0941\u0930\u0941 \u092e\u093f\u0932\u093e\u0907\u0906 \u0927\u0928\u0941 \u0927\u0928\u0941 \u0915\u0939\u0948 \u0938\u093e\u092c\u093e\u0938\u093f \u091c\u0940\u0909 \u0965\u0968\u0965", "larivaar": "\u0939\u0930\u093f\u200b\u0927\u093e\u0930\u093f\u200b\u0915\u093f\u0930\u092a\u093e\u200b\u0938\u0924\u093f\u0917\u0941\u0930\u0941\u200b\u092e\u093f\u0932\u093e\u0907\u0906\u200b\u0927\u0928\u0941\u200b\u0927\u0928\u0941\u200b\u0915\u0939\u0948\u200b\u0938\u093e\u092c\u093e\u0938\u093f\u200b\u091c\u0940\u0909\u200b\u0965\u0968\u0965"}}, "pageno": 923, "lineno": 8, "firstletters": {"akhar": "hDksmDDksj", "unicode": "\u0a39\u0a27\u0a15\u0a38\u0a2e\u0a27\u0a27\u0a15\u0a38\u0a1c"}}}, {"line": {"id": "5DL7", "shabadid": "D30", "gurmukhi": {"akhar": "myry isK suxhu puq BweIho myrY hir Bwxw Awau mY pwis jIau ]", "unicode": "\u0a2e\u0a47\u0a30\u0a47 \u0a38\u0a3f\u0a16 \u0a38\u0a41\u0a23\u0a39\u0a41 \u0a2a\u0a41\u0a24 \u0a2d\u0a3e\u0a08\u0a39\u0a4b \u0a2e\u0a47\u0a30\u0a48 \u0a39\u0a30\u0a3f \u0a2d\u0a3e\u0a23\u0a3e \u0a06\u0a09 \u0a2e\u0a48 \u0a2a\u0a3e\u0a38\u0a3f \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "myry\u200bisK\u200bsuxhu\u200bpuq\u200bBweIho\u200bmyrY\u200bhir\u200bBwxw\u200bAwau\u200bmY\u200bpwis\u200bjIau\u200b]", "unicode": "\u0a2e\u0a47\u0a30\u0a47\u200b\u0a38\u0a3f\u0a16\u200b\u0a38\u0a41\u0a23\u0a39\u0a41\u200b\u0a2a\u0a41\u0a24\u200b\u0a2d\u0a3e\u0a08\u0a39\u0a4b\u200b\u0a2e\u0a47\u0a30\u0a48\u200b\u0a39\u0a30\u0a3f\u200b\u0a2d\u0a3e\u0a23\u0a3e\u200b\u0a06\u0a09\u200b\u0a2e\u0a48\u200b\u0a2a\u0a3e\u0a38\u0a3f\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "Listen O my Sikhs, my children and Siblings of Destiny; it is my Lord's Will that I must now go to Him."}, "punjabi": {"default": {"akhar": "hy myry is`Ko! hy myry pu`qRo! hy myry Brwvo! suxo- myry Akwl purK \u0192 (ieh) cMgw l`gw hY (Aqy mY\u0192 aus ny hukm kIqw hY:) 'myry kol Awau'[", "unicode": "\u0a39\u0a47 \u0a2e\u0a47\u0a30\u0a47 \u0a38\u0a3f\u0a71\u0a16\u0a4b! \u0a39\u0a47 \u0a2e\u0a47\u0a30\u0a47 \u0a2a\u0a41\u0a71\u0a24\u0a4d\u0a30\u0a4b! \u0a39\u0a47 \u0a2e\u0a47\u0a30\u0a47 \u0a2d\u0a30\u0a3e\u0a35\u0a4b! \u0a38\u0a41\u0a23\u0a4b- \u0a2e\u0a47\u0a30\u0a47 \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a28\u0a42\u0a70 (\u0a07\u0a39) \u0a1a\u0a70\u0a17\u0a3e \u0a32\u0a71\u0a17\u0a3e \u0a39\u0a48 (\u0a05\u0a24\u0a47 \u0a2e\u0a48\u0a28\u0a42\u0a70 \u0a09\u0a38 \u0a28\u0a47 \u0a39\u0a41\u0a15\u0a2e \u0a15\u0a40\u0a24\u0a3e \u0a39\u0a48:) '\u0a2e\u0a47\u0a30\u0a47 \u0a15\u0a4b\u0a32 \u0a06\u0a09'\u0964"}}, "spanish": "Escuchen, oh mis Sikjs del Guru, Hijos y Hermanos del Destino, es la Voluntad de mi Se\u00f1or que vaya a Encontrarlo."}, "transliteration": {"english": {"text": "mere sikh sunahu put bhaaeeho merai har bhaanaa aau mai paas jeeo |", "larivaar": "mere\u200bsikh\u200bsunahu\u200bput\u200bbhaaeeho\u200bmerai\u200bhar\u200bbhaanaa\u200baau\u200bmai\u200bpaas\u200bjeeo\u200b|"}, "devanagari": {"text": "\u092e\u0947\u0930\u0947 \u0938\u093f\u0916 \u0938\u0941\u0923\u0939\u0941 \u092a\u0941\u0924 \u092d\u093e\u0908\u0939\u094b \u092e\u0947\u0930\u0948 \u0939\u0930\u093f \u092d\u093e\u0923\u093e \u0906\u0909 \u092e\u0948 \u092a\u093e\u0938\u093f \u091c\u0940\u0909 \u0965", "larivaar": "\u092e\u0947\u0930\u0947\u200b\u0938\u093f\u0916\u200b\u0938\u0941\u0923\u0939\u0941\u200b\u092a\u0941\u0924\u200b\u092d\u093e\u0908\u0939\u094b\u200b\u092e\u0947\u0930\u0948\u200b\u0939\u0930\u093f\u200b\u092d\u093e\u0923\u093e\u200b\u0906\u0909\u200b\u092e\u0948\u200b\u092a\u093e\u0938\u093f\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 8, "firstletters": {"akhar": "msspBmhBAmpj", "unicode": "\u0a2e\u0a38\u0a38\u0a2a\u0a2d\u0a2e\u0a39\u0a2d\u0a05\u0a2e\u0a2a\u0a1c"}}}, {"line": {"id": "KA7F", "shabadid": "D30", "gurmukhi": {"akhar": "hir Bwxw gur BwieAw myrw hir pRBu kry swbwis jIau ]", "unicode": "\u0a39\u0a30\u0a3f \u0a2d\u0a3e\u0a23\u0a3e \u0a17\u0a41\u0a30 \u0a2d\u0a3e\u0a07\u0a06 \u0a2e\u0a47\u0a30\u0a3e \u0a39\u0a30\u0a3f \u0a2a\u0a4d\u0a30\u0a2d\u0a41 \u0a15\u0a30\u0a47 \u0a38\u0a3e\u0a2c\u0a3e\u0a38\u0a3f \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "hir\u200bBwxw\u200bgur\u200bBwieAw\u200bmyrw\u200bhir\u200bpRBu\u200bkry\u200bswbwis\u200bjIau\u200b]", "unicode": "\u0a39\u0a30\u0a3f\u200b\u0a2d\u0a3e\u0a23\u0a3e\u200b\u0a17\u0a41\u0a30\u200b\u0a2d\u0a3e\u0a07\u0a06\u200b\u0a2e\u0a47\u0a30\u0a3e\u200b\u0a39\u0a30\u0a3f\u200b\u0a2a\u0a4d\u0a30\u0a2d\u0a41\u200b\u0a15\u0a30\u0a47\u200b\u0a38\u0a3e\u0a2c\u0a3e\u0a38\u0a3f\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "The Guru gladly accepted the Lord's Will, and my Lord God applauded Him."}, "punjabi": {"default": {"akhar": "Akwl purK dI rzw gurU \u0192 im`TI l`gI hY, myrw pRBU (mY\u0192) SwbwS dy irhw hY[\t\trwmklI sd [B. suMdr] 3:2 {923}-9\trwmklI sd (B. suMdr) 923-9\thr Bx gr BeA mr hr prB kr sbs ja ]\tAYsw jo hrI kw hukm hY, sRI gurU jI khqy Bey: so myry ko BwieAw hY[ iesI qy myrw hrI (pRBU) s\u00cdwmI sqkwr krygw]\t\tpRBU dI rzw gurW \u0192 im`TI l`gI Aqy mYNfy suAwmI vwihgurU ny aunHW \u0192 SwbwSy id`qI[\tThe Lord's iwll seemed sweet unto the Guru and my Lord God applauded ihm.", "unicode": "\u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a40 \u0a30\u0a5b\u0a3e \u0a17\u0a41\u0a30\u0a42 \u0a28\u0a42\u0a70 \u0a2e\u0a3f\u0a71\u0a20\u0a40 \u0a32\u0a71\u0a17\u0a40 \u0a39\u0a48, \u0a2e\u0a47\u0a30\u0a3e \u0a2a\u0a4d\u0a30\u0a2d\u0a42 (\u0a2e\u0a48\u0a28\u0a42\u0a70) \u0a36\u0a3e\u0a2c\u0a3e\u0a36 \u0a26\u0a47 \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48\u0964\t\t\u0a30\u0a3e\u0a2e\u0a15\u0a32\u0a40 \u0a38\u0a26 [\u0a2d. \u0a38\u0a41\u0a70\u0a26\u0a30] \u0a69:\u0a68 {\u0a6f\u0a68\u0a69}-\u0a6f\t\u0a30\u0a3e\u0a2e\u0a15\u0a32\u0a40 \u0a38\u0a26 (\u0a2d. \u0a38\u0a41\u0a70\u0a26\u0a30) \u0a6f\u0a68\u0a69-\u0a6f\t\u0a39\u0a30 \u0a2d\u0a23 \u0a17\u0a30 \u0a2d\u0a72\u0a05 \u0a2e\u0a30 \u0a39\u0a30 \u0a2a\u0a30\u0a2d \u0a15\u0a30 \u0a38\u0a2c\u0a38 \u0a1c\u0a73 \u0965\t\u0a10\u0a38\u0a3e \u0a1c\u0a4b \u0a39\u0a30\u0a40 \u0a15\u0a3e \u0a39\u0a41\u0a15\u0a2e \u0a39\u0a48, \u0a38\u0a4d\u0a30\u0a40 \u0a17\u0a41\u0a30\u0a42 \u0a1c\u0a40 \u0a15\u0a39\u0a24\u0a47 \u0a2d\u0a0f: \u0a38\u0a4b \u0a2e\u0a47\u0a30\u0a47 \u0a15\u0a4b \u0a2d\u0a3e\u0a07\u0a06 \u0a39\u0a48\u0964 \u0a07\u0a38\u0a40 \u0a24\u0a47 \u0a2e\u0a47\u0a30\u0a3e \u0a39\u0a30\u0a40 (\u0a2a\u0a4d\u0a30\u0a2d\u0a42) \u0a38\u0a4d\u0a35\u0a3e\u0a2e\u0a40 \u0a38\u0a24\u0a15\u0a3e\u0a30 \u0a15\u0a30\u0a47\u0a17\u0a3e\u0965\t\t\u0a2a\u0a4d\u0a30\u0a2d\u0a42 \u0a26\u0a40 \u0a30\u0a5b\u0a3e \u0a17\u0a41\u0a30\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a2e\u0a3f\u0a71\u0a20\u0a40 \u0a32\u0a71\u0a17\u0a40 \u0a05\u0a24\u0a47 \u0a2e\u0a48\u0a02\u0a21\u0a47 \u0a38\u0a41\u0a06\u0a2e\u0a40 \u0a35\u0a3e\u0a39\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a28\u0a47 \u0a09\u0a28\u0a4d\u0a39\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a36\u0a3e\u0a2c\u0a3e\u0a36\u0a47 \u0a26\u0a3f\u0a71\u0a24\u0a40\u0964\tThe Lord's will seemed sweet unto the Guru and my Lord God applauded him."}}, "spanish": "El Se\u00f1or me ha bendecido y estoy complacido con Su Voluntad."}, "transliteration": {"english": {"text": "har bhaanaa gur bhaaeaa meraa har prabh kare saabaas jeeo |", "larivaar": "har\u200bbhaanaa\u200bgur\u200bbhaaeaa\u200bmeraa\u200bhar\u200bprabh\u200bkare\u200bsaabaas\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0939\u0930\u093f \u092d\u093e\u0923\u093e \u0917\u0941\u0930 \u092d\u093e\u0907\u0906 \u092e\u0947\u0930\u093e \u0939\u0930\u093f \u092a\u094d\u0930\u092d\u0941 \u0915\u0930\u0947 \u0938\u093e\u092c\u093e\u0938\u093f \u091c\u0940\u0909 \u0965", "larivaar": "\u0939\u0930\u093f\u200b\u092d\u093e\u0923\u093e\u200b\u0917\u0941\u0930\u200b\u092d\u093e\u0907\u0906\u200b\u092e\u0947\u0930\u093e\u200b\u0939\u0930\u093f\u200b\u092a\u094d\u0930\u092d\u0941\u200b\u0915\u0930\u0947\u200b\u0938\u093e\u092c\u093e\u0938\u093f\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 9, "firstletters": {"akhar": "hBgBmhpksj", "unicode": "\u0a39\u0a2d\u0a17\u0a2d\u0a2e\u0a39\u0a2a\u0a15\u0a38\u0a1c"}}}, {"line": {"id": "M5YA", "shabadid": "D30", "gurmukhi": {"akhar": "Bgqu siqguru purKu soeI ijsu hir pRB Bwxw Bwvey ]", "unicode": "\u0a2d\u0a17\u0a24\u0a41 \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41 \u0a2a\u0a41\u0a30\u0a16\u0a41 \u0a38\u0a4b\u0a08 \u0a1c\u0a3f\u0a38\u0a41 \u0a39\u0a30\u0a3f \u0a2a\u0a4d\u0a30\u0a2d \u0a2d\u0a3e\u0a23\u0a3e \u0a2d\u0a3e\u0a35\u0a0f \u0965"}, "larivaar": {"akhar": "Bgqu\u200bsiqguru\u200bpurKu\u200bsoeI\u200bijsu\u200bhir\u200bpRB\u200bBwxw\u200bBwvey\u200b]", "unicode": "\u0a2d\u0a17\u0a24\u0a41\u200b\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41\u200b\u0a2a\u0a41\u0a30\u0a16\u0a41\u200b\u0a38\u0a4b\u0a08\u200b\u0a1c\u0a3f\u0a38\u0a41\u200b\u0a39\u0a30\u0a3f\u200b\u0a2a\u0a4d\u0a30\u0a2d\u200b\u0a2d\u0a3e\u0a23\u0a3e\u200b\u0a2d\u0a3e\u0a35\u0a0f\u200b\u0965"}, "translation": {"english": {"default": "One who is pleased with the Lord God's Will is a devotee, the True Guru, the Primal Lord."}, "punjabi": {"default": {"akhar": "auhI (mnu`K) Bgq hY qy pUrw gurU hY ijs \u0192 r`b dw Bwxw im`Tw l`gdw hY;", "unicode": "\u0a09\u0a39\u0a40 (\u0a2e\u0a28\u0a41\u0a71\u0a16) \u0a2d\u0a17\u0a24 \u0a39\u0a48 \u0a24\u0a47 \u0a2a\u0a42\u0a30\u0a3e \u0a17\u0a41\u0a30\u0a42 \u0a39\u0a48 \u0a1c\u0a3f\u0a38 \u0a28\u0a42\u0a70 \u0a30\u0a71\u0a2c \u0a26\u0a3e \u0a2d\u0a3e\u0a23\u0a3e \u0a2e\u0a3f\u0a71\u0a20\u0a3e \u0a32\u0a71\u0a17\u0a26\u0a3e \u0a39\u0a48;"}}, "spanish": "Aqu\u00e9l que est\u00e1 complacido con la Voluntad del Se\u00f1or, s\u00f3lo \u00e9l es el Devoto,"}, "transliteration": {"english": {"text": "bhagat satigur purakh soee jis har prabh bhaanaa bhaave |", "larivaar": "bhagat\u200bsatigur\u200bpurakh\u200bsoee\u200bjis\u200bhar\u200bprabh\u200bbhaanaa\u200bbhaave\u200b|"}, "devanagari": {"text": "\u092d\u0917\u0924\u0941 \u0938\u0924\u093f\u0917\u0941\u0930\u0941 \u092a\u0941\u0930\u0916\u0941 \u0938\u094b\u0908 \u091c\u093f\u0938\u0941 \u0939\u0930\u093f \u092a\u094d\u0930\u092d \u092d\u093e\u0923\u093e \u092d\u093e\u0935\u090f \u0965", "larivaar": "\u092d\u0917\u0924\u0941\u200b\u0938\u0924\u093f\u0917\u0941\u0930\u0941\u200b\u092a\u0941\u0930\u0916\u0941\u200b\u0938\u094b\u0908\u200b\u091c\u093f\u0938\u0941\u200b\u0939\u0930\u093f\u200b\u092a\u094d\u0930\u092d\u200b\u092d\u093e\u0923\u093e\u200b\u092d\u093e\u0935\u090f\u200b\u0965"}}, "pageno": 923, "lineno": 9, "firstletters": {"akhar": "BspsjhpBB", "unicode": "\u0a2d\u0a38\u0a2a\u0a38\u0a1c\u0a39\u0a2a\u0a2d\u0a2d"}}}, {"line": {"id": "PKQJ", "shabadid": "D30", "gurmukhi": {"akhar": "Awn\u00b5d Anhd vjih vwjy hir Awip gil mylwvey ]", "unicode": "\u0a06\u0a28\u0a70\u0a26 \u0a05\u0a28\u0a39\u0a26 \u0a35\u0a1c\u0a39\u0a3f \u0a35\u0a3e\u0a1c\u0a47 \u0a39\u0a30\u0a3f \u0a06\u0a2a\u0a3f \u0a17\u0a32\u0a3f \u0a2e\u0a47\u0a32\u0a3e\u0a35\u0a0f \u0965"}, "larivaar": {"akhar": "Awn\u00b5d\u200bAnhd\u200bvjih\u200bvwjy\u200bhir\u200bAwip\u200bgil\u200bmylwvey\u200b]", "unicode": "\u0a06\u0a28\u0a70\u0a26\u200b\u0a05\u0a28\u0a39\u0a26\u200b\u0a35\u0a1c\u0a39\u0a3f\u200b\u0a35\u0a3e\u0a1c\u0a47\u200b\u0a39\u0a30\u0a3f\u200b\u0a06\u0a2a\u0a3f\u200b\u0a17\u0a32\u0a3f\u200b\u0a2e\u0a47\u0a32\u0a3e\u0a35\u0a0f\u200b\u0965"}, "translation": {"english": {"default": "The unstruck sound current of bliss resounds and vibrates; the Lord hugs him close in His embrace."}, "punjabi": {"default": {"akhar": "(aus dy AMdr) Awn\u00b5d dy vwjy ie`k-rs v`jdy hn, Akwl purK aus \u0192 Awp Awpxy gl lwauNdw hY[", "unicode": "(\u0a09\u0a38 \u0a26\u0a47 \u0a05\u0a70\u0a26\u0a30) \u0a06\u0a28\u0a70\u0a26 \u0a26\u0a47 \u0a35\u0a3e\u0a1c\u0a47 \u0a07\u0a71\u0a15-\u0a30\u0a38 \u0a35\u0a71\u0a1c\u0a26\u0a47 \u0a39\u0a28, \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a09\u0a38 \u0a28\u0a42\u0a70 \u0a06\u0a2a \u0a06\u0a2a\u0a23\u0a47 \u0a17\u0a32 \u0a32\u0a3e\u0a09\u0a02\u0a26\u0a3e \u0a39\u0a48\u0964"}}, "spanish": "el Guru, el Esp\u00edritu Divino, y cuando est\u00e1 unido con su Dios, resuena en \u00e9l la Melod\u00eda Divina del \u00c9xtasis."}, "transliteration": {"english": {"text": "aanand anahad vajeh vaaje har aap gal melaave |", "larivaar": "aanand\u200banahad\u200bvajeh\u200bvaaje\u200bhar\u200baap\u200bgal\u200bmelaave\u200b|"}, "devanagari": {"text": "\u0906\u0928\u0902\u0926 \u0905\u0928\u0939\u0926 \u0935\u091c\u0939\u093f \u0935\u093e\u091c\u0947 \u0939\u0930\u093f \u0906\u092a\u093f \u0917\u0932\u093f \u092e\u0947\u0932\u093e\u0935\u090f \u0965", "larivaar": "\u0906\u0928\u0902\u0926\u200b\u0905\u0928\u0939\u0926\u200b\u0935\u091c\u0939\u093f\u200b\u0935\u093e\u091c\u0947\u200b\u0939\u0930\u093f\u200b\u0906\u092a\u093f\u200b\u0917\u0932\u093f\u200b\u092e\u0947\u0932\u093e\u0935\u090f\u200b\u0965"}}, "pageno": 923, "lineno": 10, "firstletters": {"akhar": "AAvvhAgm", "unicode": "\u0a05\u0a05\u0a35\u0a35\u0a39\u0a05\u0a17\u0a2e"}}}, {"line": {"id": "T1Q3", "shabadid": "D30", "gurmukhi": {"akhar": "qusI puq BweI prvwru myrw min vyKhu kir inrjwis jIau ]", "unicode": "\u0a24\u0a41\u0a38\u0a40 \u0a2a\u0a41\u0a24 \u0a2d\u0a3e\u0a08 \u0a2a\u0a30\u0a35\u0a3e\u0a30\u0a41 \u0a2e\u0a47\u0a30\u0a3e \u0a2e\u0a28\u0a3f \u0a35\u0a47\u0a16\u0a39\u0a41 \u0a15\u0a30\u0a3f \u0a28\u0a3f\u0a30\u0a1c\u0a3e\u0a38\u0a3f \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "qusI\u200bpuq\u200bBweI\u200bprvwru\u200bmyrw\u200bmin\u200bvyKhu\u200bkir\u200binrjwis\u200bjIau\u200b]", "unicode": "\u0a24\u0a41\u0a38\u0a40\u200b\u0a2a\u0a41\u0a24\u200b\u0a2d\u0a3e\u0a08\u200b\u0a2a\u0a30\u0a35\u0a3e\u0a30\u0a41\u200b\u0a2e\u0a47\u0a30\u0a3e\u200b\u0a2e\u0a28\u0a3f\u200b\u0a35\u0a47\u0a16\u0a39\u0a41\u200b\u0a15\u0a30\u0a3f\u200b\u0a28\u0a3f\u0a30\u0a1c\u0a3e\u0a38\u0a3f\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "O my children, siblings and family, look carefully in your minds, and see."}, "punjabi": {"default": {"akhar": "qusIN myry pu`qr ho, myry Brw ho myrw prvwr ho; mn ivc ikAws kr ky vyKhu,", "unicode": "\u0a24\u0a41\u0a38\u0a40\u0a02 \u0a2e\u0a47\u0a30\u0a47 \u0a2a\u0a41\u0a71\u0a24\u0a30 \u0a39\u0a4b, \u0a2e\u0a47\u0a30\u0a47 \u0a2d\u0a30\u0a3e \u0a39\u0a4b \u0a2e\u0a47\u0a30\u0a3e \u0a2a\u0a30\u0a35\u0a3e\u0a30 \u0a39\u0a4b; \u0a2e\u0a28 \u0a35\u0a3f\u0a1a \u0a15\u0a3f\u0a06\u0a38 \u0a15\u0a30 \u0a15\u0a47 \u0a35\u0a47\u0a16\u0a39\u0a41,"}}, "spanish": "Oh mis parientes, hijos, hermanos, discriminen de esta forma y entiendan que el Escrito de Dios nadie lo puede borrar,"}, "transliteration": {"english": {"text": "tusee put bhaaee paravaar meraa man vekhahu kar nirajaas jeeo |", "larivaar": "tusee\u200bput\u200bbhaaee\u200bparavaar\u200bmeraa\u200bman\u200bvekhahu\u200bkar\u200bnirajaas\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0924\u0941\u0938\u0940 \u092a\u0941\u0924 \u092d\u093e\u0908 \u092a\u0930\u0935\u093e\u0930\u0941 \u092e\u0947\u0930\u093e \u092e\u0928\u093f \u0935\u0947\u0916\u0939\u0941 \u0915\u0930\u093f \u0928\u093f\u0930\u091c\u093e\u0938\u093f \u091c\u0940\u0909 \u0965", "larivaar": "\u0924\u0941\u0938\u0940\u200b\u092a\u0941\u0924\u200b\u092d\u093e\u0908\u200b\u092a\u0930\u0935\u093e\u0930\u0941\u200b\u092e\u0947\u0930\u093e\u200b\u092e\u0928\u093f\u200b\u0935\u0947\u0916\u0939\u0941\u200b\u0915\u0930\u093f\u200b\u0928\u093f\u0930\u091c\u093e\u0938\u093f\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 11, "firstletters": {"akhar": "qpBpmmvknj", "unicode": "\u0a24\u0a2a\u0a2d\u0a2a\u0a2e\u0a2e\u0a35\u0a15\u0a28\u0a1c"}}}, {"line": {"id": "8KX2", "shabadid": "D30", "gurmukhi": {"akhar": "Duir iliKAw prvwxw iPrY nwhI guru jwie hir pRB pwis jIau ]3]", "unicode": "\u0a27\u0a41\u0a30\u0a3f \u0a32\u0a3f\u0a16\u0a3f\u0a06 \u0a2a\u0a30\u0a35\u0a3e\u0a23\u0a3e \u0a2b\u0a3f\u0a30\u0a48 \u0a28\u0a3e\u0a39\u0a40 \u0a17\u0a41\u0a30\u0a41 \u0a1c\u0a3e\u0a07 \u0a39\u0a30\u0a3f \u0a2a\u0a4d\u0a30\u0a2d \u0a2a\u0a3e\u0a38\u0a3f \u0a1c\u0a40\u0a09 \u0965\u0a69\u0965"}, "larivaar": {"akhar": "Duir\u200biliKAw\u200bprvwxw\u200biPrY\u200bnwhI\u200bguru\u200bjwie\u200bhir\u200bpRB\u200bpwis\u200bjIau\u200b]3]", "unicode": "\u0a27\u0a41\u0a30\u0a3f\u200b\u0a32\u0a3f\u0a16\u0a3f\u0a06\u200b\u0a2a\u0a30\u0a35\u0a3e\u0a23\u0a3e\u200b\u0a2b\u0a3f\u0a30\u0a48\u200b\u0a28\u0a3e\u0a39\u0a40\u200b\u0a17\u0a41\u0a30\u0a41\u200b\u0a1c\u0a3e\u0a07\u200b\u0a39\u0a30\u0a3f\u200b\u0a2a\u0a4d\u0a30\u0a2d\u200b\u0a2a\u0a3e\u0a38\u0a3f\u200b\u0a1c\u0a40\u0a09\u200b\u0965\u0a69\u0965"}, "translation": {"english": {"default": "The pre-ordained death warrant cannot be avoided; the Guru is going to be with the Lord God. ||3||"}, "punjabi": {"default": {"akhar": "ik DuroN iliKAw hoieAw hukm (kdy) tl nhIN skdw; (so, ies vwsqy, hux) gurU, Akwl purK dy kol jw irhw hY ]3]", "unicode": "\u0a15\u0a3f \u0a27\u0a41\u0a30\u0a4b\u0a02 \u0a32\u0a3f\u0a16\u0a3f\u0a06 \u0a39\u0a4b\u0a07\u0a06 \u0a39\u0a41\u0a15\u0a2e (\u0a15\u0a26\u0a47) \u0a1f\u0a32 \u0a28\u0a39\u0a40\u0a02 \u0a38\u0a15\u0a26\u0a3e; (\u0a38\u0a4b, \u0a07\u0a38 \u0a35\u0a3e\u0a38\u0a24\u0a47, \u0a39\u0a41\u0a23) \u0a17\u0a41\u0a30\u0a42, \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a47 \u0a15\u0a4b\u0a32 \u0a1c\u0a3e \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48 \u0965\u0a69\u0965"}}, "spanish": "y el Guru de seguro va a entrar en el Estado de su Dios.  (3)"}, "transliteration": {"english": {"text": "dhur likhiaa paravaanaa firai naahee gur jaae har prabh paas jeeo |3|", "larivaar": "dhur\u200blikhiaa\u200bparavaanaa\u200bfirai\u200bnaahee\u200bgur\u200bjaae\u200bhar\u200bprabh\u200bpaas\u200bjeeo\u200b|3|"}, "devanagari": {"text": "\u0927\u0941\u0930\u093f \u0932\u093f\u0916\u093f\u0906 \u092a\u0930\u0935\u093e\u0923\u093e \u092b\u093f\u0930\u0948 \u0928\u093e\u0939\u0940 \u0917\u0941\u0930\u0941 \u091c\u093e\u0907 \u0939\u0930\u093f \u092a\u094d\u0930\u092d \u092a\u093e\u0938\u093f \u091c\u0940\u0909 \u0965\u0969\u0965", "larivaar": "\u0927\u0941\u0930\u093f\u200b\u0932\u093f\u0916\u093f\u0906\u200b\u092a\u0930\u0935\u093e\u0923\u093e\u200b\u092b\u093f\u0930\u0948\u200b\u0928\u093e\u0939\u0940\u200b\u0917\u0941\u0930\u0941\u200b\u091c\u093e\u0907\u200b\u0939\u0930\u093f\u200b\u092a\u094d\u0930\u092d\u200b\u092a\u093e\u0938\u093f\u200b\u091c\u0940\u0909\u200b\u0965\u0969\u0965"}}, "pageno": 923, "lineno": 11, "firstletters": {"akhar": "DlpPngjhppj", "unicode": "\u0a27\u0a32\u0a2a\u0a2b\u0a28\u0a17\u0a1c\u0a39\u0a2a\u0a2a\u0a1c"}}}, {"line": {"id": "VSZ3", "shabadid": "D30", "gurmukhi": {"akhar": "siqguir BwxY AwpxY bih prvwru sdwieAw ]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a3f \u0a2d\u0a3e\u0a23\u0a48 \u0a06\u0a2a\u0a23\u0a48 \u0a2c\u0a39\u0a3f \u0a2a\u0a30\u0a35\u0a3e\u0a30\u0a41 \u0a38\u0a26\u0a3e\u0a07\u0a06 \u0965"}, "larivaar": {"akhar": "siqguir\u200bBwxY\u200bAwpxY\u200bbih\u200bprvwru\u200bsdwieAw\u200b]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a3f\u200b\u0a2d\u0a3e\u0a23\u0a48\u200b\u0a06\u0a2a\u0a23\u0a48\u200b\u0a2c\u0a39\u0a3f\u200b\u0a2a\u0a30\u0a35\u0a3e\u0a30\u0a41\u200b\u0a38\u0a26\u0a3e\u0a07\u0a06\u200b\u0965"}, "translation": {"english": {"default": "The True Guru, in His Own Sweet Will, sat up and summoned His family."}, "punjabi": {"default": {"akhar": "gurU (Amrdws jI) ny bYT ky AwpxI mrzI nwl (swry) prvwr \u0192 s`d G`ilAw; (qy AwiKAw-)", "unicode": "\u0a17\u0a41\u0a30\u0a42 (\u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40) \u0a28\u0a47 \u0a2c\u0a48\u0a20 \u0a15\u0a47 \u0a06\u0a2a\u0a23\u0a40 \u0a2e\u0a30\u0a5b\u0a40 \u0a28\u0a3e\u0a32 (\u0a38\u0a3e\u0a30\u0a47) \u0a2a\u0a30\u0a35\u0a3e\u0a30 \u0a28\u0a42\u0a70 \u0a38\u0a71\u0a26 \u0a18\u0a71\u0a32\u0a3f\u0a06; (\u0a24\u0a47 \u0a06\u0a16\u0a3f\u0a06-)"}}, "spanish": "El Guru orden\u00f3 a sus parientes que estuvieran cerca de \u00e9l, mientras se acaba esta vida mundana,"}, "transliteration": {"english": {"text": "satigur bhaanai aapanai beh paravaar sadaaeaa |", "larivaar": "satigur\u200bbhaanai\u200baapanai\u200bbeh\u200bparavaar\u200bsadaaeaa\u200b|"}, "devanagari": {"text": "\u0938\u0924\u093f\u0917\u0941\u0930\u093f \u092d\u093e\u0923\u0948 \u0906\u092a\u0923\u0948 \u092c\u0939\u093f \u092a\u0930\u0935\u093e\u0930\u0941 \u0938\u0926\u093e\u0907\u0906 \u0965", "larivaar": "\u0938\u0924\u093f\u0917\u0941\u0930\u093f\u200b\u092d\u093e\u0923\u0948\u200b\u0906\u092a\u0923\u0948\u200b\u092c\u0939\u093f\u200b\u092a\u0930\u0935\u093e\u0930\u0941\u200b\u0938\u0926\u093e\u0907\u0906\u200b\u0965"}}, "pageno": 923, "lineno": 12, "firstletters": {"akhar": "sBAbps", "unicode": "\u0a38\u0a2d\u0a05\u0a2c\u0a2a\u0a38"}}}, {"line": {"id": "B3XD", "shabadid": "D30", "gurmukhi": {"akhar": "mq mY ipCY koeI rovsI so mY mUil n BwieAw ]", "unicode": "\u0a2e\u0a24 \u0a2e\u0a48 \u0a2a\u0a3f\u0a1b\u0a48 \u0a15\u0a4b\u0a08 \u0a30\u0a4b\u0a35\u0a38\u0a40 \u0a38\u0a4b \u0a2e\u0a48 \u0a2e\u0a42\u0a32\u0a3f \u0a28 \u0a2d\u0a3e\u0a07\u0a06 \u0965"}, "larivaar": {"akhar": "mq\u200bmY\u200bipCY\u200bkoeI\u200brovsI\u200bso\u200bmY\u200bmUil\u200bn\u200bBwieAw\u200b]", "unicode": "\u0a2e\u0a24\u200b\u0a2e\u0a48\u200b\u0a2a\u0a3f\u0a1b\u0a48\u200b\u0a15\u0a4b\u0a08\u200b\u0a30\u0a4b\u0a35\u0a38\u0a40\u200b\u0a38\u0a4b\u200b\u0a2e\u0a48\u200b\u0a2e\u0a42\u0a32\u0a3f\u200b\u0a28\u200b\u0a2d\u0a3e\u0a07\u0a06\u200b\u0965"}, "translation": {"english": {"default": "Let no one weep for me after I am gone. That would not please me at all."}, "punjabi": {"default": {"akhar": "mqW myry ipCoN koeI rovy, mY\u0192 auh (rox vwlw) au`kw hI cMgw nhIN l`gxw[", "unicode": "\u0a2e\u0a24\u0a3e\u0a02 \u0a2e\u0a47\u0a30\u0a47 \u0a2a\u0a3f\u0a1b\u0a4b\u0a02 \u0a15\u0a4b\u0a08 \u0a30\u0a4b\u0a35\u0a47, \u0a2e\u0a48\u0a28\u0a42\u0a70 \u0a09\u0a39 (\u0a30\u0a4b\u0a23 \u0a35\u0a3e\u0a32\u0a3e) \u0a09\u0a71\u0a15\u0a3e \u0a39\u0a40 \u0a1a\u0a70\u0a17\u0a3e \u0a28\u0a39\u0a40\u0a02 \u0a32\u0a71\u0a17\u0a23\u0a3e\u0964"}}, "spanish": "y les instruy\u00f3 que por favor no lloraran, ni se entristecieran por \u00c9l,"}, "transliteration": {"english": {"text": "mat mai pichhai koee rovasee so mai mool na bhaaeaa |", "larivaar": "mat\u200bmai\u200bpichhai\u200bkoee\u200brovasee\u200bso\u200bmai\u200bmool\u200bna\u200bbhaaeaa\u200b|"}, "devanagari": {"text": "\u092e\u0924 \u092e\u0948 \u092a\u093f\u091b\u0948 \u0915\u094b\u0908 \u0930\u094b\u0935\u0938\u0940 \u0938\u094b \u092e\u0948 \u092e\u0942\u0932\u093f \u0928 \u092d\u093e\u0907\u0906 \u0965", "larivaar": "\u092e\u0924\u200b\u092e\u0948\u200b\u092a\u093f\u091b\u0948\u200b\u0915\u094b\u0908\u200b\u0930\u094b\u0935\u0938\u0940\u200b\u0938\u094b\u200b\u092e\u0948\u200b\u092e\u0942\u0932\u093f\u200b\u0928\u200b\u092d\u093e\u0907\u0906\u200b\u0965"}}, "pageno": 923, "lineno": 12, "firstletters": {"akhar": "mmpkrsmmnB", "unicode": "\u0a2e\u0a2e\u0a2a\u0a15\u0a30\u0a38\u0a2e\u0a2e\u0a28\u0a2d"}}}, {"line": {"id": "LYC8", "shabadid": "D30", "gurmukhi": {"akhar": "imqu pYJY imqu ibgsY ijsu imq kI pYj Bwvey ]", "unicode": "\u0a2e\u0a3f\u0a24\u0a41 \u0a2a\u0a48\u0a1d\u0a48 \u0a2e\u0a3f\u0a24\u0a41 \u0a2c\u0a3f\u0a17\u0a38\u0a48 \u0a1c\u0a3f\u0a38\u0a41 \u0a2e\u0a3f\u0a24 \u0a15\u0a40 \u0a2a\u0a48\u0a1c \u0a2d\u0a3e\u0a35\u0a0f \u0965"}, "larivaar": {"akhar": "imqu\u200bpYJY\u200bimqu\u200bibgsY\u200bijsu\u200bimq\u200bkI\u200bpYj\u200bBwvey\u200b]", "unicode": "\u0a2e\u0a3f\u0a24\u0a41\u200b\u0a2a\u0a48\u0a1d\u0a48\u200b\u0a2e\u0a3f\u0a24\u0a41\u200b\u0a2c\u0a3f\u0a17\u0a38\u0a48\u200b\u0a1c\u0a3f\u0a38\u0a41\u200b\u0a2e\u0a3f\u0a24\u200b\u0a15\u0a40\u200b\u0a2a\u0a48\u0a1c\u200b\u0a2d\u0a3e\u0a35\u0a0f\u200b\u0965"}, "translation": {"english": {"default": "When a friend receives a robe of honor, then his friends are pleased with his honor."}, "punjabi": {"default": {"akhar": "ijs mnu`K \u0192 Awpxy imqR dI vifAweI (huMdI) cMgI l`gdI hY, auh ^uS huMdw hY (jdoN) aus dy imqR \u0192 Awdr imldw hY[", "unicode": "\u0a1c\u0a3f\u0a38 \u0a2e\u0a28\u0a41\u0a71\u0a16 \u0a28\u0a42\u0a70 \u0a06\u0a2a\u0a23\u0a47 \u0a2e\u0a3f\u0a24\u0a4d\u0a30 \u0a26\u0a40 \u0a35\u0a21\u0a3f\u0a06\u0a08 (\u0a39\u0a41\u0a70\u0a26\u0a40) \u0a1a\u0a70\u0a17\u0a40 \u0a32\u0a71\u0a17\u0a26\u0a40 \u0a39\u0a48, \u0a09\u0a39 \u0a59\u0a41\u0a36 \u0a39\u0a41\u0a70\u0a26\u0a3e \u0a39\u0a48 (\u0a1c\u0a26\u0a4b\u0a02) \u0a09\u0a38 \u0a26\u0a47 \u0a2e\u0a3f\u0a24\u0a4d\u0a30 \u0a28\u0a42\u0a70 \u0a06\u0a26\u0a30 \u0a2e\u0a3f\u0a32\u0a26\u0a3e \u0a39\u0a48\u0964"}}, "spanish": "y dijo, el que act\u00fae as\u00ed, no me va a complacer,"}, "transliteration": {"english": {"text": "mit paijhai mit bigasai jis mit kee paij bhaave |", "larivaar": "mit\u200bpaijhai\u200bmit\u200bbigasai\u200bjis\u200bmit\u200bkee\u200bpaij\u200bbhaave\u200b|"}, "devanagari": {"text": "\u092e\u093f\u0924\u0941 \u092a\u0948\u091d\u0948 \u092e\u093f\u0924\u0941 \u092c\u093f\u0917\u0938\u0948 \u091c\u093f\u0938\u0941 \u092e\u093f\u0924 \u0915\u0940 \u092a\u0948\u091c \u092d\u093e\u0935\u090f \u0965", "larivaar": "\u092e\u093f\u0924\u0941\u200b\u092a\u0948\u091d\u0948\u200b\u092e\u093f\u0924\u0941\u200b\u092c\u093f\u0917\u0938\u0948\u200b\u091c\u093f\u0938\u0941\u200b\u092e\u093f\u0924\u200b\u0915\u0940\u200b\u092a\u0948\u091c\u200b\u092d\u093e\u0935\u090f\u200b\u0965"}}, "pageno": 923, "lineno": 13, "firstletters": {"akhar": "mpmbjmkpB", "unicode": "\u0a2e\u0a2a\u0a2e\u0a2c\u0a1c\u0a2e\u0a15\u0a2a\u0a2d"}}}, {"line": {"id": "LBAN", "shabadid": "D30", "gurmukhi": {"akhar": "qusI vIcwir dyKhu puq BweI hir siqgurU pYnwvey ]", "unicode": "\u0a24\u0a41\u0a38\u0a40 \u0a35\u0a40\u0a1a\u0a3e\u0a30\u0a3f \u0a26\u0a47\u0a16\u0a39\u0a41 \u0a2a\u0a41\u0a24 \u0a2d\u0a3e\u0a08 \u0a39\u0a30\u0a3f \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a2a\u0a48\u0a28\u0a3e\u0a35\u0a0f \u0965"}, "larivaar": {"akhar": "qusI\u200bvIcwir\u200bdyKhu\u200bpuq\u200bBweI\u200bhir\u200bsiqgurU\u200bpYnwvey\u200b]", "unicode": "\u0a24\u0a41\u0a38\u0a40\u200b\u0a35\u0a40\u0a1a\u0a3e\u0a30\u0a3f\u200b\u0a26\u0a47\u0a16\u0a39\u0a41\u200b\u0a2a\u0a41\u0a24\u200b\u0a2d\u0a3e\u0a08\u200b\u0a39\u0a30\u0a3f\u200b\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42\u200b\u0a2a\u0a48\u0a28\u0a3e\u0a35\u0a0f\u200b\u0965"}, "translation": {"english": {"default": "Consider this and see, O my children and siblings; the Lord has given the True Guru the robe of supreme honor."}, "punjabi": {"default": {"akhar": "qusI BI, hy myry puqro qy Brwvo! (hux) ivcwr ky vyK lvo ik Akwl purK gurU \u0192 Awdr dy irhw hY (ies vwsqy qusI BI ^uS hovo)[", "unicode": "\u0a24\u0a41\u0a38\u0a40 \u0a2d\u0a40, \u0a39\u0a47 \u0a2e\u0a47\u0a30\u0a47 \u0a2a\u0a41\u0a24\u0a30\u0a4b \u0a24\u0a47 \u0a2d\u0a30\u0a3e\u0a35\u0a4b! (\u0a39\u0a41\u0a23) \u0a35\u0a3f\u0a1a\u0a3e\u0a30 \u0a15\u0a47 \u0a35\u0a47\u0a16 \u0a32\u0a35\u0a4b \u0a15\u0a3f \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a17\u0a41\u0a30\u0a42 \u0a28\u0a42\u0a70 \u0a06\u0a26\u0a30 \u0a26\u0a47 \u0a30\u0a3f\u0a39\u0a3e \u0a39\u0a48 (\u0a07\u0a38 \u0a35\u0a3e\u0a38\u0a24\u0a47 \u0a24\u0a41\u0a38\u0a40 \u0a2d\u0a40 \u0a59\u0a41\u0a36 \u0a39\u0a4b\u0a35\u0a4b)\u0964"}}, "spanish": "pues un amigo se pone feliz al ver que su amigo es honrado."}, "transliteration": {"english": {"text": "tusee veechaar dekhahu put bhaaee har satiguroo painaave |", "larivaar": "tusee\u200bveechaar\u200bdekhahu\u200bput\u200bbhaaee\u200bhar\u200bsatiguroo\u200bpainaave\u200b|"}, "devanagari": {"text": "\u0924\u0941\u0938\u0940 \u0935\u0940\u091a\u093e\u0930\u093f \u0926\u0947\u0916\u0939\u0941 \u092a\u0941\u0924 \u092d\u093e\u0908 \u0939\u0930\u093f \u0938\u0924\u093f\u0917\u0941\u0930\u0942 \u092a\u0948\u0928\u093e\u0935\u090f \u0965", "larivaar": "\u0924\u0941\u0938\u0940\u200b\u0935\u0940\u091a\u093e\u0930\u093f\u200b\u0926\u0947\u0916\u0939\u0941\u200b\u092a\u0941\u0924\u200b\u092d\u093e\u0908\u200b\u0939\u0930\u093f\u200b\u0938\u0924\u093f\u0917\u0941\u0930\u0942\u200b\u092a\u0948\u0928\u093e\u0935\u090f\u200b\u0965"}}, "pageno": 923, "lineno": 13, "firstletters": {"akhar": "qvdpBhsp", "unicode": "\u0a24\u0a35\u0a26\u0a2a\u0a2d\u0a39\u0a38\u0a2a"}}}, {"line": {"id": "N9QK", "shabadid": "D30", "gurmukhi": {"akhar": "siqgurU prqiK hodY bih rwju Awip itkwieAw ]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a2a\u0a30\u0a24\u0a16\u0a3f \u0a39\u0a4b\u0a26\u0a48 \u0a2c\u0a39\u0a3f \u0a30\u0a3e\u0a1c\u0a41 \u0a06\u0a2a\u0a3f \u0a1f\u0a3f\u0a15\u0a3e\u0a07\u0a06 \u0965"}, "larivaar": {"akhar": "siqgurU\u200bprqiK\u200bhodY\u200bbih\u200brwju\u200bAwip\u200bitkwieAw\u200b]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42\u200b\u0a2a\u0a30\u0a24\u0a16\u0a3f\u200b\u0a39\u0a4b\u0a26\u0a48\u200b\u0a2c\u0a39\u0a3f\u200b\u0a30\u0a3e\u0a1c\u0a41\u200b\u0a06\u0a2a\u0a3f\u200b\u0a1f\u0a3f\u0a15\u0a3e\u0a07\u0a06\u200b\u0965"}, "translation": {"english": {"default": "The True Guru Himself sat up, and appointed the successor to the Throne of Raja Yoga, the Yoga of Meditation and Success."}, "punjabi": {"default": {"akhar": "(ieh aupdyS dy ky, iPr) gurU (Amrdws jI) ny srIrk jwmy ivc huMidAW hI bYT ky Awp guirAweI dI g`dI (BI) Qwp id`qI,", "unicode": "(\u0a07\u0a39 \u0a09\u0a2a\u0a26\u0a47\u0a36 \u0a26\u0a47 \u0a15\u0a47, \u0a2b\u0a3f\u0a30) \u0a17\u0a41\u0a30\u0a42 (\u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40) \u0a28\u0a47 \u0a38\u0a30\u0a40\u0a30\u0a15 \u0a1c\u0a3e\u0a2e\u0a47 \u0a35\u0a3f\u0a1a \u0a39\u0a41\u0a70\u0a26\u0a3f\u0a06\u0a02 \u0a39\u0a40 \u0a2c\u0a48\u0a20 \u0a15\u0a47 \u0a06\u0a2a \u0a17\u0a41\u0a30\u0a3f\u0a06\u0a08 \u0a26\u0a40 \u0a17\u0a71\u0a26\u0a40 (\u0a2d\u0a40) \u0a25\u0a3e\u0a2a \u0a26\u0a3f\u0a71\u0a24\u0a40,"}}, "spanish": "Discriminen y vean que el Se\u00f1or me va a instalar los Ropajes de la Eternidad."}, "transliteration": {"english": {"text": "satiguroo paratakh hodai beh raaj aap ttikaaeaa |", "larivaar": "satiguroo\u200bparatakh\u200bhodai\u200bbeh\u200braaj\u200baap\u200bttikaaeaa\u200b|"}, "devanagari": {"text": "\u0938\u0924\u093f\u0917\u0941\u0930\u0942 \u092a\u0930\u0924\u0916\u093f \u0939\u094b\u0926\u0948 \u092c\u0939\u093f \u0930\u093e\u091c\u0941 \u0906\u092a\u093f \u091f\u093f\u0915\u093e\u0907\u0906 \u0965", "larivaar": "\u0938\u0924\u093f\u0917\u0941\u0930\u0942\u200b\u092a\u0930\u0924\u0916\u093f\u200b\u0939\u094b\u0926\u0948\u200b\u092c\u0939\u093f\u200b\u0930\u093e\u091c\u0941\u200b\u0906\u092a\u093f\u200b\u091f\u093f\u0915\u093e\u0907\u0906\u200b\u0965"}}, "pageno": 923, "lineno": 14, "firstletters": {"akhar": "sphbrAt", "unicode": "\u0a38\u0a2a\u0a39\u0a2c\u0a30\u0a05\u0a1f"}}}, {"line": {"id": "XV0N", "shabadid": "D30", "gurmukhi": {"akhar": "siB isK bMDp puq BweI rwmdws pYrI pwieAw ]4]", "unicode": "\u0a38\u0a2d\u0a3f \u0a38\u0a3f\u0a16 \u0a2c\u0a70\u0a27\u0a2a \u0a2a\u0a41\u0a24 \u0a2d\u0a3e\u0a08 \u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a2a\u0a48\u0a30\u0a40 \u0a2a\u0a3e\u0a07\u0a06 \u0965\u0a6a\u0965"}, "larivaar": {"akhar": "siB\u200bisK\u200bbMDp\u200bpuq\u200bBweI\u200brwmdws\u200bpYrI\u200bpwieAw\u200b]4]", "unicode": "\u0a38\u0a2d\u0a3f\u200b\u0a38\u0a3f\u0a16\u200b\u0a2c\u0a70\u0a27\u0a2a\u200b\u0a2a\u0a41\u0a24\u200b\u0a2d\u0a3e\u0a08\u200b\u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38\u200b\u0a2a\u0a48\u0a30\u0a40\u200b\u0a2a\u0a3e\u0a07\u0a06\u200b\u0965\u0a6a\u0965"}, "translation": {"english": {"default": "All the Sikhs, relatives, children and siblings have fallen at the Feet of Guru Ram Das. ||4||"}, "punjabi": {"default": {"akhar": "(Aqy) swry is`KW \u0192, swkW-AMgW \u0192, puqRW \u0192, Aqy BrwvW \u0192 (gurU) rwmdws jI dI crnIN lw id`qw ]4]", "unicode": "(\u0a05\u0a24\u0a47) \u0a38\u0a3e\u0a30\u0a47 \u0a38\u0a3f\u0a71\u0a16\u0a3e\u0a02 \u0a28\u0a42\u0a70, \u0a38\u0a3e\u0a15\u0a3e\u0a02-\u0a05\u0a70\u0a17\u0a3e\u0a02 \u0a28\u0a42\u0a70, \u0a2a\u0a41\u0a24\u0a4d\u0a30\u0a3e\u0a02 \u0a28\u0a42\u0a70, \u0a05\u0a24\u0a47 \u0a2d\u0a30\u0a3e\u0a35\u0a3e\u0a02 \u0a28\u0a42\u0a70 (\u0a17\u0a41\u0a30\u0a42) \u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a26\u0a40 \u0a1a\u0a30\u0a28\u0a40\u0a02 \u0a32\u0a3e \u0a26\u0a3f\u0a71\u0a24\u0a3e \u0965\u0a6a\u0965"}}, "spanish": "El Guru ha pasado en vida su Trono al siguiente Guru, as\u00ed que p\u00f3strense a los Pies de Ram Das, el Guru, oh mis disc\u00edpulos, parientes y hermanos. (4)"}, "transliteration": {"english": {"text": "sabh sikh bandhap put bhaaee raamadaas pairee paaeaa |4|", "larivaar": "sabh\u200bsikh\u200bbandhap\u200bput\u200bbhaaee\u200braamadaas\u200bpairee\u200bpaaeaa\u200b|4|"}, "devanagari": {"text": "\u0938\u092d\u093f \u0938\u093f\u0916 \u092c\u0902\u0927\u092a \u092a\u0941\u0924 \u092d\u093e\u0908 \u0930\u093e\u092e\u0926\u093e\u0938 \u092a\u0948\u0930\u0940 \u092a\u093e\u0907\u0906 \u0965\u096a\u0965", "larivaar": "\u0938\u092d\u093f\u200b\u0938\u093f\u0916\u200b\u092c\u0902\u0927\u092a\u200b\u092a\u0941\u0924\u200b\u092d\u093e\u0908\u200b\u0930\u093e\u092e\u0926\u093e\u0938\u200b\u092a\u0948\u0930\u0940\u200b\u092a\u093e\u0907\u0906\u200b\u0965\u096a\u0965"}}, "pageno": 923, "lineno": 15, "firstletters": {"akhar": "ssbpBrpp", "unicode": "\u0a38\u0a38\u0a2c\u0a2a\u0a2d\u0a30\u0a2a\u0a2a"}}}, {"line": {"id": "XVAA", "shabadid": "D30", "gurmukhi": {"akhar": "AMqy siqguru boilAw mY ipCY kIrqnu kirAhu inrbwxu jIau ]", "unicode": "\u0a05\u0a70\u0a24\u0a47 \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41 \u0a2c\u0a4b\u0a32\u0a3f\u0a06 \u0a2e\u0a48 \u0a2a\u0a3f\u0a1b\u0a48 \u0a15\u0a40\u0a30\u0a24\u0a28\u0a41 \u0a15\u0a30\u0a3f\u0a05\u0a39\u0a41 \u0a28\u0a3f\u0a30\u0a2c\u0a3e\u0a23\u0a41 \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "AMqy\u200bsiqguru\u200bboilAw\u200bmY\u200bipCY\u200bkIrqnu\u200bkirAhu\u200binrbwxu\u200bjIau\u200b]", "unicode": "\u0a05\u0a70\u0a24\u0a47\u200b\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41\u200b\u0a2c\u0a4b\u0a32\u0a3f\u0a06\u200b\u0a2e\u0a48\u200b\u0a2a\u0a3f\u0a1b\u0a48\u200b\u0a15\u0a40\u0a30\u0a24\u0a28\u0a41\u200b\u0a15\u0a30\u0a3f\u0a05\u0a39\u0a41\u200b\u0a28\u0a3f\u0a30\u0a2c\u0a3e\u0a23\u0a41\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "Finally, the True Guru said, \"When I am gone, sing Kirtan in Praise of the Lord, in Nirvaanaa.\""}, "punjabi": {"default": {"akhar": "joqI joiq smwx vyly gurU Amrdws jI ny AwiKAw, myry ip`CoN inrol kIrqn kirE,", "unicode": "\u0a1c\u0a4b\u0a24\u0a40 \u0a1c\u0a4b\u0a24\u0a3f \u0a38\u0a2e\u0a3e\u0a23 \u0a35\u0a47\u0a32\u0a47 \u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a47 \u0a06\u0a16\u0a3f\u0a06, \u0a2e\u0a47\u0a30\u0a47 \u0a2a\u0a3f\u0a71\u0a1b\u0a4b\u0a02 \u0a28\u0a3f\u0a30\u0a4b\u0a32 \u0a15\u0a40\u0a30\u0a24\u0a28 \u0a15\u0a30\u0a3f\u0a13,"}}, "spanish": "Al final el Guru dijo, cuando ya no est\u00e9, canten s\u00f3lo Kirtan en Alabanza de mi Dios"}, "transliteration": {"english": {"text": "ante satigur boliaa mai pichhai keeratan kariahu nirabaan jeeo |", "larivaar": "ante\u200bsatigur\u200bboliaa\u200bmai\u200bpichhai\u200bkeeratan\u200bkariahu\u200bnirabaan\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0905\u0902\u0924\u0947 \u0938\u0924\u093f\u0917\u0941\u0930\u0941 \u092c\u094b\u0932\u093f\u0906 \u092e\u0948 \u092a\u093f\u091b\u0948 \u0915\u0940\u0930\u0924\u0928\u0941 \u0915\u0930\u093f\u0905\u0939\u0941 \u0928\u093f\u0930\u092c\u093e\u0923\u0941 \u091c\u0940\u0909 \u0965", "larivaar": "\u0905\u0902\u0924\u0947\u200b\u0938\u0924\u093f\u0917\u0941\u0930\u0941\u200b\u092c\u094b\u0932\u093f\u0906\u200b\u092e\u0948\u200b\u092a\u093f\u091b\u0948\u200b\u0915\u0940\u0930\u0924\u0928\u0941\u200b\u0915\u0930\u093f\u0905\u0939\u0941\u200b\u0928\u093f\u0930\u092c\u093e\u0923\u0941\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 15, "firstletters": {"akhar": "Asbmpkknj", "unicode": "\u0a05\u0a38\u0a2c\u0a2e\u0a2a\u0a15\u0a15\u0a28\u0a1c"}}}, {"line": {"id": "EXVX", "shabadid": "D30", "gurmukhi": {"akhar": "kyso gopwl pMifq sidAhu hir hir kQw pVih purwxu jIau ]", "unicode": "\u0a15\u0a47\u0a38\u0a4b \u0a17\u0a4b\u0a2a\u0a3e\u0a32 \u0a2a\u0a70\u0a21\u0a3f\u0a24 \u0a38\u0a26\u0a3f\u0a05\u0a39\u0a41 \u0a39\u0a30\u0a3f \u0a39\u0a30\u0a3f \u0a15\u0a25\u0a3e \u0a2a\u0a5c\u0a39\u0a3f \u0a2a\u0a41\u0a30\u0a3e\u0a23\u0a41 \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "kyso\u200bgopwl\u200bpMifq\u200bsidAhu\u200bhir\u200bhir\u200bkQw\u200bpVih\u200bpurwxu\u200bjIau\u200b]", "unicode": "\u0a15\u0a47\u0a38\u0a4b\u200b\u0a17\u0a4b\u0a2a\u0a3e\u0a32\u200b\u0a2a\u0a70\u0a21\u0a3f\u0a24\u200b\u0a38\u0a26\u0a3f\u0a05\u0a39\u0a41\u200b\u0a39\u0a30\u0a3f\u200b\u0a39\u0a30\u0a3f\u200b\u0a15\u0a25\u0a3e\u200b\u0a2a\u0a5c\u0a39\u0a3f\u200b\u0a2a\u0a41\u0a30\u0a3e\u0a23\u0a41\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "Call in the long-haired scholarly Saints of the Lord, to read the sermon of the Lord, Har, Har."}, "punjabi": {"default": {"akhar": "kyso gopwl (Akwl purK) dy pMifqW \u0192 s`d G`ilE, jo (Aw ky) Akwl purK dI kQw vwrqw-rUp purwx pVHn[", "unicode": "\u0a15\u0a47\u0a38\u0a4b \u0a17\u0a4b\u0a2a\u0a3e\u0a32 (\u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16) \u0a26\u0a47 \u0a2a\u0a70\u0a21\u0a3f\u0a24\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a38\u0a71\u0a26 \u0a18\u0a71\u0a32\u0a3f\u0a13, \u0a1c\u0a4b (\u0a06 \u0a15\u0a47) \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a40 \u0a15\u0a25\u0a3e \u0a35\u0a3e\u0a30\u0a24\u0a3e-\u0a30\u0a42\u0a2a \u0a2a\u0a41\u0a30\u0a3e\u0a23 \u0a2a\u0a5c\u0a4d\u0a39\u0a28\u0964"}}, "spanish": "Desapegado y llamen a los Santos del Se\u00f1or para cantar Su Alabanza; s\u00ed, reciten s\u00f3lo la Palabra del Se\u00f1or, Jar, Jar;"}, "transliteration": {"english": {"text": "keso gopaal panddit sadiahu har har kathaa parreh puraan jeeo |", "larivaar": "keso\u200bgopaal\u200bpanddit\u200bsadiahu\u200bhar\u200bhar\u200bkathaa\u200bparreh\u200bpuraan\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0915\u0947\u0938\u094b \u0917\u094b\u092a\u093e\u0932 \u092a\u0902\u0921\u093f\u0924 \u0938\u0926\u093f\u0905\u0939\u0941 \u0939\u0930\u093f \u0939\u0930\u093f \u0915\u0925\u093e \u092a\u095c\u0939\u093f \u092a\u0941\u0930\u093e\u0923\u0941 \u091c\u0940\u0909 \u0965", "larivaar": "\u0915\u0947\u0938\u094b\u200b\u0917\u094b\u092a\u093e\u0932\u200b\u092a\u0902\u0921\u093f\u0924\u200b\u0938\u0926\u093f\u0905\u0939\u0941\u200b\u0939\u0930\u093f\u200b\u0939\u0930\u093f\u200b\u0915\u0925\u093e\u200b\u092a\u095c\u0939\u093f\u200b\u092a\u0941\u0930\u093e\u0923\u0941\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 16, "firstletters": {"akhar": "kgpshhkppj", "unicode": "\u0a15\u0a17\u0a2a\u0a38\u0a39\u0a39\u0a15\u0a2a\u0a2a\u0a1c"}}}, {"line": {"id": "7G9E", "shabadid": "D30", "gurmukhi": {"akhar": "hir kQw pVIAY hir nwmu suxIAY bybwxu hir rMgu gur Bwvey ]", "unicode": "\u0a39\u0a30\u0a3f \u0a15\u0a25\u0a3e \u0a2a\u0a5c\u0a40\u0a10 \u0a39\u0a30\u0a3f \u0a28\u0a3e\u0a2e\u0a41 \u0a38\u0a41\u0a23\u0a40\u0a10 \u0a2c\u0a47\u0a2c\u0a3e\u0a23\u0a41 \u0a39\u0a30\u0a3f \u0a30\u0a70\u0a17\u0a41 \u0a17\u0a41\u0a30 \u0a2d\u0a3e\u0a35\u0a0f \u0965"}, "larivaar": {"akhar": "hir\u200bkQw\u200bpVIAY\u200bhir\u200bnwmu\u200bsuxIAY\u200bbybwxu\u200bhir\u200brMgu\u200bgur\u200bBwvey\u200b]", "unicode": "\u0a39\u0a30\u0a3f\u200b\u0a15\u0a25\u0a3e\u200b\u0a2a\u0a5c\u0a40\u0a10\u200b\u0a39\u0a30\u0a3f\u200b\u0a28\u0a3e\u0a2e\u0a41\u200b\u0a38\u0a41\u0a23\u0a40\u0a10\u200b\u0a2c\u0a47\u0a2c\u0a3e\u0a23\u0a41\u200b\u0a39\u0a30\u0a3f\u200b\u0a30\u0a70\u0a17\u0a41\u200b\u0a17\u0a41\u0a30\u200b\u0a2d\u0a3e\u0a35\u0a0f\u200b\u0965"}, "translation": {"english": {"default": "Read the sermon of the Lord, and listen to the Lord's Name; the Guru is pleased with love for the Lord."}, "punjabi": {"default": {"akhar": "(cyqw r`iKE, myry ip`CoN) Akwl purK dI kQw (hI) pVHnI cwhIdI hY, Akwl purK dw nwm hI suxnw cwhIdw hY, bybwx BI gurU \u0192 (kyvl) Akwl purK dw ipAwr hI cMgw l`gdw hY[", "unicode": "(\u0a1a\u0a47\u0a24\u0a3e \u0a30\u0a71\u0a16\u0a3f\u0a13, \u0a2e\u0a47\u0a30\u0a47 \u0a2a\u0a3f\u0a71\u0a1b\u0a4b\u0a02) \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a40 \u0a15\u0a25\u0a3e (\u0a39\u0a40) \u0a2a\u0a5c\u0a4d\u0a39\u0a28\u0a40 \u0a1a\u0a3e\u0a39\u0a40\u0a26\u0a40 \u0a39\u0a48, \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a3e \u0a28\u0a3e\u0a2e \u0a39\u0a40 \u0a38\u0a41\u0a23\u0a28\u0a3e \u0a1a\u0a3e\u0a39\u0a40\u0a26\u0a3e \u0a39\u0a48, \u0a2c\u0a47\u0a2c\u0a3e\u0a23 \u0a2d\u0a40 \u0a17\u0a41\u0a30\u0a42 \u0a28\u0a42\u0a70 (\u0a15\u0a47\u0a35\u0a32) \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a3e \u0a2a\u0a3f\u0a06\u0a30 \u0a39\u0a40 \u0a1a\u0a70\u0a17\u0a3e \u0a32\u0a71\u0a17\u0a26\u0a3e \u0a39\u0a48\u0964"}}, "spanish": "escuchen s\u00f3lo Su Nombre y c\u00e1rguenme en el ata\u00fad del Amor del Se\u00f1or."}, "transliteration": {"english": {"text": "har kathaa parreeai har naam suneeai bebaan har rang gur bhaave |", "larivaar": "har\u200bkathaa\u200bparreeai\u200bhar\u200bnaam\u200bsuneeai\u200bbebaan\u200bhar\u200brang\u200bgur\u200bbhaave\u200b|"}, "devanagari": {"text": "\u0939\u0930\u093f \u0915\u0925\u093e \u092a\u095c\u0940\u0910 \u0939\u0930\u093f \u0928\u093e\u092e\u0941 \u0938\u0941\u0923\u0940\u0910 \u092c\u0947\u092c\u093e\u0923\u0941 \u0939\u0930\u093f \u0930\u0902\u0917\u0941 \u0917\u0941\u0930 \u092d\u093e\u0935\u090f \u0965", "larivaar": "\u0939\u0930\u093f\u200b\u0915\u0925\u093e\u200b\u092a\u095c\u0940\u0910\u200b\u0939\u0930\u093f\u200b\u0928\u093e\u092e\u0941\u200b\u0938\u0941\u0923\u0940\u0910\u200b\u092c\u0947\u092c\u093e\u0923\u0941\u200b\u0939\u0930\u093f\u200b\u0930\u0902\u0917\u0941\u200b\u0917\u0941\u0930\u200b\u092d\u093e\u0935\u090f\u200b\u0965"}}, "pageno": 923, "lineno": 16, "firstletters": {"akhar": "hkphnsbhrgB", "unicode": "\u0a39\u0a15\u0a2a\u0a39\u0a28\u0a38\u0a2c\u0a39\u0a30\u0a17\u0a2d"}}}, {"line": {"id": "HX1U", "shabadid": "D30", "gurmukhi": {"akhar": "ipMfu pqil ikirAw dIvw Pul hir sir pwvey ]", "unicode": "\u0a2a\u0a3f\u0a70\u0a21\u0a41 \u0a2a\u0a24\u0a32\u0a3f \u0a15\u0a3f\u0a30\u0a3f\u0a06 \u0a26\u0a40\u0a35\u0a3e \u0a2b\u0a41\u0a32 \u0a39\u0a30\u0a3f \u0a38\u0a30\u0a3f \u0a2a\u0a3e\u0a35\u0a0f \u0965"}, "larivaar": {"akhar": "ipMfu\u200bpqil\u200bikirAw\u200bdIvw\u200bPul\u200bhir\u200bsir\u200bpwvey\u200b]", "unicode": "\u0a2a\u0a3f\u0a70\u0a21\u0a41\u200b\u0a2a\u0a24\u0a32\u0a3f\u200b\u0a15\u0a3f\u0a30\u0a3f\u0a06\u200b\u0a26\u0a40\u0a35\u0a3e\u200b\u0a2b\u0a41\u0a32\u200b\u0a39\u0a30\u0a3f\u200b\u0a38\u0a30\u0a3f\u200b\u0a2a\u0a3e\u0a35\u0a0f\u200b\u0965"}, "translation": {"english": {"default": "Do not bother with offering rice-balls on leaves, lighting lamps, and other rituals like floating the body out on the Ganges; instead, let my remains be given up to the Lord's Pool."}, "punjabi": {"default": {"akhar": "gurU (qW) ipMf pqil, ikirAw, dIvw Aqy Pu`l-iehnW sBnW \u0192 sqsMg qoN sdky krdw hY[", "unicode": "\u0a17\u0a41\u0a30\u0a42 (\u0a24\u0a3e\u0a02) \u0a2a\u0a3f\u0a70\u0a21 \u0a2a\u0a24\u0a32\u0a3f, \u0a15\u0a3f\u0a30\u0a3f\u0a06, \u0a26\u0a40\u0a35\u0a3e \u0a05\u0a24\u0a47 \u0a2b\u0a41\u0a71\u0a32-\u0a07\u0a39\u0a28\u0a3e\u0a02 \u0a38\u0a2d\u0a28\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a38\u0a24\u0a38\u0a70\u0a17 \u0a24\u0a4b\u0a02 \u0a38\u0a26\u0a15\u0a47 \u0a15\u0a30\u0a26\u0a3e \u0a39\u0a48\u0964"}}, "spanish": "Mis cenizas ofr\u00e9zcanlas en el Mar de Dios, que estos sean los \u00faltimos ritos que realicen para m\u00ed. No te molestas en hacer ofrendas o ritos de ning\u00fan otro tipo."}, "transliteration": {"english": {"text": "pindd patal kiriaa deevaa ful har sar paave |", "larivaar": "pindd\u200bpatal\u200bkiriaa\u200bdeevaa\u200bful\u200bhar\u200bsar\u200bpaave\u200b|"}, "devanagari": {"text": "\u092a\u093f\u0902\u0921\u0941 \u092a\u0924\u0932\u093f \u0915\u093f\u0930\u093f\u0906 \u0926\u0940\u0935\u093e \u092b\u0941\u0932 \u0939\u0930\u093f \u0938\u0930\u093f \u092a\u093e\u0935\u090f \u0965", "larivaar": "\u092a\u093f\u0902\u0921\u0941\u200b\u092a\u0924\u0932\u093f\u200b\u0915\u093f\u0930\u093f\u0906\u200b\u0926\u0940\u0935\u093e\u200b\u092b\u0941\u0932\u200b\u0939\u0930\u093f\u200b\u0938\u0930\u093f\u200b\u092a\u093e\u0935\u090f\u200b\u0965"}}, "pageno": 923, "lineno": 17, "firstletters": {"akhar": "ppkdPhsp", "unicode": "\u0a2a\u0a2a\u0a15\u0a26\u0a2b\u0a39\u0a38\u0a2a"}}}, {"line": {"id": "VTXV", "shabadid": "D30", "gurmukhi": {"akhar": "hir BwieAw siqguru boilAw hir imilAw purKu sujwxu jIau ]", "unicode": "\u0a39\u0a30\u0a3f \u0a2d\u0a3e\u0a07\u0a06 \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41 \u0a2c\u0a4b\u0a32\u0a3f\u0a06 \u0a39\u0a30\u0a3f \u0a2e\u0a3f\u0a32\u0a3f\u0a06 \u0a2a\u0a41\u0a30\u0a16\u0a41 \u0a38\u0a41\u0a1c\u0a3e\u0a23\u0a41 \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "hir\u200bBwieAw\u200bsiqguru\u200bboilAw\u200bhir\u200bimilAw\u200bpurKu\u200bsujwxu\u200bjIau\u200b]", "unicode": "\u0a39\u0a30\u0a3f\u200b\u0a2d\u0a3e\u0a07\u0a06\u200b\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41\u200b\u0a2c\u0a4b\u0a32\u0a3f\u0a06\u200b\u0a39\u0a30\u0a3f\u200b\u0a2e\u0a3f\u0a32\u0a3f\u0a06\u200b\u0a2a\u0a41\u0a30\u0a16\u0a41\u200b\u0a38\u0a41\u0a1c\u0a3e\u0a23\u0a41\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "The Lord was pleased as the True Guru spoke; he was blended then with the all-knowing Primal Lord God."}, "punjabi": {"default": {"akhar": "Akwl purK \u0192 ipAwry l`gy hoey gurU ny (aus vyly) ieauN AwiKAw[ siqgurU \u0192 sujwx Akwl purK iml ipAw[", "unicode": "\u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a28\u0a42\u0a70 \u0a2a\u0a3f\u0a06\u0a30\u0a47 \u0a32\u0a71\u0a17\u0a47 \u0a39\u0a4b\u0a0f \u0a17\u0a41\u0a30\u0a42 \u0a28\u0a47 (\u0a09\u0a38 \u0a35\u0a47\u0a32\u0a47) \u0a07\u0a09\u0a02 \u0a06\u0a16\u0a3f\u0a06\u0964 \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a28\u0a42\u0a70 \u0a38\u0a41\u0a1c\u0a3e\u0a23 \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a2e\u0a3f\u0a32 \u0a2a\u0a3f\u0a06\u0964"}}, "spanish": "El Se\u00f1or estaba complacido con lo que el Guru habl\u00f3, entonces encontr\u00f3 al Sabio Esp\u00edritu Divino,"}, "transliteration": {"english": {"text": "har bhaaeaa satigur boliaa har miliaa purakh sujaan jeeo |", "larivaar": "har\u200bbhaaeaa\u200bsatigur\u200bboliaa\u200bhar\u200bmiliaa\u200bpurakh\u200bsujaan\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0939\u0930\u093f \u092d\u093e\u0907\u0906 \u0938\u0924\u093f\u0917\u0941\u0930\u0941 \u092c\u094b\u0932\u093f\u0906 \u0939\u0930\u093f \u092e\u093f\u0932\u093f\u0906 \u092a\u0941\u0930\u0916\u0941 \u0938\u0941\u091c\u093e\u0923\u0941 \u091c\u0940\u0909 \u0965", "larivaar": "\u0939\u0930\u093f\u200b\u092d\u093e\u0907\u0906\u200b\u0938\u0924\u093f\u0917\u0941\u0930\u0941\u200b\u092c\u094b\u0932\u093f\u0906\u200b\u0939\u0930\u093f\u200b\u092e\u093f\u0932\u093f\u0906\u200b\u092a\u0941\u0930\u0916\u0941\u200b\u0938\u0941\u091c\u093e\u0923\u0941\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 923, "lineno": 18, "firstletters": {"akhar": "hBsbhmpsj", "unicode": "\u0a39\u0a2d\u0a38\u0a2c\u0a39\u0a2e\u0a2a\u0a38\u0a1c"}}}, {"line": {"id": "CQKG", "shabadid": "D30", "gurmukhi": {"akhar": "rwmdws soFI iqlku dIAw gursbdu scu nIswxu jIau ]5]", "unicode": "\u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a38\u0a4b\u0a22\u0a40 \u0a24\u0a3f\u0a32\u0a15\u0a41 \u0a26\u0a40\u0a06 \u0a17\u0a41\u0a30\u0a38\u0a2c\u0a26\u0a41 \u0a38\u0a1a\u0a41 \u0a28\u0a40\u0a38\u0a3e\u0a23\u0a41 \u0a1c\u0a40\u0a09 \u0965\u0a6b\u0965"}, "larivaar": {"akhar": "rwmdws\u200bsoFI\u200biqlku\u200bdIAw\u200bgursbdu\u200bscu\u200bnIswxu\u200bjIau\u200b]5]", "unicode": "\u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38\u200b\u0a38\u0a4b\u0a22\u0a40\u200b\u0a24\u0a3f\u0a32\u0a15\u0a41\u200b\u0a26\u0a40\u0a06\u200b\u0a17\u0a41\u0a30\u0a38\u0a2c\u0a26\u0a41\u200b\u0a38\u0a1a\u0a41\u200b\u0a28\u0a40\u0a38\u0a3e\u0a23\u0a41\u200b\u0a1c\u0a40\u0a09\u200b\u0965\u0a6b\u0965"}, "translation": {"english": {"default": "The Guru then blessed the Sodhi Ram Das with the ceremonial tilak mark, the insignia of the True Word of the Shabad. ||5||"}, "punjabi": {"default": {"akhar": "gurU Amrdws jI ny soFI (gurU) rwmdws jI \u0192 (guirAweI dw) iqlk (Aqy) gurU dw Sbd-rUp s`cI rwhdwrI b^SI ]5]", "unicode": "\u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a47 \u0a38\u0a4b\u0a22\u0a40 (\u0a17\u0a41\u0a30\u0a42) \u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a42\u0a70 (\u0a17\u0a41\u0a30\u0a3f\u0a06\u0a08 \u0a26\u0a3e) \u0a24\u0a3f\u0a32\u0a15 (\u0a05\u0a24\u0a47) \u0a17\u0a41\u0a30\u0a42 \u0a26\u0a3e \u0a36\u0a2c\u0a26-\u0a30\u0a42\u0a2a \u0a38\u0a71\u0a1a\u0a40 \u0a30\u0a3e\u0a39\u0a26\u0a3e\u0a30\u0a40 \u0a2c\u0a59\u0a36\u0a40 \u0965\u0a6b\u0965"}}, "spanish": "y as\u00ed fue como Soddi Ram Das fue instalado como el Guru, bendici\u00e9ndolo con la Palabra Verdadera del Shabd y ungido con la marca ceremonial Tilak.(5)"}, "transliteration": {"english": {"text": "raamadaas sodtee tilak deea gurasabad sach neesaan jeeo |5|", "larivaar": "raamadaas\u200bsodtee\u200btilak\u200bdeea\u200bgurasabad\u200bsach\u200bneesaan\u200bjeeo\u200b|5|"}, "devanagari": {"text": "\u0930\u093e\u092e\u0926\u093e\u0938 \u0938\u094b\u0922\u0940 \u0924\u093f\u0932\u0915\u0941 \u0926\u0940\u0906 \u0917\u0941\u0930\u0938\u092c\u0926\u0941 \u0938\u091a\u0941 \u0928\u0940\u0938\u093e\u0923\u0941 \u091c\u0940\u0909 \u0965\u096b\u0965", "larivaar": "\u0930\u093e\u092e\u0926\u093e\u0938\u200b\u0938\u094b\u0922\u0940\u200b\u0924\u093f\u0932\u0915\u0941\u200b\u0926\u0940\u0906\u200b\u0917\u0941\u0930\u0938\u092c\u0926\u0941\u200b\u0938\u091a\u0941\u200b\u0928\u0940\u0938\u093e\u0923\u0941\u200b\u091c\u0940\u0909\u200b\u0965\u096b\u0965"}}, "pageno": 923, "lineno": 18, "firstletters": {"akhar": "rsqdgsnj", "unicode": "\u0a30\u0a38\u0a24\u0a26\u0a17\u0a38\u0a28\u0a1c"}}}, {"line": {"id": "0MKN", "shabadid": "D30", "gurmukhi": {"akhar": "siqguru purKu ij boilAw gurisKw mMin leI rjwie jIau ]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41 \u0a2a\u0a41\u0a30\u0a16\u0a41 \u0a1c\u0a3f \u0a2c\u0a4b\u0a32\u0a3f\u0a06 \u0a17\u0a41\u0a30\u0a38\u0a3f\u0a16\u0a3e \u0a2e\u0a70\u0a28\u0a3f \u0a32\u0a08 \u0a30\u0a1c\u0a3e\u0a07 \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "siqguru\u200bpurKu\u200bij\u200bboilAw\u200bgurisKw\u200bmMin\u200bleI\u200brjwie\u200bjIau\u200b]", "unicode": "\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a41\u200b\u0a2a\u0a41\u0a30\u0a16\u0a41\u200b\u0a1c\u0a3f\u200b\u0a2c\u0a4b\u0a32\u0a3f\u0a06\u200b\u0a17\u0a41\u0a30\u0a38\u0a3f\u0a16\u0a3e\u200b\u0a2e\u0a70\u0a28\u0a3f\u200b\u0a32\u0a08\u200b\u0a30\u0a1c\u0a3e\u0a07\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "And as the True Guru, the Primal Lord spoke, and the Gursikhs obeyed His Will."}, "punjabi": {"default": {"akhar": "jdoN gurU Amrdws jI ny bcn kIqw (ik swry gurU rwmdws jI dy crnIN l`gx, qW) guris`KW ny (gurU Amrdws jI dw) hukm mMn ilAw[", "unicode": "\u0a1c\u0a26\u0a4b\u0a02 \u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a47 \u0a2c\u0a1a\u0a28 \u0a15\u0a40\u0a24\u0a3e (\u0a15\u0a3f \u0a38\u0a3e\u0a30\u0a47 \u0a17\u0a41\u0a30\u0a42 \u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a26\u0a47 \u0a1a\u0a30\u0a28\u0a40\u0a02 \u0a32\u0a71\u0a17\u0a23, \u0a24\u0a3e\u0a02) \u0a17\u0a41\u0a30\u0a38\u0a3f\u0a71\u0a16\u0a3e\u0a02 \u0a28\u0a47 (\u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a26\u0a3e) \u0a39\u0a41\u0a15\u0a2e \u0a2e\u0a70\u0a28 \u0a32\u0a3f\u0a06\u0964"}}, "spanish": "As\u00ed como el Guru habl\u00f3, sus Gursikjs lo siguieron"}, "transliteration": {"english": {"text": "satigur purakh ji boliaa gurasikhaa man lee rajaae jeeo |", "larivaar": "satigur\u200bpurakh\u200bji\u200bboliaa\u200bgurasikhaa\u200bman\u200blee\u200brajaae\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0938\u0924\u093f\u0917\u0941\u0930\u0941 \u092a\u0941\u0930\u0916\u0941 \u091c\u093f \u092c\u094b\u0932\u093f\u0906 \u0917\u0941\u0930\u0938\u093f\u0916\u093e \u092e\u0902\u0928\u093f \u0932\u0908 \u0930\u091c\u093e\u0907 \u091c\u0940\u0909 \u0965", "larivaar": "\u0938\u0924\u093f\u0917\u0941\u0930\u0941\u200b\u092a\u0941\u0930\u0916\u0941\u200b\u091c\u093f\u200b\u092c\u094b\u0932\u093f\u0906\u200b\u0917\u0941\u0930\u0938\u093f\u0916\u093e\u200b\u092e\u0902\u0928\u093f\u200b\u0932\u0908\u200b\u0930\u091c\u093e\u0907\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 924, "lineno": 1, "firstletters": {"akhar": "spjbgmlrj", "unicode": "\u0a38\u0a2a\u0a1c\u0a2c\u0a17\u0a2e\u0a32\u0a30\u0a1c"}}}, {"line": {"id": "12HU", "shabadid": "D30", "gurmukhi": {"akhar": "mohrI puqu snmuKu hoieAw rwmdwsY pYrI pwie jIau ]", "unicode": "\u0a2e\u0a4b\u0a39\u0a30\u0a40 \u0a2a\u0a41\u0a24\u0a41 \u0a38\u0a28\u0a2e\u0a41\u0a16\u0a41 \u0a39\u0a4b\u0a07\u0a06 \u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38\u0a48 \u0a2a\u0a48\u0a30\u0a40 \u0a2a\u0a3e\u0a07 \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "mohrI\u200bpuqu\u200bsnmuKu\u200bhoieAw\u200brwmdwsY\u200bpYrI\u200bpwie\u200bjIau\u200b]", "unicode": "\u0a2e\u0a4b\u0a39\u0a30\u0a40\u200b\u0a2a\u0a41\u0a24\u0a41\u200b\u0a38\u0a28\u0a2e\u0a41\u0a16\u0a41\u200b\u0a39\u0a4b\u0a07\u0a06\u200b\u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38\u0a48\u200b\u0a2a\u0a48\u0a30\u0a40\u200b\u0a2a\u0a3e\u0a07\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "His son Mohri turned sunmukh, and become obedient to Him; he bowed, and touched Ram Das' feet."}, "punjabi": {"default": {"akhar": "(sB qoN pihlW) (gurU Amrdws jI dy) pu`qR (bwbw) mohrI jI gurU rwmdws jI dy pYrW qy pY ky (ipqw dy) swmHxy sur^rU ho ky Aw Kloqy[", "unicode": "(\u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a2a\u0a39\u0a3f\u0a32\u0a3e\u0a02) (\u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a26\u0a47) \u0a2a\u0a41\u0a71\u0a24\u0a4d\u0a30 (\u0a2c\u0a3e\u0a2c\u0a3e) \u0a2e\u0a4b\u0a39\u0a30\u0a40 \u0a1c\u0a40 \u0a17\u0a41\u0a30\u0a42 \u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a26\u0a47 \u0a2a\u0a48\u0a30\u0a3e\u0a02 \u0a24\u0a47 \u0a2a\u0a48 \u0a15\u0a47 (\u0a2a\u0a3f\u0a24\u0a3e \u0a26\u0a47) \u0a38\u0a3e\u0a2e\u0a4d\u0a39\u0a23\u0a47 \u0a38\u0a41\u0a30\u0a59\u0a30\u0a42 \u0a39\u0a4b \u0a15\u0a47 \u0a06 \u0a16\u0a32\u0a4b\u0a24\u0a47\u0964"}}, "spanish": "y Mohri, su hijo, fue el primero que lleg\u00f3 a postrarse a los Pies de Ram Das."}, "transliteration": {"english": {"text": "moharee put sanamukh hoeaa raamadaasai pairee paae jeeo |", "larivaar": "moharee\u200bput\u200bsanamukh\u200bhoeaa\u200braamadaasai\u200bpairee\u200bpaae\u200bjeeo\u200b|"}, "devanagari": {"text": "\u092e\u094b\u0939\u0930\u0940 \u092a\u0941\u0924\u0941 \u0938\u0928\u092e\u0941\u0916\u0941 \u0939\u094b\u0907\u0906 \u0930\u093e\u092e\u0926\u093e\u0938\u0948 \u092a\u0948\u0930\u0940 \u092a\u093e\u0907 \u091c\u0940\u0909 \u0965", "larivaar": "\u092e\u094b\u0939\u0930\u0940\u200b\u092a\u0941\u0924\u0941\u200b\u0938\u0928\u092e\u0941\u0916\u0941\u200b\u0939\u094b\u0907\u0906\u200b\u0930\u093e\u092e\u0926\u093e\u0938\u0948\u200b\u092a\u0948\u0930\u0940\u200b\u092a\u093e\u0907\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 924, "lineno": 2, "firstletters": {"akhar": "mpshrppj", "unicode": "\u0a2e\u0a2a\u0a38\u0a39\u0a30\u0a2a\u0a2a\u0a1c"}}}, {"line": {"id": "RQ4P", "shabadid": "D30", "gurmukhi": {"akhar": "sB pvY pYrI siqgurU kyrI ijQY gurU Awpu riKAw ]", "unicode": "\u0a38\u0a2d \u0a2a\u0a35\u0a48 \u0a2a\u0a48\u0a30\u0a40 \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a15\u0a47\u0a30\u0a40 \u0a1c\u0a3f\u0a25\u0a48 \u0a17\u0a41\u0a30\u0a42 \u0a06\u0a2a\u0a41 \u0a30\u0a16\u0a3f\u0a06 \u0965"}, "larivaar": {"akhar": "sB\u200bpvY\u200bpYrI\u200bsiqgurU\u200bkyrI\u200bijQY\u200bgurU\u200bAwpu\u200briKAw\u200b]", "unicode": "\u0a38\u0a2d\u200b\u0a2a\u0a35\u0a48\u200b\u0a2a\u0a48\u0a30\u0a40\u200b\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42\u200b\u0a15\u0a47\u0a30\u0a40\u200b\u0a1c\u0a3f\u0a25\u0a48\u200b\u0a17\u0a41\u0a30\u0a42\u200b\u0a06\u0a2a\u0a41\u200b\u0a30\u0a16\u0a3f\u0a06\u200b\u0965"}, "translation": {"english": {"default": "Then, everyone bowed and touched the feet of Ram Das, into whom the Guru infused His essence."}, "punjabi": {"default": {"akhar": "gurU rwmdws jI ivc gurU (Amrdws jI) ny AwpxI Awqmw itkw id`qI, (ies vwsqy) swrI lokweI gurU (rwmdws jI) dI pYrIN Aw peI[", "unicode": "\u0a17\u0a41\u0a30\u0a42 \u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a35\u0a3f\u0a1a \u0a17\u0a41\u0a30\u0a42 (\u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40) \u0a28\u0a47 \u0a06\u0a2a\u0a23\u0a40 \u0a06\u0a24\u0a2e\u0a3e \u0a1f\u0a3f\u0a15\u0a3e \u0a26\u0a3f\u0a71\u0a24\u0a40, (\u0a07\u0a38 \u0a35\u0a3e\u0a38\u0a24\u0a47) \u0a38\u0a3e\u0a30\u0a40 \u0a32\u0a4b\u0a15\u0a3e\u0a08 \u0a17\u0a41\u0a30\u0a42 (\u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a1c\u0a40) \u0a26\u0a40 \u0a2a\u0a48\u0a30\u0a40\u0a02 \u0a06 \u0a2a\u0a08\u0964"}}, "spanish": "S\u00ed, a aqu\u00e9l a quien el Guru ha ungido, todos Le muestran obediencia,"}, "transliteration": {"english": {"text": "sabh pavai pairee satiguroo keree jithai guroo aap rakhiaa |", "larivaar": "sabh\u200bpavai\u200bpairee\u200bsatiguroo\u200bkeree\u200bjithai\u200bguroo\u200baap\u200brakhiaa\u200b|"}, "devanagari": {"text": "\u0938\u092d \u092a\u0935\u0948 \u092a\u0948\u0930\u0940 \u0938\u0924\u093f\u0917\u0941\u0930\u0942 \u0915\u0947\u0930\u0940 \u091c\u093f\u0925\u0948 \u0917\u0941\u0930\u0942 \u0906\u092a\u0941 \u0930\u0916\u093f\u0906 \u0965", "larivaar": "\u0938\u092d\u200b\u092a\u0935\u0948\u200b\u092a\u0948\u0930\u0940\u200b\u0938\u0924\u093f\u0917\u0941\u0930\u0942\u200b\u0915\u0947\u0930\u0940\u200b\u091c\u093f\u0925\u0948\u200b\u0917\u0941\u0930\u0942\u200b\u0906\u092a\u0941\u200b\u0930\u0916\u093f\u0906\u200b\u0965"}}, "pageno": 924, "lineno": 2, "firstletters": {"akhar": "sppskjgAr", "unicode": "\u0a38\u0a2a\u0a2a\u0a38\u0a15\u0a1c\u0a17\u0a05\u0a30"}}}, {"line": {"id": "V9VM", "shabadid": "D30", "gurmukhi": {"akhar": "koeI kir bKIlI invY nwhI iPir siqgurU Awix invwieAw ]", "unicode": "\u0a15\u0a4b\u0a08 \u0a15\u0a30\u0a3f \u0a2c\u0a16\u0a40\u0a32\u0a40 \u0a28\u0a3f\u0a35\u0a48 \u0a28\u0a3e\u0a39\u0a40 \u0a2b\u0a3f\u0a30\u0a3f \u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42 \u0a06\u0a23\u0a3f \u0a28\u0a3f\u0a35\u0a3e\u0a07\u0a06 \u0965"}, "larivaar": {"akhar": "koeI\u200bkir\u200bbKIlI\u200binvY\u200bnwhI\u200biPir\u200bsiqgurU\u200bAwix\u200binvwieAw\u200b]", "unicode": "\u0a15\u0a4b\u0a08\u200b\u0a15\u0a30\u0a3f\u200b\u0a2c\u0a16\u0a40\u0a32\u0a40\u200b\u0a28\u0a3f\u0a35\u0a48\u200b\u0a28\u0a3e\u0a39\u0a40\u200b\u0a2b\u0a3f\u0a30\u0a3f\u200b\u0a38\u0a24\u0a3f\u0a17\u0a41\u0a30\u0a42\u200b\u0a06\u0a23\u0a3f\u200b\u0a28\u0a3f\u0a35\u0a3e\u0a07\u0a06\u200b\u0965"}, "translation": {"english": {"default": "And any that did not bow then because of envy - later, the True Guru brought them around to bow in humility."}, "punjabi": {"default": {"akhar": "jy koeI inMdw kr ky (pihlW) nhIN sI BI inNivAw, aus \u0192 BI gurU Amrdws jI ny ilAw ky Aw pYrIN pwieAw[", "unicode": "\u0a1c\u0a47 \u0a15\u0a4b\u0a08 \u0a28\u0a3f\u0a70\u0a26\u0a3e \u0a15\u0a30 \u0a15\u0a47 (\u0a2a\u0a39\u0a3f\u0a32\u0a3e\u0a02) \u0a28\u0a39\u0a40\u0a02 \u0a38\u0a40 \u0a2d\u0a40 \u0a28\u0a3f\u0a02\u0a35\u0a3f\u0a06, \u0a09\u0a38 \u0a28\u0a42\u0a70 \u0a2d\u0a40 \u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a47 \u0a32\u0a3f\u0a06 \u0a15\u0a47 \u0a06 \u0a2a\u0a48\u0a30\u0a40\u0a02 \u0a2a\u0a3e\u0a07\u0a06\u0964"}}, "spanish": "y aqu\u00e9l que por despecho no se postr\u00f3 ante \u00e9l, el Verdadero Guru tambi\u00e9n lo trajo a Sus Pies."}, "transliteration": {"english": {"text": "koee kar bakheelee nivai naahee fir satiguroo aan nivaaeaa |", "larivaar": "koee\u200bkar\u200bbakheelee\u200bnivai\u200bnaahee\u200bfir\u200bsatiguroo\u200baan\u200bnivaaeaa\u200b|"}, "devanagari": {"text": "\u0915\u094b\u0908 \u0915\u0930\u093f \u092c\u0916\u0940\u0932\u0940 \u0928\u093f\u0935\u0948 \u0928\u093e\u0939\u0940 \u092b\u093f\u0930\u093f \u0938\u0924\u093f\u0917\u0941\u0930\u0942 \u0906\u0923\u093f \u0928\u093f\u0935\u093e\u0907\u0906 \u0965", "larivaar": "\u0915\u094b\u0908\u200b\u0915\u0930\u093f\u200b\u092c\u0916\u0940\u0932\u0940\u200b\u0928\u093f\u0935\u0948\u200b\u0928\u093e\u0939\u0940\u200b\u092b\u093f\u0930\u093f\u200b\u0938\u0924\u093f\u0917\u0941\u0930\u0942\u200b\u0906\u0923\u093f\u200b\u0928\u093f\u0935\u093e\u0907\u0906\u200b\u0965"}}, "pageno": 924, "lineno": 3, "firstletters": {"akhar": "kkbnnPsAn", "unicode": "\u0a15\u0a15\u0a2c\u0a28\u0a28\u0a2b\u0a38\u0a05\u0a28"}}}, {"line": {"id": "40Y6", "shabadid": "D30", "gurmukhi": {"akhar": "hir gurih Bwxw dIeI vifAweI Duir iliKAw lyKu rjwie jIau ]", "unicode": "\u0a39\u0a30\u0a3f \u0a17\u0a41\u0a30\u0a39\u0a3f \u0a2d\u0a3e\u0a23\u0a3e \u0a26\u0a40\u0a08 \u0a35\u0a21\u0a3f\u0a06\u0a08 \u0a27\u0a41\u0a30\u0a3f \u0a32\u0a3f\u0a16\u0a3f\u0a06 \u0a32\u0a47\u0a16\u0a41 \u0a30\u0a1c\u0a3e\u0a07 \u0a1c\u0a40\u0a09 \u0965"}, "larivaar": {"akhar": "hir\u200bgurih\u200bBwxw\u200bdIeI\u200bvifAweI\u200bDuir\u200biliKAw\u200blyKu\u200brjwie\u200bjIau\u200b]", "unicode": "\u0a39\u0a30\u0a3f\u200b\u0a17\u0a41\u0a30\u0a39\u0a3f\u200b\u0a2d\u0a3e\u0a23\u0a3e\u200b\u0a26\u0a40\u0a08\u200b\u0a35\u0a21\u0a3f\u0a06\u0a08\u200b\u0a27\u0a41\u0a30\u0a3f\u200b\u0a32\u0a3f\u0a16\u0a3f\u0a06\u200b\u0a32\u0a47\u0a16\u0a41\u200b\u0a30\u0a1c\u0a3e\u0a07\u200b\u0a1c\u0a40\u0a09\u200b\u0965"}, "translation": {"english": {"default": "It pleased the Guru, the Lord, to bestow glorious greatness upon Him; such was the pre-ordained destiny of the Lord's Will."}, "punjabi": {"default": {"akhar": "Akwl purK Aqy gurU Amrdws jI \u0192 (iehI) cMgw l`gw, (auhnW gurU rwmdws jI \u0192) vifAweI b^SI; DuroN Akwl purK dw iehI hukm iliKAw AwieAw sI;", "unicode": "\u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a05\u0a24\u0a47 \u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a42\u0a70 (\u0a07\u0a39\u0a40) \u0a1a\u0a70\u0a17\u0a3e \u0a32\u0a71\u0a17\u0a3e, (\u0a09\u0a39\u0a28\u0a3e\u0a02 \u0a17\u0a41\u0a30\u0a42 \u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a42\u0a70) \u0a35\u0a21\u0a3f\u0a06\u0a08 \u0a2c\u0a59\u0a36\u0a40; \u0a27\u0a41\u0a30\u0a4b\u0a02 \u0a05\u0a15\u0a3e\u0a32 \u0a2a\u0a41\u0a30\u0a16 \u0a26\u0a3e \u0a07\u0a39\u0a40 \u0a39\u0a41\u0a15\u0a2e \u0a32\u0a3f\u0a16\u0a3f\u0a06 \u0a06\u0a07\u0a06 \u0a38\u0a40;"}}, "spanish": "As\u00ed era la Voluntad del Guru, y as\u00ed Ram Das fue bendecido siendo \u00e9ste el escrito Eterno de Dios."}, "transliteration": {"english": {"text": "har gureh bhaanaa deeee vaddiaaee dhur likhiaa lekh rajaae jeeo |", "larivaar": "har\u200bgureh\u200bbhaanaa\u200bdeeee\u200bvaddiaaee\u200bdhur\u200blikhiaa\u200blekh\u200brajaae\u200bjeeo\u200b|"}, "devanagari": {"text": "\u0939\u0930\u093f \u0917\u0941\u0930\u0939\u093f \u092d\u093e\u0923\u093e \u0926\u0940\u0908 \u0935\u0921\u093f\u0906\u0908 \u0927\u0941\u0930\u093f \u0932\u093f\u0916\u093f\u0906 \u0932\u0947\u0916\u0941 \u0930\u091c\u093e\u0907 \u091c\u0940\u0909 \u0965", "larivaar": "\u0939\u0930\u093f\u200b\u0917\u0941\u0930\u0939\u093f\u200b\u092d\u093e\u0923\u093e\u200b\u0926\u0940\u0908\u200b\u0935\u0921\u093f\u0906\u0908\u200b\u0927\u0941\u0930\u093f\u200b\u0932\u093f\u0916\u093f\u0906\u200b\u0932\u0947\u0916\u0941\u200b\u0930\u091c\u093e\u0907\u200b\u091c\u0940\u0909\u200b\u0965"}}, "pageno": 924, "lineno": 3, "firstletters": {"akhar": "hgBdvDllrj", "unicode": "\u0a39\u0a17\u0a2d\u0a26\u0a35\u0a27\u0a32\u0a32\u0a30\u0a1c"}}}, {"line": {"id": "QPJH", "shabadid": "D30", "gurmukhi": {"akhar": "khY suMdru suxhu sMqhu sBu jgqu pYrI pwie jIau ]6]1]", "unicode": "\u0a15\u0a39\u0a48 \u0a38\u0a41\u0a70\u0a26\u0a30\u0a41 \u0a38\u0a41\u0a23\u0a39\u0a41 \u0a38\u0a70\u0a24\u0a39\u0a41 \u0a38\u0a2d\u0a41 \u0a1c\u0a17\u0a24\u0a41 \u0a2a\u0a48\u0a30\u0a40 \u0a2a\u0a3e\u0a07 \u0a1c\u0a40\u0a09 \u0965\u0a6c\u0965\u0a67\u0965"}, "larivaar": {"akhar": "khY\u200bsuMdru\u200bsuxhu\u200bsMqhu\u200bsBu\u200bjgqu\u200bpYrI\u200bpwie\u200bjIau\u200b]6]1]", "unicode": "\u0a15\u0a39\u0a48\u200b\u0a38\u0a41\u0a70\u0a26\u0a30\u0a41\u200b\u0a38\u0a41\u0a23\u0a39\u0a41\u200b\u0a38\u0a70\u0a24\u0a39\u0a41\u200b\u0a38\u0a2d\u0a41\u200b\u0a1c\u0a17\u0a24\u0a41\u200b\u0a2a\u0a48\u0a30\u0a40\u200b\u0a2a\u0a3e\u0a07\u200b\u0a1c\u0a40\u0a09\u200b\u0965\u0a6c\u0965\u0a67\u0965"}, "translation": {"english": {"default": "Says Sundar, listen, O Saints: all the world fell at His feet. ||6||1||"}, "punjabi": {"default": {"akhar": "suMdr AwKdw hY ik hy sMqhu! suxo, (ies vwsqy) swrw jgq (gurU rwmdws jI dI) pYrIN ipAw ]6]1]", "unicode": "\u0a38\u0a41\u0a70\u0a26\u0a30 \u0a06\u0a16\u0a26\u0a3e \u0a39\u0a48 \u0a15\u0a3f \u0a39\u0a47 \u0a38\u0a70\u0a24\u0a39\u0a41! \u0a38\u0a41\u0a23\u0a4b, (\u0a07\u0a38 \u0a35\u0a3e\u0a38\u0a24\u0a47) \u0a38\u0a3e\u0a30\u0a3e \u0a1c\u0a17\u0a24 (\u0a17\u0a41\u0a30\u0a42 \u0a30\u0a3e\u0a2e\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a26\u0a40) \u0a2a\u0a48\u0a30\u0a40\u0a02 \u0a2a\u0a3f\u0a06 \u0965\u0a6c\u0965\u0a67\u0965"}}, "spanish": "Dice Sundar, escuchen, oh Santos, as\u00ed es como el mundo entero se postr\u00f3 ante los Pies del Guru.(6-1)"}, "transliteration": {"english": {"text": "kahai sundar sunahu santahu sabh jagat pairee paae jeeo |6|1|", "larivaar": "kahai\u200bsundar\u200bsunahu\u200bsantahu\u200bsabh\u200bjagat\u200bpairee\u200bpaae\u200bjeeo\u200b|6|1|"}, "devanagari": {"text": "\u0915\u0939\u0948 \u0938\u0941\u0902\u0926\u0930\u0941 \u0938\u0941\u0923\u0939\u0941 \u0938\u0902\u0924\u0939\u0941 \u0938\u092d\u0941 \u091c\u0917\u0924\u0941 \u092a\u0948\u0930\u0940 \u092a\u093e\u0907 \u091c\u0940\u0909 \u0965\u096c\u0965\u0967\u0965", "larivaar": "\u0915\u0939\u0948\u200b\u0938\u0941\u0902\u0926\u0930\u0941\u200b\u0938\u0941\u0923\u0939\u0941\u200b\u0938\u0902\u0924\u0939\u0941\u200b\u0938\u092d\u0941\u200b\u091c\u0917\u0924\u0941\u200b\u092a\u0948\u0930\u0940\u200b\u092a\u093e\u0907\u200b\u091c\u0940\u0909\u200b\u0965\u096c\u0965\u0967\u0965"}}, "pageno": 924, "lineno": 4, "firstletters": {"akhar": "kssssjppj", "unicode": "\u0a15\u0a38\u0a38\u0a38\u0a38\u0a1c\u0a2a\u0a2a\u0a1c"}}}]}
+{
+    "baniinfo": {
+        "id": 28,
+        "akhar": "rwmklI sdu",
+        "unicode": "ਰਾਮਕਲੀ ਸਦੁ",
+        "english": "Raamkali Sad"
+    },
+    "lines": [
+        {
+            "line": {
+                "id": "Q8FU",
+                "type": 2,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "rwmklI sdu ]",
+                    "unicode": "ਰਾਮਕਲੀ ਸਦੁ ॥"
+                },
+                "larivaar": {
+                    "akhar": "rwmklI​sdu​]",
+                    "unicode": "ਰਾਮਕਲੀ​ਸਦੁ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Raamkalee, Sadd ~ The Call Of Death:"
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਰਾਗ ਰਾਮਕਲੀ ਵਿੱਚ ਬਾਣੀ 'ਸਦੁ'।",
+                            "unicode": "ਰਾਗ ਰਾਮਕਲੀ ਵਿੱਚ ਬਾਣੀ 'ਸਦੁ'।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "rs]",
+                        "larivaar": "rs]"
+                    },
+                    "devanagari": {
+                        "text": "rwmklI sdu ]",
+                        "larivaar": "rwmklI​sdu​]"
+                    }
+                },
+                "pageno": "Q8FU",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "LH8E",
+                "type": 1,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "<> siqgur pRswid ]",
+                    "unicode": "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"
+                },
+                "larivaar": {
+                    "akhar": "<>​siqgur​pRswid​]",
+                    "unicode": "ੴ​ਸਤਿਗੁਰ​ਪ੍ਰਸਾਦਿ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "One Universal Creator God. By The Grace Of The True Guru:"
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਅਕਾਲ ਪੁਰਖ ਇੱਕ ਹੈ ਅਤੇ ਸਤਿਗੁਰੂ ਦੀ ਕਿਰਪਾ ਨਾਲ ਮਿਲਦਾ ਹੈ।",
+                            "unicode": "ਅਕਾਲ ਪੁਰਖ ਇੱਕ ਹੈ ਅਤੇ ਸਤਿਗੁਰੂ ਦੀ ਕਿਰਪਾ ਨਾਲ ਮਿਲਦਾ ਹੈ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "<>sp",
+                        "larivaar": "<>sp"
+                    },
+                    "devanagari": {
+                        "text": "<> siqgur pRswid ]",
+                        "larivaar": "<>​siqgur​pRswid​]"
+                    }
+                },
+                "pageno": "LH8E",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "PJF8",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "jig dwqw soie; Bgiq vClu. iqhu loie jIau ]",
+                    "unicode": "ਜਗਿ ਦਾਤਾ ਸੋਇ; ਭਗਤਿ ਵਛਲੁ. ਤਿਹੁ ਲੋਇ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "jig​dwqw​soie;​Bgiq​vClu.​iqhu​loie​jIau​]",
+                    "unicode": "ਜਗਿ​ਦਾਤਾ​ਸੋਇ;​ਭਗਤਿ​ਵਛਲੁ.​ਤਿਹੁ​ਲੋਇ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "He is the Great Giver of the Universe, the Lover of His devotees, throughout the three worlds."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਜੋ ਅਕਾਲ ਪੁਰਖ ਜਗਤ ਵਿਚ (ਜੀਵਾਂ ਨੂੰ) ਦਾਤਾਂ ਬਖ਼ਸ਼ਣ ਵਾਲਾ ਹੈ, ਜੋ ਤਿੰਨਾਂ ਲੋਕਾਂ ਵਿਚ ਭਗਤੀ ਕਰਨ ਵਾਲਿਆਂ ਨੂੰ ਪਿਆਰ ਕਰਦਾ ਹੈ,",
+                            "unicode": "ਜੋ ਅਕਾਲ ਪੁਰਖ ਜਗਤ ਵਿਚ (ਜੀਵਾਂ ਨੂੰ) ਦਾਤਾਂ ਬਖ਼ਸ਼ਣ ਵਾਲਾ ਹੈ, ਜੋ ਤਿੰਨਾਂ ਲੋਕਾਂ ਵਿਚ ਭਗਤੀ ਕਰਨ ਵਾਲਿਆਂ ਨੂੰ ਪਿਆਰ ਕਰਦਾ ਹੈ,"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "jdsBvqlj",
+                        "larivaar": "jds;Bvqlj"
+                    },
+                    "devanagari": {
+                        "text": "jig dwqw soie; Bgiq vClu. iqhu loie jIau ]",
+                        "larivaar": "jig​dwqw​soie;​Bgiq​vClu.​iqhu​loie​jIau​]"
+                    }
+                },
+                "pageno": "PJF8",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "6628",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "gur sbid smwvey; Avru. n jwxY koie jIau ]",
+                    "unicode": "ਗੁਰ ਸਬਦਿ ਸਮਾਵਏ; ਅਵਰੁ. ਨ ਜਾਣੈ ਕੋਇ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "gur​sbid​smwvey;​Avru.​n​jwxY​koie​jIau​]",
+                    "unicode": "ਗੁਰ​ਸਬਦਿ​ਸਮਾਵਏ;​ਅਵਰੁ.​ਨ​ਜਾਣੈ​ਕੋਇ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "One who is merged in the Word of the Guru's Shabad does not know any other."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "(ਉਸ ਅਕਾਲ ਪੁਰਖ ਵਿਚ ਗੁਰੂ ਅਮਰਦਾਸ) ਸਤਿਗੁਰੂ ਦੇ ਸ਼ਬਦ ਦੀ ਰਾਹੀਂ ਲੀਨ (ਰਿਹਾ) ਹੈ, (ਅਤੇ ਉਸ ਤੋਂ ਬਿਨਾ) ਕਿਸੇ ਹੋਰ ਨੂੰ (ਉਸ ਵਰਗਾ) ਨਹੀਂ ਜਾਣਦਾ।",
+                            "unicode": "(ਉਸ ਅਕਾਲ ਪੁਰਖ ਵਿਚ ਗੁਰੂ ਅਮਰਦਾਸ) ਸਤਿਗੁਰੂ ਦੇ ਸ਼ਬਦ ਦੀ ਰਾਹੀਂ ਲੀਨ (ਰਿਹਾ) ਹੈ, (ਅਤੇ ਉਸ ਤੋਂ ਬਿਨਾ) ਕਿਸੇ ਹੋਰ ਨੂੰ (ਉਸ ਵਰਗਾ) ਨਹੀਂ ਜਾਣਦਾ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "gssAnjkj",
+                        "larivaar": "gss;Anjkj"
+                    },
+                    "devanagari": {
+                        "text": "gur sbid smwvey; Avru. n jwxY koie jIau ]",
+                        "larivaar": "gur​sbid​smwvey;​Avru.​n​jwxY​koie​jIau​]"
+                    }
+                },
+                "pageno": "6628",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "55F7",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "Avro. n jwxih, sbid gur kY; eyku nwmu iDAwvhy ]",
+                    "unicode": "ਅਵਰੋ. ਨ ਜਾਣਹਿ, ਸਬਦਿ ਗੁਰ ਕੈ; ਏਕੁ ਨਾਮੁ ਧਿਆਵਹੇ ॥"
+                },
+                "larivaar": {
+                    "akhar": "Avro.​n​jwxih,​sbid​gur​kY;​eyku​nwmu​iDAwvhy​]",
+                    "unicode": "ਅਵਰੋ.​ਨ​ਜਾਣਹਿ,​ਸਬਦਿ​ਗੁਰ​ਕੈ;​ਏਕੁ​ਨਾਮੁ​ਧਿਆਵਹੇ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Dwelling upon the Word of the Guru's Shabad, he does not know any other; he meditates on the One Name of the Lord."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "(ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ) ਸਤਿਗੁਰੂ ਦੇ ਸ਼ਬਦਿ ਦੀ ਬਰਕਤਿ ਨਾਲ (ਅਕਾਲ ਪੁਰਖ ਤੋਂ ਬਿਨਾ) ਕਿਸੇ ਹੋਰ ਨੂੰ (ਉਸ ਵਰਗਾ) ਨਹੀਂ ਜਾਣਦੇ (ਰਹੇ) ਹਨ, ਕੇਵਲ ਇੱਕ 'ਨਾਮ' ਨੂੰ ਧਿਆਉਂਦੇ (ਰਹੇ) ਹਨ;",
+                            "unicode": "(ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ) ਸਤਿਗੁਰੂ ਦੇ ਸ਼ਬਦਿ ਦੀ ਬਰਕਤਿ ਨਾਲ (ਅਕਾਲ ਪੁਰਖ ਤੋਂ ਬਿਨਾ) ਕਿਸੇ ਹੋਰ ਨੂੰ (ਉਸ ਵਰਗਾ) ਨਹੀਂ ਜਾਣਦੇ (ਰਹੇ) ਹਨ, ਕੇਵਲ ਇੱਕ 'ਨਾਮ' ਨੂੰ ਧਿਆਉਂਦੇ (ਰਹੇ) ਹਨ;"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "AnjsgkenD",
+                        "larivaar": "Anjsgk;enD"
+                    },
+                    "devanagari": {
+                        "text": "Avro. n jwxih, sbid gur kY; eyku nwmu iDAwvhy ]",
+                        "larivaar": "Avro.​n​jwxih,​sbid​gur​kY;​eyku​nwmu​iDAwvhy​]"
+                    }
+                },
+                "pageno": "55F7",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "4JU1",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "prswid nwnk gurU AMgd; prm pdvI pwvhy ]",
+                    "unicode": "ਪਰਸਾਦਿ ਨਾਨਕ ਗੁਰੂ ਅੰਗਦ; ਪਰਮ ਪਦਵੀ ਪਾਵਹੇ ॥"
+                },
+                "larivaar": {
+                    "akhar": "prswid​nwnk​gurU​AMgd;​prm​pdvI​pwvhy​]",
+                    "unicode": "ਪਰਸਾਦਿ​ਨਾਨਕ​ਗੁਰੂ​ਅੰਗਦ;​ਪਰਮ​ਪਦਵੀ​ਪਾਵਹੇ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "By the Grace of Guru Nanak and Guru Angad, Guru Amar Das obtained the supreme status."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਗੁਰੂ ਨਾਨਕ ਅਤੇ ਗੁਰੂ ਅੰਗਦ ਦੇਵ ਜੀ ਦੀ ਕਿਰਪਾ ਨਾਲ ਉਹ ਉੱਚੇ ਦਰਜੇ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰ ਚੁਕੇ ਹਨ।",
+                            "unicode": "ਗੁਰੂ ਨਾਨਕ ਅਤੇ ਗੁਰੂ ਅੰਗਦ ਦੇਵ ਜੀ ਦੀ ਕਿਰਪਾ ਨਾਲ ਉਹ ਉੱਚੇ ਦਰਜੇ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰ ਚੁਕੇ ਹਨ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "pngAppp",
+                        "larivaar": "pngA;ppp"
+                    },
+                    "devanagari": {
+                        "text": "prswid nwnk gurU AMgd; prm pdvI pwvhy ]",
+                        "larivaar": "prswid​nwnk​gurU​AMgd;​prm​pdvI​pwvhy​]"
+                    }
+                },
+                "pageno": "4JU1",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "JHE6",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "AwieAw hkwrw clxvwrw; hir rwm nwim smwieAw ]",
+                    "unicode": "ਆਇਆ ਹਕਾਰਾ ਚਲਣਵਾਰਾ; ਹਰਿ ਰਾਮ ਨਾਮਿ ਸਮਾਇਆ ॥"
+                },
+                "larivaar": {
+                    "akhar": "AwieAw​hkwrw​clxvwrw;​hir​rwm​nwim​smwieAw​]",
+                    "unicode": "ਆਇਆ​ਹਕਾਰਾ​ਚਲਣਵਾਰਾ;​ਹਰਿ​ਰਾਮ​ਨਾਮਿ​ਸਮਾਇਆ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "And when the call came for Him to depart, He merged in the Name of the Lord."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "(ਜਿਹੜਾ ਗੁਰੂ ਅਮਰਦਾਸ) ਅਕਾਲ ਪੁਰਖ ਦੇ ਨਾਮ ਵਿਚ ਲੀਨ ਸੀ, (ਧੁਰੋਂ) ਉਸ ਦੇ ਚੱਲਣ ਦਾ ਸੱਦਾ ਆ ਗਿਆ;",
+                            "unicode": "(ਜਿਹੜਾ ਗੁਰੂ ਅਮਰਦਾਸ) ਅਕਾਲ ਪੁਰਖ ਦੇ ਨਾਮ ਵਿਚ ਲੀਨ ਸੀ, (ਧੁਰੋਂ) ਉਸ ਦੇ ਚੱਲਣ ਦਾ ਸੱਦਾ ਆ ਗਿਆ;"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "Ahchrns",
+                        "larivaar": "Ahc;hrns"
+                    },
+                    "devanagari": {
+                        "text": "AwieAw hkwrw clxvwrw; hir rwm nwim smwieAw ]",
+                        "larivaar": "AwieAw​hkwrw​clxvwrw;​hir​rwm​nwim​smwieAw​]"
+                    }
+                },
+                "pageno": "JHE6",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "P1GJ",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "jig Amru Atlu Aqolu Twkuru; Bgiq qy. hir pwieAw ]1]",
+                    "unicode": "ਜਗਿ ਅਮਰੁ ਅਟਲੁ ਅਤੋਲੁ ਠਾਕੁਰੁ; ਭਗਤਿ ਤੇ. ਹਰਿ ਪਾਇਆ ॥੧॥"
+                },
+                "larivaar": {
+                    "akhar": "jig​Amru​Atlu​Aqolu​Twkuru;​Bgiq​qy.​hir​pwieAw​]1]",
+                    "unicode": "ਜਗਿ​ਅਮਰੁ​ਅਟਲੁ​ਅਤੋਲੁ​ਠਾਕੁਰੁ;​ਭਗਤਿ​ਤੇ.​ਹਰਿ​ਪਾਇਆ​॥੧॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Through devotional worship in this world, the imperishable, immovable, immeasurable Lord is found. ||1||"
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "(ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ) ਜਗਤ ਵਿਚ (ਰਹਿੰਦਿਆਂ) ਅਮਰ, ਅਟੱਲ, ਅਤੋਲ ਠਾਕੁਰ ਨੂੰ ਭਗਤੀ ਦੀ ਰਾਹੀਂ ਪ੍ਰਾਪਤ ਕਰ ਲਿਆ ਹੋਇਆ ਸੀ ॥੧॥",
+                            "unicode": "(ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ) ਜਗਤ ਵਿਚ (ਰਹਿੰਦਿਆਂ) ਅਮਰ, ਅਟੱਲ, ਅਤੋਲ ਠਾਕੁਰ ਨੂੰ ਭਗਤੀ ਦੀ ਰਾਹੀਂ ਪ੍ਰਾਪਤ ਕਰ ਲਿਆ ਹੋਇਆ ਸੀ ॥੧॥"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "jAAATBqhp",
+                        "larivaar": "jAAAT;Bqhp"
+                    },
+                    "devanagari": {
+                        "text": "jig Amru Atlu Aqolu Twkuru; Bgiq qy. hir pwieAw ]1]",
+                        "larivaar": "jig​Amru​Atlu​Aqolu​Twkuru;​Bgiq​qy.​hir​pwieAw​]1]"
+                    }
+                },
+                "pageno": "P1GJ",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "0JP4",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "hir Bwxw gur BwieAw; guru jwvY. hir pRB pwis jIau ]",
+                    "unicode": "ਹਰਿ ਭਾਣਾ ਗੁਰ ਭਾਇਆ; ਗੁਰੁ ਜਾਵੈ. ਹਰਿ ਪ੍ਰਭ ਪਾਸਿ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "hir​Bwxw​gur​BwieAw;​guru​jwvY.​hir​pRB​pwis​jIau​]",
+                    "unicode": "ਹਰਿ​ਭਾਣਾ​ਗੁਰ​ਭਾਇਆ;​ਗੁਰੁ​ਜਾਵੈ.​ਹਰਿ​ਪ੍ਰਭ​ਪਾਸਿ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The Guru gladly accepted the Lord's Will, and so the Guru easily reached the Lord God's Presence."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਅਕਾਲ ਪੁਰਖ ਦੀ ਰਜ਼ਾ ਗੁਰੂ (ਅਮਰਦਾਸ ਜੀ) ਨੂੰ ਪਿਆਰੀ ਲੱਗੀ, ਅਤੇ ਸਤਿਗੁਰੂ (ਜੀ) ਅਕਾਲ ਪੁਰਖ ਦੇ ਕੋਲ ਜਾਣ ਨੂੰ ਤਿਆਰ ਹੋ ਪਏ।",
+                            "unicode": "ਅਕਾਲ ਪੁਰਖ ਦੀ ਰਜ਼ਾ ਗੁਰੂ (ਅਮਰਦਾਸ ਜੀ) ਨੂੰ ਪਿਆਰੀ ਲੱਗੀ, ਅਤੇ ਸਤਿਗੁਰੂ (ਜੀ) ਅਕਾਲ ਪੁਰਖ ਦੇ ਕੋਲ ਜਾਣ ਨੂੰ ਤਿਆਰ ਹੋ ਪਏ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "hBgBgjhppj",
+                        "larivaar": "hBgB;gjhppj"
+                    },
+                    "devanagari": {
+                        "text": "hir Bwxw gur BwieAw; guru jwvY. hir pRB pwis jIau ]",
+                        "larivaar": "hir​Bwxw​gur​BwieAw;​guru​jwvY.​hir​pRB​pwis​jIau​]"
+                    }
+                },
+                "pageno": "0JP4",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "XTNC",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "siqguru kry hir pih bynqI; myrI pYj rKhu Ardwis jIau ]",
+                    "unicode": "ਸਤਿਗੁਰੁ ਕਰੇ ਹਰਿ ਪਹਿ ਬੇਨਤੀ; ਮੇਰੀ ਪੈਜ ਰਖਹੁ ਅਰਦਾਸਿ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "siqguru​kry​hir​pih​bynqI;​myrI​pYj​rKhu​Ardwis​jIau​]",
+                    "unicode": "ਸਤਿਗੁਰੁ​ਕਰੇ​ਹਰਿ​ਪਹਿ​ਬੇਨਤੀ;​ਮੇਰੀ​ਪੈਜ​ਰਖਹੁ​ਅਰਦਾਸਿ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The True Guru prays to the Lord, \"Please, save my honor. This is my prayer\"."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਅਕਾਲ ਪੁਰਖ ਅੱਗੇ ਇਹ ਬੇਨਤੀ ਕੀਤੀ, (ਹੇ ਹਰੀ!) ਮੇਰੀ ਅਰਦਾਸਿ ਹੈ ਕਿ ਮੇਰੀ ਲਾਜ ਰੱਖ।",
+                            "unicode": "ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਅਕਾਲ ਪੁਰਖ ਅੱਗੇ ਇਹ ਬੇਨਤੀ ਕੀਤੀ, (ਹੇ ਹਰੀ!) ਮੇਰੀ ਅਰਦਾਸਿ ਹੈ ਕਿ ਮੇਰੀ ਲਾਜ ਰੱਖ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "skhpbmprAj",
+                        "larivaar": "skhpb;mprAj"
+                    },
+                    "devanagari": {
+                        "text": "siqguru kry hir pih bynqI; myrI pYj rKhu Ardwis jIau ]",
+                        "larivaar": "siqguru​kry​hir​pih​bynqI;​myrI​pYj​rKhu​Ardwis​jIau​]"
+                    }
+                },
+                "pageno": "XTNC",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "969W",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "pYj rwKhu. hir jnh kyrI; hir dyhu nwmu inrMjno ]",
+                    "unicode": "ਪੈਜ ਰਾਖਹੁ. ਹਰਿ ਜਨਹ ਕੇਰੀ; ਹਰਿ ਦੇਹੁ ਨਾਮੁ ਨਿਰੰਜਨੋ ॥"
+                },
+                "larivaar": {
+                    "akhar": "pYj​rwKhu.​hir​jnh​kyrI;​hir​dyhu​nwmu​inrMjno​]",
+                    "unicode": "ਪੈਜ​ਰਾਖਹੁ.​ਹਰਿ​ਜਨਹ​ਕੇਰੀ;​ਹਰਿ​ਦੇਹੁ​ਨਾਮੁ​ਨਿਰੰਜਨੋ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Please save the honor of Your humble servant, O Lord; please bless him with Your Immaculate Name."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਹੇ ਹਰੀ! ਆਪਣੇ ਸੇਵਕਾਂ ਦੀ ਲਾਜ ਰੱਖ, ਅਤੇ ਮਾਇਆ ਤੋਂ ਨਿਰਮੋਹ ਕਰਨ ਵਾਲਾ ਆਪਣਾ ਨਾਮ ਬਖ਼ਸ਼,",
+                            "unicode": "ਹੇ ਹਰੀ! ਆਪਣੇ ਸੇਵਕਾਂ ਦੀ ਲਾਜ ਰੱਖ, ਅਤੇ ਮਾਇਆ ਤੋਂ ਨਿਰਮੋਹ ਕਰਨ ਵਾਲਾ ਆਪਣਾ ਨਾਮ ਬਖ਼ਸ਼,"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "prhjkhdnn",
+                        "larivaar": "prhjk;hdnn"
+                    },
+                    "devanagari": {
+                        "text": "pYj rwKhu. hir jnh kyrI; hir dyhu nwmu inrMjno ]",
+                        "larivaar": "pYj​rwKhu.​hir​jnh​kyrI;​hir​dyhu​nwmu​inrMjno​]"
+                    }
+                },
+                "pageno": "969W",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "R1ZC",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "AMiq clidAw hoie bylI; jmdUq kwlu inKMjno ]",
+                    "unicode": "ਅੰਤਿ ਚਲਦਿਆ ਹੋਇ ਬੇਲੀ; ਜਮਦੂਤ ਕਾਲੁ ਨਿਖੰਜਨੋ ॥"
+                },
+                "larivaar": {
+                    "akhar": "AMiq​clidAw​hoie​bylI;​jmdUq​kwlu​inKMjno​]",
+                    "unicode": "ਅੰਤਿ​ਚਲਦਿਆ​ਹੋਇ​ਬੇਲੀ;​ਜਮਦੂਤ​ਕਾਲੁ​ਨਿਖੰਜਨੋ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "At this time of final departure, it is our only help and support; it destroys death, and the Messenger of Death."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਜਮਦੂਤਾਂ ਅਤੇ ਕਾਲ ਨੂੰ ਨਾਸ ਕਰਨ ਵਾਲਾ ਨਾਮ ਦੇਹਿ, ਜੋ ਅਖ਼ੀਰ ਚੱਲਣ ਵੇਲੇ ਸਾਥੀ ਬਣੇ।",
+                            "unicode": "ਜਮਦੂਤਾਂ ਅਤੇ ਕਾਲ ਨੂੰ ਨਾਸ ਕਰਨ ਵਾਲਾ ਨਾਮ ਦੇਹਿ, ਜੋ ਅਖ਼ੀਰ ਚੱਲਣ ਵੇਲੇ ਸਾਥੀ ਬਣੇ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "Achbjkn",
+                        "larivaar": "Achb;jkn"
+                    },
+                    "devanagari": {
+                        "text": "AMiq clidAw hoie bylI; jmdUq kwlu inKMjno ]",
+                        "larivaar": "AMiq​clidAw​hoie​bylI;​jmdUq​kwlu​inKMjno​]"
+                    }
+                },
+                "pageno": "R1ZC",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "9ZQ2",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "siqgurU kI bynqI pweI; hir pRiB suxI Ardwis jIau ]",
+                    "unicode": "ਸਤਿਗੁਰੂ ਕੀ ਬੇਨਤੀ ਪਾਈ; ਹਰਿ ਪ੍ਰਭਿ ਸੁਣੀ ਅਰਦਾਸਿ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "siqgurU​kI​bynqI​pweI;​hir​pRiB​suxI​Ardwis​jIau​]",
+                    "unicode": "ਸਤਿਗੁਰੂ​ਕੀ​ਬੇਨਤੀ​ਪਾਈ;​ਹਰਿ​ਪ੍ਰਭਿ​ਸੁਣੀ​ਅਰਦਾਸਿ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The Lord God heard the prayer of the True Guru, and granted His request."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਸਤਿਗੁਰੂ ਦੀ ਕੀਤੀ ਹੋਈ ਇਹ ਬੇਨਤੀ, ਇਹ ਅਰਦਾਸਿ, ਅਕਾਲ ਪੁਰਖ ਪ੍ਰਭੂ ਨੇ ਸੁਣ ਲਈ,",
+                            "unicode": "ਸਤਿਗੁਰੂ ਦੀ ਕੀਤੀ ਹੋਈ ਇਹ ਬੇਨਤੀ, ਇਹ ਅਰਦਾਸਿ, ਅਕਾਲ ਪੁਰਖ ਪ੍ਰਭੂ ਨੇ ਸੁਣ ਲਈ,"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "skbphpsAj",
+                        "larivaar": "skbp;hpsAj"
+                    },
+                    "devanagari": {
+                        "text": "siqgurU kI bynqI pweI; hir pRiB suxI Ardwis jIau ]",
+                        "larivaar": "siqgurU​kI​bynqI​pweI;​hir​pRiB​suxI​Ardwis​jIau​]"
+                    }
+                },
+                "pageno": "9ZQ2",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "NHJC",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "hir Dwir ikrpw siqguru imlwieAw; Dnu Dnu khY swbwis jIau ]2]",
+                    "unicode": "ਹਰਿ ਧਾਰਿ ਕਿਰਪਾ ਸਤਿਗੁਰੁ ਮਿਲਾਇਆ; ਧਨੁ ਧਨੁ ਕਹੈ ਸਾਬਾਸਿ ਜੀਉ ॥੨॥"
+                },
+                "larivaar": {
+                    "akhar": "hir​Dwir​ikrpw​siqguru​imlwieAw;​Dnu​Dnu​khY​swbwis​jIau​]2]",
+                    "unicode": "ਹਰਿ​ਧਾਰਿ​ਕਿਰਪਾ​ਸਤਿਗੁਰੁ​ਮਿਲਾਇਆ;​ਧਨੁ​ਧਨੁ​ਕਹੈ​ਸਾਬਾਸਿ​ਜੀਉ​॥੨॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The Lord showered His Mercy, and blended the True Guru with Himself; He said, \"Blessed! Blessed! Wonderful!\" ||2||"
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਅਤੇ ਮਿਹਰ ਕਰ ਕੇ ਉਸ ਨੇ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੂੰ (ਆਪਣੇ ਚਰਨਾਂ ਵਿਚ) ਜੋੜ ਲਿਆ ਅਤੇ ਕਹਿਣ ਲੱਗਾ-ਸ਼ਾਬਾਸ਼ੇ! ਤੂੰ ਧੰਨ ਹੈਂ, ਤੂੰ ਧੰਨ ਹੈਂ ॥੨॥",
+                            "unicode": "ਅਤੇ ਮਿਹਰ ਕਰ ਕੇ ਉਸ ਨੇ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੂੰ (ਆਪਣੇ ਚਰਨਾਂ ਵਿਚ) ਜੋੜ ਲਿਆ ਅਤੇ ਕਹਿਣ ਲੱਗਾ-ਸ਼ਾਬਾਸ਼ੇ! ਤੂੰ ਧੰਨ ਹੈਂ, ਤੂੰ ਧੰਨ ਹੈਂ ॥੨॥"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "hDksmDDksj",
+                        "larivaar": "hDksm;DDksj"
+                    },
+                    "devanagari": {
+                        "text": "hir Dwir ikrpw siqguru imlwieAw; Dnu Dnu khY swbwis jIau ]2]",
+                        "larivaar": "hir​Dwir​ikrpw​siqguru​imlwieAw;​Dnu​Dnu​khY​swbwis​jIau​]2]"
+                    }
+                },
+                "pageno": "NHJC",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "5DL7",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "myry isK suxhu puq BweIho; myrY hir Bwxw. Awau mY pwis jIau ]",
+                    "unicode": "ਮੇਰੇ ਸਿਖ ਸੁਣਹੁ ਪੁਤ ਭਾਈਹੋ; ਮੇਰੈ ਹਰਿ ਭਾਣਾ. ਆਉ ਮੈ ਪਾਸਿ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "myry​isK​suxhu​puq​BweIho;​myrY​hir​Bwxw.​Awau​mY​pwis​jIau​]",
+                    "unicode": "ਮੇਰੇ​ਸਿਖ​ਸੁਣਹੁ​ਪੁਤ​ਭਾਈਹੋ;​ਮੇਰੈ​ਹਰਿ​ਭਾਣਾ.​ਆਉ​ਮੈ​ਪਾਸਿ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Listen O my Sikhs, my children and Siblings of Destiny; it is my Lord's Will that I must now go to Him."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਹੇ ਮੇਰੇ ਸਿੱਖੋ! ਹੇ ਮੇਰੇ ਪੁੱਤ੍ਰੋ! ਹੇ ਮੇਰੇ ਭਰਾਵੋ! ਸੁਣੋ- ਮੇਰੇ ਅਕਾਲ ਪੁਰਖ ਨੂੰ (ਇਹ) ਚੰਗਾ ਲੱਗਾ ਹੈ (ਅਤੇ ਮੈਨੂੰ ਉਸ ਨੇ ਹੁਕਮ ਕੀਤਾ ਹੈ:) 'ਮੇਰੇ ਕੋਲ ਆਉ'।",
+                            "unicode": "ਹੇ ਮੇਰੇ ਸਿੱਖੋ! ਹੇ ਮੇਰੇ ਪੁੱਤ੍ਰੋ! ਹੇ ਮੇਰੇ ਭਰਾਵੋ! ਸੁਣੋ- ਮੇਰੇ ਅਕਾਲ ਪੁਰਖ ਨੂੰ (ਇਹ) ਚੰਗਾ ਲੱਗਾ ਹੈ (ਅਤੇ ਮੈਨੂੰ ਉਸ ਨੇ ਹੁਕਮ ਕੀਤਾ ਹੈ:) 'ਮੇਰੇ ਕੋਲ ਆਉ'।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "msspBmhBAmpj",
+                        "larivaar": "msspB;mhBAmpj"
+                    },
+                    "devanagari": {
+                        "text": "myry isK suxhu puq BweIho; myrY hir Bwxw. Awau mY pwis jIau ]",
+                        "larivaar": "myry​isK​suxhu​puq​BweIho;​myrY​hir​Bwxw.​Awau​mY​pwis​jIau​]"
+                    }
+                },
+                "pageno": "5DL7",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "KA7F",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "hir Bwxw gur BwieAw; myrw hir pRBu kry swbwis jIau ]",
+                    "unicode": "ਹਰਿ ਭਾਣਾ ਗੁਰ ਭਾਇਆ; ਮੇਰਾ ਹਰਿ ਪ੍ਰਭੁ ਕਰੇ ਸਾਬਾਸਿ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "hir​Bwxw​gur​BwieAw;​myrw​hir​pRBu​kry​swbwis​jIau​]",
+                    "unicode": "ਹਰਿ​ਭਾਣਾ​ਗੁਰ​ਭਾਇਆ;​ਮੇਰਾ​ਹਰਿ​ਪ੍ਰਭੁ​ਕਰੇ​ਸਾਬਾਸਿ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The Guru gladly accepted the Lord's Will, and my Lord God applauded Him."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਅਕਾਲ ਪੁਰਖ ਦੀ ਰਜ਼ਾ ਗੁਰੂ ਨੂੰ ਮਿੱਠੀ ਲੱਗੀ ਹੈ, ਮੇਰਾ ਪ੍ਰਭੂ (ਮੈਨੂੰ) ਸ਼ਾਬਾਸ਼ ਦੇ ਰਿਹਾ ਹੈ।\t\tਰਾਮਕਲੀ ਸਦ [ਭ. ਸੁੰਦਰ] ੩:੨ {੯੨੩}-੯\tਰਾਮਕਲੀ ਸਦ (ਭ. ਸੁੰਦਰ) ੯੨੩-੯\tਹਰ ਭਣ ਗਰ ਭੲਅ ਮਰ ਹਰ ਪਰਭ ਕਰ ਸਬਸ ਜੳ ॥\tਐਸਾ ਜੋ ਹਰੀ ਕਾ ਹੁਕਮ ਹੈ, ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਭਏ: ਸੋ ਮੇਰੇ ਕੋ ਭਾਇਆ ਹੈ। ਇਸੀ ਤੇ ਮੇਰਾ ਹਰੀ (ਪ੍ਰਭੂ) ਸ੍ਵਾਮੀ ਸਤਕਾਰ ਕਰੇਗਾ॥\t\tਪ੍ਰਭੂ ਦੀ ਰਜ਼ਾ ਗੁਰਾਂ ਨੂੰ ਮਿੱਠੀ ਲੱਗੀ ਅਤੇ ਮੈਂਡੇ ਸੁਆਮੀ ਵਾਹਿਗੁਰੂ ਨੇ ਉਨ੍ਹਾਂ ਨੂੰ ਸ਼ਾਬਾਸ਼ੇ ਦਿੱਤੀ।\tThe Lord's will seemed sweet unto the Guru and my Lord God applauded him.",
+                            "unicode": "ਅਕਾਲ ਪੁਰਖ ਦੀ ਰਜ਼ਾ ਗੁਰੂ ਨੂੰ ਮਿੱਠੀ ਲੱਗੀ ਹੈ, ਮੇਰਾ ਪ੍ਰਭੂ (ਮੈਨੂੰ) ਸ਼ਾਬਾਸ਼ ਦੇ ਰਿਹਾ ਹੈ।\t\tਰਾਮਕਲੀ ਸਦ ।ਭ. ਸੁੰਦਰ॥ ੩:੨ {੯੨੩}-੯\tਰਾਮਕਲੀ ਸਦ (ਭ. ਸੁੰਦਰ) ੯੨੩-੯\tਹਰ ਭਣ ਗਰ ਭੲਅ ਮਰ ਹਰ ਪਰਭ ਕਰ ਸਬਸ ਜੳ ॥\tਐਸਾ ਜੋ ਹਰੀ ਕਾ ਹੁਕਮ ਹੈ, ਸ੍ਰੀ ਗੁਰੂ ਜੀ ਕਹਤੇ ਭਏ: ਸੋ ਮੇਰੇ ਕੋ ਭਾਇਆ ਹੈ। ਇਸੀ ਤੇ ਮੇਰਾ ਹਰੀ (ਪ੍ਰਭੂ) ਸ੍ਵਾਮੀ ਸਤਕਾਰ ਕਰੇਗਾ॥\t\tਪ੍ਰਭੂ ਦੀ ਰਜ਼ਾ ਗੁਰਾਂ ਨੂੰ ਮਿੱਠੀ ਲੱਗੀ ਅਤੇ ਮੈਂਡੇ ਸੁਆਮੀ ਵਾਹਿਗੁਰੂ ਨੇ ਉਨ੍ਹਾਂ ਨੂੰ ਸ਼ਾਬਾਸ਼ੇ ਦਿੱਤੀ।\tਠਹੲ ਲ਼ੋਰਦ'ਸ ਾਲਿਲ ਸੲੲਮੲਦ ਸਾੲੲਟ ੁਨਟੋ ਟਹੲ ਘੁਰੁ ੳਨਦ ਮੇ ਲ਼ੋਰਦ ਘੋਦ ੳਪਪਲਉਦੲਦ ਹਮਿ."
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "hBgBmhpksj",
+                        "larivaar": "hBgB;mhpksj"
+                    },
+                    "devanagari": {
+                        "text": "hir Bwxw gur BwieAw; myrw hir pRBu kry swbwis jIau ]",
+                        "larivaar": "hir​Bwxw​gur​BwieAw;​myrw​hir​pRBu​kry​swbwis​jIau​]"
+                    }
+                },
+                "pageno": "KA7F",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "M5YA",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "Bgqu siqguru purKu soeI; ijsu hir pRB Bwxw Bwvey ]",
+                    "unicode": "ਭਗਤੁ ਸਤਿਗੁਰੁ ਪੁਰਖੁ ਸੋਈ; ਜਿਸੁ ਹਰਿ ਪ੍ਰਭ ਭਾਣਾ ਭਾਵਏ ॥"
+                },
+                "larivaar": {
+                    "akhar": "Bgqu​siqguru​purKu​soeI;​ijsu​hir​pRB​Bwxw​Bwvey​]",
+                    "unicode": "ਭਗਤੁ​ਸਤਿਗੁਰੁ​ਪੁਰਖੁ​ਸੋਈ;​ਜਿਸੁ​ਹਰਿ​ਪ੍ਰਭ​ਭਾਣਾ​ਭਾਵਏ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "One who is pleased with the Lord God's Will is a devotee, the True Guru, the Primal Lord."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਉਹੀ (ਮਨੁੱਖ) ਭਗਤ ਹੈ ਤੇ ਪੂਰਾ ਗੁਰੂ ਹੈ ਜਿਸ ਨੂੰ ਰੱਬ ਦਾ ਭਾਣਾ ਮਿੱਠਾ ਲੱਗਦਾ ਹੈ;",
+                            "unicode": "ਉਹੀ (ਮਨੁੱਖ) ਭਗਤ ਹੈ ਤੇ ਪੂਰਾ ਗੁਰੂ ਹੈ ਜਿਸ ਨੂੰ ਰੱਬ ਦਾ ਭਾਣਾ ਮਿੱਠਾ ਲੱਗਦਾ ਹੈ;"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "BspsjhpBB",
+                        "larivaar": "Bsps;jhpBB"
+                    },
+                    "devanagari": {
+                        "text": "Bgqu siqguru purKu soeI; ijsu hir pRB Bwxw Bwvey ]",
+                        "larivaar": "Bgqu​siqguru​purKu​soeI;​ijsu​hir​pRB​Bwxw​Bwvey​]"
+                    }
+                },
+                "pageno": "M5YA",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "PKQJ",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "Awnµd Anhd vjih vwjy; hir Awip gil mylwvey ]",
+                    "unicode": "ਆਨੰਦ ਅਨਹਦ ਵਜਹਿ ਵਾਜੇ; ਹਰਿ ਆਪਿ ਗਲਿ ਮੇਲਾਵਏ ॥"
+                },
+                "larivaar": {
+                    "akhar": "Awnµd​Anhd​vjih​vwjy;​hir​Awip​gil​mylwvey​]",
+                    "unicode": "ਆਨੰਦ​ਅਨਹਦ​ਵਜਹਿ​ਵਾਜੇ;​ਹਰਿ​ਆਪਿ​ਗਲਿ​ਮੇਲਾਵਏ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The unstruck sound current of bliss resounds and vibrates; the Lord hugs him close in His embrace."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "(ਉਸ ਦੇ ਅੰਦਰ) ਆਨੰਦ ਦੇ ਵਾਜੇ ਇੱਕ-ਰਸ ਵੱਜਦੇ ਹਨ, ਅਕਾਲ ਪੁਰਖ ਉਸ ਨੂੰ ਆਪ ਆਪਣੇ ਗਲ ਲਾਉਂਦਾ ਹੈ।",
+                            "unicode": "(ਉਸ ਦੇ ਅੰਦਰ) ਆਨੰਦ ਦੇ ਵਾਜੇ ਇੱਕ-ਰਸ ਵੱਜਦੇ ਹਨ, ਅਕਾਲ ਪੁਰਖ ਉਸ ਨੂੰ ਆਪ ਆਪਣੇ ਗਲ ਲਾਉਂਦਾ ਹੈ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "AAvvhAgm",
+                        "larivaar": "AAvv;hAgm"
+                    },
+                    "devanagari": {
+                        "text": "Awnµd Anhd vjih vwjy; hir Awip gil mylwvey ]",
+                        "larivaar": "Awnµd​Anhd​vjih​vwjy;​hir​Awip​gil​mylwvey​]"
+                    }
+                },
+                "pageno": "PKQJ",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "T1Q3",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "qusI puq BweI prvwru myrw; min vyKhu, kir inrjwis jIau ]",
+                    "unicode": "ਤੁਸੀ ਪੁਤ ਭਾਈ ਪਰਵਾਰੁ ਮੇਰਾ; ਮਨਿ ਵੇਖਹੁ, ਕਰਿ ਨਿਰਜਾਸਿ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "qusI​puq​BweI​prvwru​myrw;​min​vyKhu,​kir​inrjwis​jIau​]",
+                    "unicode": "ਤੁਸੀ​ਪੁਤ​ਭਾਈ​ਪਰਵਾਰੁ​ਮੇਰਾ;​ਮਨਿ​ਵੇਖਹੁ,​ਕਰਿ​ਨਿਰਜਾਸਿ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "O my children, siblings and family, look carefully in your minds, and see."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਤੁਸੀਂ ਮੇਰੇ ਪੁੱਤਰ ਹੋ, ਮੇਰੇ ਭਰਾ ਹੋ ਮੇਰਾ ਪਰਵਾਰ ਹੋ; ਮਨ ਵਿਚ ਕਿਆਸ ਕਰ ਕੇ ਵੇਖਹੁ,",
+                            "unicode": "ਤੁਸੀਂ ਮੇਰੇ ਪੁੱਤਰ ਹੋ, ਮੇਰੇ ਭਰਾ ਹੋ ਮੇਰਾ ਪਰਵਾਰ ਹੋ; ਮਨ ਵਿਚ ਕਿਆਸ ਕਰ ਕੇ ਵੇਖਹੁ,"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "qpBpmmvknj",
+                        "larivaar": "qpBpm;mvknj"
+                    },
+                    "devanagari": {
+                        "text": "qusI puq BweI prvwru myrw; min vyKhu, kir inrjwis jIau ]",
+                        "larivaar": "qusI​puq​BweI​prvwru​myrw;​min​vyKhu,​kir​inrjwis​jIau​]"
+                    }
+                },
+                "pageno": "T1Q3",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "8KX2",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "Duir iliKAw prvwxw. iPrY nwhI; guru jwie hir pRB pwis jIau ]3]",
+                    "unicode": "ਧੁਰਿ ਲਿਖਿਆ ਪਰਵਾਣਾ. ਫਿਰੈ ਨਾਹੀ; ਗੁਰੁ ਜਾਇ ਹਰਿ ਪ੍ਰਭ ਪਾਸਿ ਜੀਉ ॥੩॥"
+                },
+                "larivaar": {
+                    "akhar": "Duir​iliKAw​prvwxw.​iPrY​nwhI;​guru​jwie​hir​pRB​pwis​jIau​]3]",
+                    "unicode": "ਧੁਰਿ​ਲਿਖਿਆ​ਪਰਵਾਣਾ.​ਫਿਰੈ​ਨਾਹੀ;​ਗੁਰੁ​ਜਾਇ​ਹਰਿ​ਪ੍ਰਭ​ਪਾਸਿ​ਜੀਉ​॥੩॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The pre-ordained death warrant cannot be avoided; the Guru is going to be with the Lord God. ||3||"
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਕਿ ਧੁਰੋਂ ਲਿਖਿਆ ਹੋਇਆ ਹੁਕਮ (ਕਦੇ) ਟਲ ਨਹੀਂ ਸਕਦਾ; (ਸੋ, ਇਸ ਵਾਸਤੇ, ਹੁਣ) ਗੁਰੂ, ਅਕਾਲ ਪੁਰਖ ਦੇ ਕੋਲ ਜਾ ਰਿਹਾ ਹੈ ॥੩॥",
+                            "unicode": "ਕਿ ਧੁਰੋਂ ਲਿਖਿਆ ਹੋਇਆ ਹੁਕਮ (ਕਦੇ) ਟਲ ਨਹੀਂ ਸਕਦਾ; (ਸੋ, ਇਸ ਵਾਸਤੇ, ਹੁਣ) ਗੁਰੂ, ਅਕਾਲ ਪੁਰਖ ਦੇ ਕੋਲ ਜਾ ਰਿਹਾ ਹੈ ॥੩॥"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "DlpPngjhppj",
+                        "larivaar": "DlpPn;gjhppj"
+                    },
+                    "devanagari": {
+                        "text": "Duir iliKAw prvwxw. iPrY nwhI; guru jwie hir pRB pwis jIau ]3]",
+                        "larivaar": "Duir​iliKAw​prvwxw.​iPrY​nwhI;​guru​jwie​hir​pRB​pwis​jIau​]3]"
+                    }
+                },
+                "pageno": "8KX2",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "VSZ3",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "siqguir BwxY AwpxY; bih prvwru sdwieAw ]",
+                    "unicode": "ਸਤਿਗੁਰਿ ਭਾਣੈ ਆਪਣੈ; ਬਹਿ ਪਰਵਾਰੁ ਸਦਾਇਆ ॥"
+                },
+                "larivaar": {
+                    "akhar": "siqguir​BwxY​AwpxY;​bih​prvwru​sdwieAw​]",
+                    "unicode": "ਸਤਿਗੁਰਿ​ਭਾਣੈ​ਆਪਣੈ;​ਬਹਿ​ਪਰਵਾਰੁ​ਸਦਾਇਆ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The True Guru, in His Own Sweet Will, sat up and summoned His family."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਗੁਰੂ (ਅਮਰਦਾਸ ਜੀ) ਨੇ ਬੈਠ ਕੇ ਆਪਣੀ ਮਰਜ਼ੀ ਨਾਲ (ਸਾਰੇ) ਪਰਵਾਰ ਨੂੰ ਸੱਦ ਘੱਲਿਆ; (ਤੇ ਆਖਿਆ-)",
+                            "unicode": "ਗੁਰੂ (ਅਮਰਦਾਸ ਜੀ) ਨੇ ਬੈਠ ਕੇ ਆਪਣੀ ਮਰਜ਼ੀ ਨਾਲ (ਸਾਰੇ) ਪਰਵਾਰ ਨੂੰ ਸੱਦ ਘੱਲਿਆ; (ਤੇ ਆਖਿਆ-)"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "sBAbps",
+                        "larivaar": "sBA;bps"
+                    },
+                    "devanagari": {
+                        "text": "siqguir BwxY AwpxY; bih prvwru sdwieAw ]",
+                        "larivaar": "siqguir​BwxY​AwpxY;​bih​prvwru​sdwieAw​]"
+                    }
+                },
+                "pageno": "VSZ3",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "B3XD",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "mq mY ipCY koeI rovsI; so mY mUil. n BwieAw ]",
+                    "unicode": "ਮਤ ਮੈ ਪਿਛੈ ਕੋਈ ਰੋਵਸੀ; ਸੋ ਮੈ ਮੂਲਿ. ਨ ਭਾਇਆ ॥"
+                },
+                "larivaar": {
+                    "akhar": "mq​mY​ipCY​koeI​rovsI;​so​mY​mUil.​n​BwieAw​]",
+                    "unicode": "ਮਤ​ਮੈ​ਪਿਛੈ​ਕੋਈ​ਰੋਵਸੀ;​ਸੋ​ਮੈ​ਮੂਲਿ.​ਨ​ਭਾਇਆ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Let no one weep for me after I am gone. That would not please me at all."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਮਤਾਂ ਮੇਰੇ ਪਿਛੋਂ ਕੋਈ ਰੋਵੇ, ਮੈਨੂੰ ਉਹ (ਰੋਣ ਵਾਲਾ) ਉੱਕਾ ਹੀ ਚੰਗਾ ਨਹੀਂ ਲੱਗਣਾ।",
+                            "unicode": "ਮਤਾਂ ਮੇਰੇ ਪਿਛੋਂ ਕੋਈ ਰੋਵੇ, ਮੈਨੂੰ ਉਹ (ਰੋਣ ਵਾਲਾ) ਉੱਕਾ ਹੀ ਚੰਗਾ ਨਹੀਂ ਲੱਗਣਾ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "mmpkrsmmnB",
+                        "larivaar": "mmpkr;smmnB"
+                    },
+                    "devanagari": {
+                        "text": "mq mY ipCY koeI rovsI; so mY mUil. n BwieAw ]",
+                        "larivaar": "mq​mY​ipCY​koeI​rovsI;​so​mY​mUil.​n​BwieAw​]"
+                    }
+                },
+                "pageno": "B3XD",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "LYC8",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "imqu pYJY. imqu ibgsY; ijsu imq kI pYj Bwvey ]",
+                    "unicode": "ਮਿਤੁ ਪੈਝੈ. ਮਿਤੁ ਬਿਗਸੈ; ਜਿਸੁ ਮਿਤ ਕੀ ਪੈਜ ਭਾਵਏ ॥"
+                },
+                "larivaar": {
+                    "akhar": "imqu​pYJY.​imqu​ibgsY;​ijsu​imq​kI​pYj​Bwvey​]",
+                    "unicode": "ਮਿਤੁ​ਪੈਝੈ.​ਮਿਤੁ​ਬਿਗਸੈ;​ਜਿਸੁ​ਮਿਤ​ਕੀ​ਪੈਜ​ਭਾਵਏ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "When a friend receives a robe of honor, then his friends are pleased with his honor."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਆਪਣੇ ਮਿਤ੍ਰ ਦੀ ਵਡਿਆਈ (ਹੁੰਦੀ) ਚੰਗੀ ਲੱਗਦੀ ਹੈ, ਉਹ ਖ਼ੁਸ਼ ਹੁੰਦਾ ਹੈ (ਜਦੋਂ) ਉਸ ਦੇ ਮਿਤ੍ਰ ਨੂੰ ਆਦਰ ਮਿਲਦਾ ਹੈ।",
+                            "unicode": "ਜਿਸ ਮਨੁੱਖ ਨੂੰ ਆਪਣੇ ਮਿਤ੍ਰ ਦੀ ਵਡਿਆਈ (ਹੁੰਦੀ) ਚੰਗੀ ਲੱਗਦੀ ਹੈ, ਉਹ ਖ਼ੁਸ਼ ਹੁੰਦਾ ਹੈ (ਜਦੋਂ) ਉਸ ਦੇ ਮਿਤ੍ਰ ਨੂੰ ਆਦਰ ਮਿਲਦਾ ਹੈ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "mpmbjmkpB",
+                        "larivaar": "mpmb;jmkpB"
+                    },
+                    "devanagari": {
+                        "text": "imqu pYJY. imqu ibgsY; ijsu imq kI pYj Bwvey ]",
+                        "larivaar": "imqu​pYJY.​imqu​ibgsY;​ijsu​imq​kI​pYj​Bwvey​]"
+                    }
+                },
+                "pageno": "LYC8",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "LBAN",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "qusI vIcwir dyKhu puq BweI; hir siqgurU pYnwvey ]",
+                    "unicode": "ਤੁਸੀ ਵੀਚਾਰਿ ਦੇਖਹੁ ਪੁਤ ਭਾਈ; ਹਰਿ ਸਤਿਗੁਰੂ ਪੈਨਾਵਏ ॥"
+                },
+                "larivaar": {
+                    "akhar": "qusI​vIcwir​dyKhu​puq​BweI;​hir​siqgurU​pYnwvey​]",
+                    "unicode": "ਤੁਸੀ​ਵੀਚਾਰਿ​ਦੇਖਹੁ​ਪੁਤ​ਭਾਈ;​ਹਰਿ​ਸਤਿਗੁਰੂ​ਪੈਨਾਵਏ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Consider this and see, O my children and siblings; the Lord has given the True Guru the robe of supreme honor."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਤੁਸੀ ਭੀ, ਹੇ ਮੇਰੇ ਪੁਤਰੋ ਤੇ ਭਰਾਵੋ! (ਹੁਣ) ਵਿਚਾਰ ਕੇ ਵੇਖ ਲਵੋ ਕਿ ਅਕਾਲ ਪੁਰਖ ਗੁਰੂ ਨੂੰ ਆਦਰ ਦੇ ਰਿਹਾ ਹੈ (ਇਸ ਵਾਸਤੇ ਤੁਸੀ ਭੀ ਖ਼ੁਸ਼ ਹੋਵੋ)।",
+                            "unicode": "ਤੁਸੀ ਭੀ, ਹੇ ਮੇਰੇ ਪੁਤਰੋ ਤੇ ਭਰਾਵੋ! (ਹੁਣ) ਵਿਚਾਰ ਕੇ ਵੇਖ ਲਵੋ ਕਿ ਅਕਾਲ ਪੁਰਖ ਗੁਰੂ ਨੂੰ ਆਦਰ ਦੇ ਰਿਹਾ ਹੈ (ਇਸ ਵਾਸਤੇ ਤੁਸੀ ਭੀ ਖ਼ੁਸ਼ ਹੋਵੋ)।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "qvdpBhsp",
+                        "larivaar": "qvdpB;hsp"
+                    },
+                    "devanagari": {
+                        "text": "qusI vIcwir dyKhu puq BweI; hir siqgurU pYnwvey ]",
+                        "larivaar": "qusI​vIcwir​dyKhu​puq​BweI;​hir​siqgurU​pYnwvey​]"
+                    }
+                },
+                "pageno": "LBAN",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "N9QK",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "siqgurU prqiK hodY; bih rwju Awip itkwieAw ]",
+                    "unicode": "ਸਤਿਗੁਰੂ ਪਰਤਖਿ ਹੋਦੈ; ਬਹਿ ਰਾਜੁ ਆਪਿ ਟਿਕਾਇਆ ॥"
+                },
+                "larivaar": {
+                    "akhar": "siqgurU​prqiK​hodY;​bih​rwju​Awip​itkwieAw​]",
+                    "unicode": "ਸਤਿਗੁਰੂ​ਪਰਤਖਿ​ਹੋਦੈ;​ਬਹਿ​ਰਾਜੁ​ਆਪਿ​ਟਿਕਾਇਆ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The True Guru Himself sat up, and appointed the successor to the Throne of Raja Yoga, the Yoga of Meditation and Success."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "(ਇਹ ਉਪਦੇਸ਼ ਦੇ ਕੇ, ਫਿਰ) ਗੁਰੂ (ਅਮਰਦਾਸ ਜੀ) ਨੇ ਸਰੀਰਕ ਜਾਮੇ ਵਿਚ ਹੁੰਦਿਆਂ ਹੀ ਬੈਠ ਕੇ ਆਪ ਗੁਰਿਆਈ ਦੀ ਗੱਦੀ (ਭੀ) ਥਾਪ ਦਿੱਤੀ,",
+                            "unicode": "(ਇਹ ਉਪਦੇਸ਼ ਦੇ ਕੇ, ਫਿਰ) ਗੁਰੂ (ਅਮਰਦਾਸ ਜੀ) ਨੇ ਸਰੀਰਕ ਜਾਮੇ ਵਿਚ ਹੁੰਦਿਆਂ ਹੀ ਬੈਠ ਕੇ ਆਪ ਗੁਰਿਆਈ ਦੀ ਗੱਦੀ (ਭੀ) ਥਾਪ ਦਿੱਤੀ,"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "sphbrAt",
+                        "larivaar": "sph;brAt"
+                    },
+                    "devanagari": {
+                        "text": "siqgurU prqiK hodY; bih rwju Awip itkwieAw ]",
+                        "larivaar": "siqgurU​prqiK​hodY;​bih​rwju​Awip​itkwieAw​]"
+                    }
+                },
+                "pageno": "N9QK",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "XV0N",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "siB isK bMDp puq BweI; rwmdws pYrI pwieAw ]4]",
+                    "unicode": "ਸਭਿ ਸਿਖ ਬੰਧਪ ਪੁਤ ਭਾਈ; ਰਾਮਦਾਸ ਪੈਰੀ ਪਾਇਆ ॥੪॥"
+                },
+                "larivaar": {
+                    "akhar": "siB​isK​bMDp​puq​BweI;​rwmdws​pYrI​pwieAw​]4]",
+                    "unicode": "ਸਭਿ​ਸਿਖ​ਬੰਧਪ​ਪੁਤ​ਭਾਈ;​ਰਾਮਦਾਸ​ਪੈਰੀ​ਪਾਇਆ​॥੪॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "All the Sikhs, relatives, children and siblings have fallen at the Feet of Guru Ram Das. ||4||"
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "(ਅਤੇ) ਸਾਰੇ ਸਿੱਖਾਂ ਨੂੰ, ਸਾਕਾਂ-ਅੰਗਾਂ ਨੂੰ, ਪੁਤ੍ਰਾਂ ਨੂੰ, ਅਤੇ ਭਰਾਵਾਂ ਨੂੰ (ਗੁਰੂ) ਰਾਮਦਾਸ ਜੀ ਦੀ ਚਰਨੀਂ ਲਾ ਦਿੱਤਾ ॥੪॥",
+                            "unicode": "(ਅਤੇ) ਸਾਰੇ ਸਿੱਖਾਂ ਨੂੰ, ਸਾਕਾਂ-ਅੰਗਾਂ ਨੂੰ, ਪੁਤ੍ਰਾਂ ਨੂੰ, ਅਤੇ ਭਰਾਵਾਂ ਨੂੰ (ਗੁਰੂ) ਰਾਮਦਾਸ ਜੀ ਦੀ ਚਰਨੀਂ ਲਾ ਦਿੱਤਾ ॥੪॥"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "ssbpBrpp",
+                        "larivaar": "ssbpB;rpp"
+                    },
+                    "devanagari": {
+                        "text": "siB isK bMDp puq BweI; rwmdws pYrI pwieAw ]4]",
+                        "larivaar": "siB​isK​bMDp​puq​BweI;​rwmdws​pYrI​pwieAw​]4]"
+                    }
+                },
+                "pageno": "XV0N",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "XVAA",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "AMqy. siqguru boilAw; mY ipCY. kIrqnu kirAhu inrbwxu jIau ]",
+                    "unicode": "ਅੰਤੇ. ਸਤਿਗੁਰੁ ਬੋਲਿਆ; ਮੈ ਪਿਛੈ. ਕੀਰਤਨੁ ਕਰਿਅਹੁ ਨਿਰਬਾਣੁ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "AMqy.​siqguru​boilAw;​mY​ipCY.​kIrqnu​kirAhu​inrbwxu​jIau​]",
+                    "unicode": "ਅੰਤੇ.​ਸਤਿਗੁਰੁ​ਬੋਲਿਆ;​ਮੈ​ਪਿਛੈ.​ਕੀਰਤਨੁ​ਕਰਿਅਹੁ​ਨਿਰਬਾਣੁ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Finally, the True Guru said, \"When I am gone, sing Kirtan in Praise of the Lord, in Nirvaanaa.\""
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਜੋਤੀ ਜੋਤਿ ਸਮਾਣ ਵੇਲੇ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਆਖਿਆ, ਮੇਰੇ ਪਿੱਛੋਂ ਨਿਰੋਲ ਕੀਰਤਨ ਕਰਿਓ,",
+                            "unicode": "ਜੋਤੀ ਜੋਤਿ ਸਮਾਣ ਵੇਲੇ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਆਖਿਆ, ਮੇਰੇ ਪਿੱਛੋਂ ਨਿਰੋਲ ਕੀਰਤਨ ਕਰਿਓ,"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "Asbmpkknj",
+                        "larivaar": "Asb;mpkknj"
+                    },
+                    "devanagari": {
+                        "text": "AMqy. siqguru boilAw; mY ipCY. kIrqnu kirAhu inrbwxu jIau ]",
+                        "larivaar": "AMqy.​siqguru​boilAw;​mY​ipCY.​kIrqnu​kirAhu​inrbwxu​jIau​]"
+                    }
+                },
+                "pageno": "XVAA",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "EXVX",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "kyso gopwl pMifq sidAhu; hir hir kQw pVih purwxu jIau ]",
+                    "unicode": "ਕੇਸੋ ਗੋਪਾਲ ਪੰਡਿਤ ਸਦਿਅਹੁ; ਹਰਿ ਹਰਿ ਕਥਾ ਪੜਹਿ ਪੁਰਾਣੁ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "kyso​gopwl​pMifq​sidAhu;​hir​hir​kQw​pVih​purwxu​jIau​]",
+                    "unicode": "ਕੇਸੋ​ਗੋਪਾਲ​ਪੰਡਿਤ​ਸਦਿਅਹੁ;​ਹਰਿ​ਹਰਿ​ਕਥਾ​ਪੜਹਿ​ਪੁਰਾਣੁ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Call in the long-haired scholarly Saints of the Lord, to read the sermon of the Lord, Har, Har."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਕੇਸੋ ਗੋਪਾਲ (ਅਕਾਲ ਪੁਰਖ) ਦੇ ਪੰਡਿਤਾਂ ਨੂੰ ਸੱਦ ਘੱਲਿਓ, ਜੋ (ਆ ਕੇ) ਅਕਾਲ ਪੁਰਖ ਦੀ ਕਥਾ ਵਾਰਤਾ-ਰੂਪ ਪੁਰਾਣ ਪੜ੍ਹਨ।",
+                            "unicode": "ਕੇਸੋ ਗੋਪਾਲ (ਅਕਾਲ ਪੁਰਖ) ਦੇ ਪੰਡਿਤਾਂ ਨੂੰ ਸੱਦ ਘੱਲਿਓ, ਜੋ (ਆ ਕੇ) ਅਕਾਲ ਪੁਰਖ ਦੀ ਕਥਾ ਵਾਰਤਾ-ਰੂਪ ਪੁਰਾਣ ਪੜ੍ਹਨ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "kgpshhkppj",
+                        "larivaar": "kgps;hhkppj"
+                    },
+                    "devanagari": {
+                        "text": "kyso gopwl pMifq sidAhu; hir hir kQw pVih purwxu jIau ]",
+                        "larivaar": "kyso​gopwl​pMifq​sidAhu;​hir​hir​kQw​pVih​purwxu​jIau​]"
+                    }
+                },
+                "pageno": "EXVX",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "7G9E",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "hir kQw pVIAY. hir nwmu suxIAY; bybwxu hir rMgu, gur Bwvey ]",
+                    "unicode": "ਹਰਿ ਕਥਾ ਪੜੀਐ. ਹਰਿ ਨਾਮੁ ਸੁਣੀਐ; ਬੇਬਾਣੁ ਹਰਿ ਰੰਗੁ, ਗੁਰ ਭਾਵਏ ॥"
+                },
+                "larivaar": {
+                    "akhar": "hir​kQw​pVIAY.​hir​nwmu​suxIAY;​bybwxu​hir​rMgu,​gur​Bwvey​]",
+                    "unicode": "ਹਰਿ​ਕਥਾ​ਪੜੀਐ.​ਹਰਿ​ਨਾਮੁ​ਸੁਣੀਐ;​ਬੇਬਾਣੁ​ਹਰਿ​ਰੰਗੁ,​ਗੁਰ​ਭਾਵਏ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Read the sermon of the Lord, and listen to the Lord's Name; the Guru is pleased with love for the Lord."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "(ਚੇਤਾ ਰੱਖਿਓ, ਮੇਰੇ ਪਿੱਛੋਂ) ਅਕਾਲ ਪੁਰਖ ਦੀ ਕਥਾ (ਹੀ) ਪੜ੍ਹਨੀ ਚਾਹੀਦੀ ਹੈ, ਅਕਾਲ ਪੁਰਖ ਦਾ ਨਾਮ ਹੀ ਸੁਣਨਾ ਚਾਹੀਦਾ ਹੈ, ਬੇਬਾਣ ਭੀ ਗੁਰੂ ਨੂੰ (ਕੇਵਲ) ਅਕਾਲ ਪੁਰਖ ਦਾ ਪਿਆਰ ਹੀ ਚੰਗਾ ਲੱਗਦਾ ਹੈ।",
+                            "unicode": "(ਚੇਤਾ ਰੱਖਿਓ, ਮੇਰੇ ਪਿੱਛੋਂ) ਅਕਾਲ ਪੁਰਖ ਦੀ ਕਥਾ (ਹੀ) ਪੜ੍ਹਨੀ ਚਾਹੀਦੀ ਹੈ, ਅਕਾਲ ਪੁਰਖ ਦਾ ਨਾਮ ਹੀ ਸੁਣਨਾ ਚਾਹੀਦਾ ਹੈ, ਬੇਬਾਣ ਭੀ ਗੁਰੂ ਨੂੰ (ਕੇਵਲ) ਅਕਾਲ ਪੁਰਖ ਦਾ ਪਿਆਰ ਹੀ ਚੰਗਾ ਲੱਗਦਾ ਹੈ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "hkphnsbhrgB",
+                        "larivaar": "hkphns;bhrgB"
+                    },
+                    "devanagari": {
+                        "text": "hir kQw pVIAY. hir nwmu suxIAY; bybwxu hir rMgu, gur Bwvey ]",
+                        "larivaar": "hir​kQw​pVIAY.​hir​nwmu​suxIAY;​bybwxu​hir​rMgu,​gur​Bwvey​]"
+                    }
+                },
+                "pageno": "7G9E",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "HX1U",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "ipMfu pqil ikirAw dIvw; Pul hir sir pwvey ]",
+                    "unicode": "ਪਿੰਡੁ ਪਤਲਿ ਕਿਰਿਆ ਦੀਵਾ; ਫੁਲ ਹਰਿ ਸਰਿ ਪਾਵਏ ॥"
+                },
+                "larivaar": {
+                    "akhar": "ipMfu​pqil​ikirAw​dIvw;​Pul​hir​sir​pwvey​]",
+                    "unicode": "ਪਿੰਡੁ​ਪਤਲਿ​ਕਿਰਿਆ​ਦੀਵਾ;​ਫੁਲ​ਹਰਿ​ਸਰਿ​ਪਾਵਏ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Do not bother with offering rice-balls on leaves, lighting lamps, and other rituals like floating the body out on the Ganges; instead, let my remains be given up to the Lord's Pool."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਗੁਰੂ (ਤਾਂ) ਪਿੰਡ ਪਤਲਿ, ਕਿਰਿਆ, ਦੀਵਾ ਅਤੇ ਫੁੱਲ-ਇਹਨਾਂ ਸਭਨਾਂ ਨੂੰ ਸਤਸੰਗ ਤੋਂ ਸਦਕੇ ਕਰਦਾ ਹੈ।",
+                            "unicode": "ਗੁਰੂ (ਤਾਂ) ਪਿੰਡ ਪਤਲਿ, ਕਿਰਿਆ, ਦੀਵਾ ਅਤੇ ਫੁੱਲ-ਇਹਨਾਂ ਸਭਨਾਂ ਨੂੰ ਸਤਸੰਗ ਤੋਂ ਸਦਕੇ ਕਰਦਾ ਹੈ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "ppkdPhsp",
+                        "larivaar": "ppkd;Phsp"
+                    },
+                    "devanagari": {
+                        "text": "ipMfu pqil ikirAw dIvw; Pul hir sir pwvey ]",
+                        "larivaar": "ipMfu​pqil​ikirAw​dIvw;​Pul​hir​sir​pwvey​]"
+                    }
+                },
+                "pageno": "HX1U",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "VTXV",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "hir BwieAw siqguru boilAw; hir imilAw purKu sujwxu jIau ]",
+                    "unicode": "ਹਰਿ ਭਾਇਆ ਸਤਿਗੁਰੁ ਬੋਲਿਆ; ਹਰਿ ਮਿਲਿਆ ਪੁਰਖੁ ਸੁਜਾਣੁ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "hir​BwieAw​siqguru​boilAw;​hir​imilAw​purKu​sujwxu​jIau​]",
+                    "unicode": "ਹਰਿ​ਭਾਇਆ​ਸਤਿਗੁਰੁ​ਬੋਲਿਆ;​ਹਰਿ​ਮਿਲਿਆ​ਪੁਰਖੁ​ਸੁਜਾਣੁ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The Lord was pleased as the True Guru spoke; he was blended then with the all-knowing Primal Lord God."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਅਕਾਲ ਪੁਰਖ ਨੂੰ ਪਿਆਰੇ ਲੱਗੇ ਹੋਏ ਗੁਰੂ ਨੇ (ਉਸ ਵੇਲੇ) ਇਉਂ ਆਖਿਆ। ਸਤਿਗੁਰੂ ਨੂੰ ਸੁਜਾਣ ਅਕਾਲ ਪੁਰਖ ਮਿਲ ਪਿਆ।",
+                            "unicode": "ਅਕਾਲ ਪੁਰਖ ਨੂੰ ਪਿਆਰੇ ਲੱਗੇ ਹੋਏ ਗੁਰੂ ਨੇ (ਉਸ ਵੇਲੇ) ਇਉਂ ਆਖਿਆ। ਸਤਿਗੁਰੂ ਨੂੰ ਸੁਜਾਣ ਅਕਾਲ ਪੁਰਖ ਮਿਲ ਪਿਆ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "hBsbhmpsj",
+                        "larivaar": "hBsb;hmpsj"
+                    },
+                    "devanagari": {
+                        "text": "hir BwieAw siqguru boilAw; hir imilAw purKu sujwxu jIau ]",
+                        "larivaar": "hir​BwieAw​siqguru​boilAw;​hir​imilAw​purKu​sujwxu​jIau​]"
+                    }
+                },
+                "pageno": "VTXV",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "CQKG",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "rwmdws soFI. iqlku dIAw; gursbdu scu nIswxu jIau ]5]",
+                    "unicode": "ਰਾਮਦਾਸ ਸੋਢੀ. ਤਿਲਕੁ ਦੀਆ; ਗੁਰਸਬਦੁ ਸਚੁ ਨੀਸਾਣੁ ਜੀਉ ॥੫॥"
+                },
+                "larivaar": {
+                    "akhar": "rwmdws​soFI.​iqlku​dIAw;​gursbdu​scu​nIswxu​jIau​]5]",
+                    "unicode": "ਰਾਮਦਾਸ​ਸੋਢੀ.​ਤਿਲਕੁ​ਦੀਆ;​ਗੁਰਸਬਦੁ​ਸਚੁ​ਨੀਸਾਣੁ​ਜੀਉ​॥੫॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "The Guru then blessed the Sodhi Ram Das with the ceremonial tilak mark, the insignia of the True Word of the Shabad. ||5||"
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਸੋਢੀ (ਗੁਰੂ) ਰਾਮਦਾਸ ਜੀ ਨੂੰ (ਗੁਰਿਆਈ ਦਾ) ਤਿਲਕ (ਅਤੇ) ਗੁਰੂ ਦਾ ਸ਼ਬਦ-ਰੂਪ ਸੱਚੀ ਰਾਹਦਾਰੀ ਬਖ਼ਸ਼ੀ ॥੫॥",
+                            "unicode": "ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਸੋਢੀ (ਗੁਰੂ) ਰਾਮਦਾਸ ਜੀ ਨੂੰ (ਗੁਰਿਆਈ ਦਾ) ਤਿਲਕ (ਅਤੇ) ਗੁਰੂ ਦਾ ਸ਼ਬਦ-ਰੂਪ ਸੱਚੀ ਰਾਹਦਾਰੀ ਬਖ਼ਸ਼ੀ ॥੫॥"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "rsqdgsnj",
+                        "larivaar": "rsqd;gsnj"
+                    },
+                    "devanagari": {
+                        "text": "rwmdws soFI. iqlku dIAw; gursbdu scu nIswxu jIau ]5]",
+                        "larivaar": "rwmdws​soFI.​iqlku​dIAw;​gursbdu​scu​nIswxu​jIau​]5]"
+                    }
+                },
+                "pageno": "CQKG",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "0MKN",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "siqguru purKu ij boilAw; gurisKw mMin leI rjwie jIau ]",
+                    "unicode": "ਸਤਿਗੁਰੁ ਪੁਰਖੁ ਜਿ ਬੋਲਿਆ; ਗੁਰਸਿਖਾ ਮੰਨਿ ਲਈ ਰਜਾਇ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "siqguru​purKu​ij​boilAw;​gurisKw​mMin​leI​rjwie​jIau​]",
+                    "unicode": "ਸਤਿਗੁਰੁ​ਪੁਰਖੁ​ਜਿ​ਬੋਲਿਆ;​ਗੁਰਸਿਖਾ​ਮੰਨਿ​ਲਈ​ਰਜਾਇ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "And as the True Guru, the Primal Lord spoke, and the Gursikhs obeyed His Will."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਜਦੋਂ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਬਚਨ ਕੀਤਾ (ਕਿ ਸਾਰੇ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਦੇ ਚਰਨੀਂ ਲੱਗਣ, ਤਾਂ) ਗੁਰਸਿੱਖਾਂ ਨੇ (ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਦਾ) ਹੁਕਮ ਮੰਨ ਲਿਆ।",
+                            "unicode": "ਜਦੋਂ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਬਚਨ ਕੀਤਾ (ਕਿ ਸਾਰੇ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਦੇ ਚਰਨੀਂ ਲੱਗਣ, ਤਾਂ) ਗੁਰਸਿੱਖਾਂ ਨੇ (ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਦਾ) ਹੁਕਮ ਮੰਨ ਲਿਆ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "spjbgmlrj",
+                        "larivaar": "spjb;gmlrj"
+                    },
+                    "devanagari": {
+                        "text": "siqguru purKu ij boilAw; gurisKw mMin leI rjwie jIau ]",
+                        "larivaar": "siqguru​purKu​ij​boilAw;​gurisKw​mMin​leI​rjwie​jIau​]"
+                    }
+                },
+                "pageno": "0MKN",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "12HU",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "mohrI puqu snmuKu hoieAw; rwmdwsY pYrI pwie jIau ]",
+                    "unicode": "ਮੋਹਰੀ ਪੁਤੁ ਸਨਮੁਖੁ ਹੋਇਆ; ਰਾਮਦਾਸੈ ਪੈਰੀ ਪਾਇ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "mohrI​puqu​snmuKu​hoieAw;​rwmdwsY​pYrI​pwie​jIau​]",
+                    "unicode": "ਮੋਹਰੀ​ਪੁਤੁ​ਸਨਮੁਖੁ​ਹੋਇਆ;​ਰਾਮਦਾਸੈ​ਪੈਰੀ​ਪਾਇ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "His son Mohri turned sunmukh, and become obedient to Him; he bowed, and touched Ram Das' feet."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "(ਸਭ ਤੋਂ ਪਹਿਲਾਂ) (ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਦੇ) ਪੁੱਤ੍ਰ (ਬਾਬਾ) ਮੋਹਰੀ ਜੀ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਦੇ ਪੈਰਾਂ ਤੇ ਪੈ ਕੇ (ਪਿਤਾ ਦੇ) ਸਾਮ੍ਹਣੇ ਸੁਰਖ਼ਰੂ ਹੋ ਕੇ ਆ ਖਲੋਤੇ।",
+                            "unicode": "(ਸਭ ਤੋਂ ਪਹਿਲਾਂ) (ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਦੇ) ਪੁੱਤ੍ਰ (ਬਾਬਾ) ਮੋਹਰੀ ਜੀ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਦੇ ਪੈਰਾਂ ਤੇ ਪੈ ਕੇ (ਪਿਤਾ ਦੇ) ਸਾਮ੍ਹਣੇ ਸੁਰਖ਼ਰੂ ਹੋ ਕੇ ਆ ਖਲੋਤੇ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "mpshrppj",
+                        "larivaar": "mpsh;rppj"
+                    },
+                    "devanagari": {
+                        "text": "mohrI puqu snmuKu hoieAw; rwmdwsY pYrI pwie jIau ]",
+                        "larivaar": "mohrI​puqu​snmuKu​hoieAw;​rwmdwsY​pYrI​pwie​jIau​]"
+                    }
+                },
+                "pageno": "12HU",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "RQ4P",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "sB pvY pYrI siqgurU kyrI; ijQY gurU Awpu riKAw ]",
+                    "unicode": "ਸਭ ਪਵੈ ਪੈਰੀ ਸਤਿਗੁਰੂ ਕੇਰੀ; ਜਿਥੈ ਗੁਰੂ ਆਪੁ ਰਖਿਆ ॥"
+                },
+                "larivaar": {
+                    "akhar": "sB​pvY​pYrI​siqgurU​kyrI;​ijQY​gurU​Awpu​riKAw​]",
+                    "unicode": "ਸਭ​ਪਵੈ​ਪੈਰੀ​ਸਤਿਗੁਰੂ​ਕੇਰੀ;​ਜਿਥੈ​ਗੁਰੂ​ਆਪੁ​ਰਖਿਆ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Then, everyone bowed and touched the feet of Ram Das, into whom the Guru infused His essence."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਵਿਚ ਗੁਰੂ (ਅਮਰਦਾਸ ਜੀ) ਨੇ ਆਪਣੀ ਆਤਮਾ ਟਿਕਾ ਦਿੱਤੀ, (ਇਸ ਵਾਸਤੇ) ਸਾਰੀ ਲੋਕਾਈ ਗੁਰੂ (ਰਾਮਦਾਸ ਜੀ) ਦੀ ਪੈਰੀਂ ਆ ਪਈ।",
+                            "unicode": "ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਵਿਚ ਗੁਰੂ (ਅਮਰਦਾਸ ਜੀ) ਨੇ ਆਪਣੀ ਆਤਮਾ ਟਿਕਾ ਦਿੱਤੀ, (ਇਸ ਵਾਸਤੇ) ਸਾਰੀ ਲੋਕਾਈ ਗੁਰੂ (ਰਾਮਦਾਸ ਜੀ) ਦੀ ਪੈਰੀਂ ਆ ਪਈ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "sppskjgAr",
+                        "larivaar": "sppsk;jgAr"
+                    },
+                    "devanagari": {
+                        "text": "sB pvY pYrI siqgurU kyrI; ijQY gurU Awpu riKAw ]",
+                        "larivaar": "sB​pvY​pYrI​siqgurU​kyrI;​ijQY​gurU​Awpu​riKAw​]"
+                    }
+                },
+                "pageno": "RQ4P",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "V9VM",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "koeI kir bKIlI. invY nwhI; iPir siqgurU Awix invwieAw ]",
+                    "unicode": "ਕੋਈ ਕਰਿ ਬਖੀਲੀ. ਨਿਵੈ ਨਾਹੀ; ਫਿਰਿ ਸਤਿਗੁਰੂ ਆਣਿ ਨਿਵਾਇਆ ॥"
+                },
+                "larivaar": {
+                    "akhar": "koeI​kir​bKIlI.​invY​nwhI;​iPir​siqgurU​Awix​invwieAw​]",
+                    "unicode": "ਕੋਈ​ਕਰਿ​ਬਖੀਲੀ.​ਨਿਵੈ​ਨਾਹੀ;​ਫਿਰਿ​ਸਤਿਗੁਰੂ​ਆਣਿ​ਨਿਵਾਇਆ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "And any that did not bow then because of envy - later, the True Guru brought them around to bow in humility."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਜੇ ਕੋਈ ਨਿੰਦਾ ਕਰ ਕੇ (ਪਹਿਲਾਂ) ਨਹੀਂ ਸੀ ਭੀ ਨਿਂਵਿਆ, ਉਸ ਨੂੰ ਭੀ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਲਿਆ ਕੇ ਆ ਪੈਰੀਂ ਪਾਇਆ।",
+                            "unicode": "ਜੇ ਕੋਈ ਨਿੰਦਾ ਕਰ ਕੇ (ਪਹਿਲਾਂ) ਨਹੀਂ ਸੀ ਭੀ ਨਿਂਵਿਆ, ਉਸ ਨੂੰ ਭੀ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੇ ਲਿਆ ਕੇ ਆ ਪੈਰੀਂ ਪਾਇਆ।"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "kkbnnPsAn",
+                        "larivaar": "kkbnn;PsAn"
+                    },
+                    "devanagari": {
+                        "text": "koeI kir bKIlI. invY nwhI; iPir siqgurU Awix invwieAw ]",
+                        "larivaar": "koeI​kir​bKIlI.​invY​nwhI;​iPir​siqgurU​Awix​invwieAw​]"
+                    }
+                },
+                "pageno": "V9VM",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "40Y6",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "hir gurih Bwxw dIeI vifAweI; Duir iliKAw lyKu rjwie jIau ]",
+                    "unicode": "ਹਰਿ ਗੁਰਹਿ ਭਾਣਾ ਦੀਈ ਵਡਿਆਈ; ਧੁਰਿ ਲਿਖਿਆ ਲੇਖੁ ਰਜਾਇ ਜੀਉ ॥"
+                },
+                "larivaar": {
+                    "akhar": "hir​gurih​Bwxw​dIeI​vifAweI;​Duir​iliKAw​lyKu​rjwie​jIau​]",
+                    "unicode": "ਹਰਿ​ਗੁਰਹਿ​ਭਾਣਾ​ਦੀਈ​ਵਡਿਆਈ;​ਧੁਰਿ​ਲਿਖਿਆ​ਲੇਖੁ​ਰਜਾਇ​ਜੀਉ​॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "It pleased the Guru, the Lord, to bestow glorious greatness upon Him; such was the pre-ordained destiny of the Lord's Will."
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਅਕਾਲ ਪੁਰਖ ਅਤੇ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੂੰ (ਇਹੀ) ਚੰਗਾ ਲੱਗਾ, (ਉਹਨਾਂ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਨੂੰ) ਵਡਿਆਈ ਬਖ਼ਸ਼ੀ; ਧੁਰੋਂ ਅਕਾਲ ਪੁਰਖ ਦਾ ਇਹੀ ਹੁਕਮ ਲਿਖਿਆ ਆਇਆ ਸੀ;",
+                            "unicode": "ਅਕਾਲ ਪੁਰਖ ਅਤੇ ਗੁਰੂ ਅਮਰਦਾਸ ਜੀ ਨੂੰ (ਇਹੀ) ਚੰਗਾ ਲੱਗਾ, (ਉਹਨਾਂ ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਨੂੰ) ਵਡਿਆਈ ਬਖ਼ਸ਼ੀ; ਧੁਰੋਂ ਅਕਾਲ ਪੁਰਖ ਦਾ ਇਹੀ ਹੁਕਮ ਲਿਖਿਆ ਆਇਆ ਸੀ;"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "hgBdvDllrj",
+                        "larivaar": "hgBdv;Dllrj"
+                    },
+                    "devanagari": {
+                        "text": "hir gurih Bwxw dIeI vifAweI; Duir iliKAw lyKu rjwie jIau ]",
+                        "larivaar": "hir​gurih​Bwxw​dIeI​vifAweI;​Duir​iliKAw​lyKu​rjwie​jIau​]"
+                    }
+                },
+                "pageno": "40Y6",
+                "lineno": "D30"
+            }
+        },
+        {
+            "line": {
+                "id": "QPJH",
+                "type": 4,
+                "shabadid": 1,
+                "gurmukhi": {
+                    "akhar": "khY suMdru. suxhu sMqhu; sBu jgqu pYrI pwie jIau ]6]1]",
+                    "unicode": "ਕਹੈ ਸੁੰਦਰੁ. ਸੁਣਹੁ ਸੰਤਹੁ; ਸਭੁ ਜਗਤੁ ਪੈਰੀ ਪਾਇ ਜੀਉ ॥੬॥੧॥"
+                },
+                "larivaar": {
+                    "akhar": "khY​suMdru.​suxhu​sMqhu;​sBu​jgqu​pYrI​pwie​jIau​]6]1]",
+                    "unicode": "ਕਹੈ​ਸੁੰਦਰੁ.​ਸੁਣਹੁ​ਸੰਤਹੁ;​ਸਭੁ​ਜਗਤੁ​ਪੈਰੀ​ਪਾਇ​ਜੀਉ​॥੬॥੧॥"
+                },
+                "translation": {
+                    "english": {
+                        "default": "Says Sundar, listen, O Saints: all the world fell at His feet. ||6||1||"
+                    },
+                    "punjabi": {
+                        "default": {
+                            "akhar": "ਸੁੰਦਰ ਆਖਦਾ ਹੈ ਕਿ ਹੇ ਸੰਤਹੁ! ਸੁਣੋ, (ਇਸ ਵਾਸਤੇ) ਸਾਰਾ ਜਗਤ (ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਦੀ) ਪੈਰੀਂ ਪਿਆ ॥੬॥੧॥",
+                            "unicode": "ਸੁੰਦਰ ਆਖਦਾ ਹੈ ਕਿ ਹੇ ਸੰਤਹੁ! ਸੁਣੋ, (ਇਸ ਵਾਸਤੇ) ਸਾਰਾ ਜਗਤ (ਗੁਰੂ ਰਾਮਦਾਸ ਜੀ ਦੀ) ਪੈਰੀਂ ਪਿਆ ॥੬॥੧॥"
+                        }
+                    }
+                },
+                "transliteration": {
+                    "english": {
+                        "text": "kssssjppj",
+                        "larivaar": "ksss;sjppj"
+                    },
+                    "devanagari": {
+                        "text": "khY suMdru. suxhu sMqhu; sBu jgqu pYrI pwie jIau ]6]1]",
+                        "larivaar": "khY​suMdru.​suxhu​sMqhu;​sBu​jgqu​pYrI​pwie​jIau​]6]1]"
+                    }
+                },
+                "pageno": "QPJH",
+                "lineno": "D30"
+            }
+        }
+    ]
+}
