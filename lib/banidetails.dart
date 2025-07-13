@@ -193,7 +193,7 @@ class _BaniContentPageState extends State<BaniContentPage> {
                       itemCount: state.data.baniPunjabi.length,
                       itemBuilder: (_, i) => Column(
                         children: <Widget>[
-                          themeBloc.state.appSettings.enableLarivaar
+                          themeBloc.state.appSettings.enableLarivaar && state.data.baniLarivar[i] != ''
                               ? Container(
                                   padding: EdgeInsets.only(
                                       top: state.data.type[i] == 2 ? 30 : 5, bottom: 0),
@@ -324,7 +324,7 @@ class _BaniContentPageState extends State<BaniContentPage> {
                                     ),
                                   ),
                                 ),
-                          themeBloc.state.appSettings.enablePunjabi
+                          themeBloc.state.appSettings.enablePunjabi && state.data.baniPunjabi[i] != ''
                               ? Container(
                                   padding: const EdgeInsets.symmetric(
                                       vertical: 2, horizontal: 0),
@@ -339,7 +339,7 @@ class _BaniContentPageState extends State<BaniContentPage> {
                                   ),
                                 )
                               : Container(),
-                          themeBloc.state.appSettings.enableEnglish
+                          themeBloc.state.appSettings.enableEnglish && state.data.baniEnglish[i] != ''
                               ? Container(
                                   padding: const EdgeInsets.symmetric(
                                       vertical: 5, horizontal: 0),

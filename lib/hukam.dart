@@ -219,7 +219,7 @@ class _HukamScreenState extends State<HukamScreen> {
                                         isLoading = true;
                                       });
                                       await audioPlayer.play(UrlSource(
-                                          'https://old.sgpc.net/hukumnama/jpeg%20hukamnama/hukamnama.mp3'));
+                                          'https://hs.sgpc.net/uploadhukamnama/hukamnama.mp3'));
                                       setState(() {
                                         isLoading = false;
                                       });

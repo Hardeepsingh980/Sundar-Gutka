@@ -2,9 +2,45 @@
   "project_info": {
     "project_number": "2995162908",
     "project_id": "sundar-gutka-7175a",
-    "storage_bucket": "sundar-gutka-7175a.appspot.com"
+    "storage_bucket": "sundar-gutka-7175a.firebasestorage.app"
   },
   "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2995162908:android:5668d04aade9d84bbfb4d9",
+        "android_client_info": {
+          "package_name": "com.hardeep.su"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2995162908-84tjocuv4rjagr2k6s385atk0hd00ov0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY9QaOh5XO_rvl25Nl_zcq6Ni-abvZ3ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2995162908-84tjocuv4rjagr2k6s385atk0hd00ov0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "2995162908-lik6ihgqh80j89luu1rv0cm51r8q8ijk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "D66R9VUUVE.com.hardeep.sundargutkaa"
+              }
+            }
+          ]
+        }
+      }
+    },
     {
       "client_info": {
         "mobilesdk_app_id": "1:2995162908:android:ce9c889866d1cdeebfb4d9",
@@ -29,6 +65,13 @@
             {
               "client_id": "2995162908-84tjocuv4rjagr2k6s385atk0hd00ov0.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "2995162908-lik6ihgqh80j89luu1rv0cm51r8q8ijk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "D66R9VUUVE.com.hardeep.sundargutkaa"
+              }
             }
           ]
         }

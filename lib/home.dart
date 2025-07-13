@@ -123,7 +123,7 @@ class BaniListPage extends StatelessWidget {
                                       Icon(CupertinoIcons.news, color: Colors.orange, size: 32),
                                       SizedBox(height: 8),
                                       Text(
-                                        "Listen to Today's Hukamnama\nfrom Sri Darbar Sahib",
+                                        "Listen to Today's Hukamnama\nSahib from Sri Darbar Sahib",
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
                                           color: Colors.orange,
